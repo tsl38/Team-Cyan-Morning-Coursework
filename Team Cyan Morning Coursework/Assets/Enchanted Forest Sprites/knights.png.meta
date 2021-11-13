@@ -5,6 +5,9 @@ TextureImporter:
   - first:
       213: -7972294252417677102
     second: player
+  - first:
+      213: 7157600387873164263
+    second: thief
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -136,6 +139,27 @@ TextureImporter:
       bones: []
       spriteID: 2d881cfcd98bc5190800000000000000
       internalID: -7972294252417677102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thief
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 32
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ebc06351a7e45360800000000000000
+      internalID: 7157600387873164263
       vertices: []
       indices: 
       edges: []
