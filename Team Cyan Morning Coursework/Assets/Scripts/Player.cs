@@ -8,6 +8,12 @@ public class Player : MonoBehaviour
     private Vector3 moveDelta;
     private RaycastHit2D hit;
 
+    private Inventory playerInventory;
+
+    private void Awake() {
+        playerInventory = new Inventory();
+    }
+
     private void Start()
     {
         boxCollider = GetComponent<BoxCollider2D>();
