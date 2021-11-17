@@ -7,29 +7,46 @@ public class Patroller : MonoBehaviour
     public Transform[] waypoints;
     public int speed;
     public bool random;
-    
+    public float checkRadius;
+    public LayerMask whatIsPlayer;
+
+    private bool isInChaseRange;
     private int waypointIndex;
     private float dist;
     private int rand;
     private Vector3 moveDelta;
     private float turn;
-    // Start is called before the first frame update
+    private Transform target;
+
     void Start()
     {
         waypointIndex = 0;
-     
-        
+        target = GameObject.FindWithTag("Player").transform;
     }
 
-    // Update is called once per frame
     void Update()
     {
-        dist = Vector3.Distance(transform.position, waypoints[waypointIndex].position);
-      if(dist <= 0.1f)
+        isInChaseRange = Physics2D.OverlapCircle(transform.position, checkRadius, whatIsPlayer);
+        if (isInChaseRange)
         {
-            IncreaseIndex();
+            turn = Mathf.Sign(moveDelta.x);
+            moveDelta = (target.position - transform.position);
+            moveDelta.Normalize();
+            if (turn + Mathf.Sign(moveDelta.x) == 0)
+            {
+                transform.localScale = new Vector3(Mathf.Sign(moveDelta.x), transform.localScale.y, 1);
+            }
+            transform.Translate(moveDelta * speed * Time.deltaTime);
         }
-        Patrol();
+        else
+        {
+            dist = Vector3.Distance(transform.position, waypoints[waypointIndex].position);
+            if (dist <= 0.1f)
+            {
+                IncreaseIndex();
+            }
+            Patrol();
+        }
     }
 
     void Patrol()
