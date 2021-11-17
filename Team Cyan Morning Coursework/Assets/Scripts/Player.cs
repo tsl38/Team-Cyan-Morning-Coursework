@@ -4,9 +4,11 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+    public int speed; 
     private BoxCollider2D boxCollider;
     private Vector3 moveDelta;
     private RaycastHit2D hit;
+ 
 
     private void Start()
     {
@@ -15,8 +17,8 @@ public class Player : MonoBehaviour
 
     private void FixedUpdate()
     {
-        float x = Input.GetAxisRaw("Horizontal");
-        float y = Input.GetAxisRaw("Vertical");
+        float x = Input.GetAxisRaw("Horizontal") * speed;
+        float y = Input.GetAxisRaw("Vertical")* speed;
 
         // Reset moveDelta
         moveDelta = new Vector3(x, y, 0);
