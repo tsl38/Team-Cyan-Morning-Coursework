@@ -1,0 +1,1172 @@
+fileFormatVersion: 2
+guid: e2981759e7efbf0469150dcdd81b9520
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4233367853437289744
+    second: chest_keys_treasure_0
+  - first:
+      213: -4096007860999850203
+    second: chest_keys_treasure_1
+  - first:
+      213: 3457359221622133173
+    second: chest_keys_treasure_2
+  - first:
+      213: 1085908420720873
+    second: chest_keys_treasure_3
+  - first:
+      213: 4304104385445738616
+    second: chest_keys_treasure_4
+  - first:
+      213: -2263129043563249313
+    second: chest_keys_treasure_5
+  - first:
+      213: 7927015682219589216
+    second: chest_keys_treasure_6
+  - first:
+      213: 5304765581533298611
+    second: chest_keys_treasure_7
+  - first:
+      213: 293268656777977525
+    second: chest_keys_treasure_8
+  - first:
+      213: 5989006976349842705
+    second: chest_keys_treasure_9
+  - first:
+      213: 7259980493196515436
+    second: chest_keys_treasure_10
+  - first:
+      213: -4515040155403554927
+    second: chest_keys_treasure_11
+  - first:
+      213: -502570662205544945
+    second: chest_keys_treasure_12
+  - first:
+      213: 2883391896762832231
+    second: chest_keys_treasure_13
+  - first:
+      213: 6666341811475112682
+    second: chest_keys_treasure_14
+  - first:
+      213: -6837150377934684851
+    second: chest_keys_treasure_15
+  - first:
+      213: -6546783676618996650
+    second: chest_keys_treasure_16
+  - first:
+      213: 6236630534242385151
+    second: chest_keys_treasure_17
+  - first:
+      213: -818335286068941284
+    second: chest_keys_treasure_18
+  - first:
+      213: 7596872884599424713
+    second: chest_keys_treasure_19
+  - first:
+      213: 7470078636023061156
+    second: chest_keys_treasure_20
+  - first:
+      213: -6563431671678933341
+    second: chest_keys_treasure_21
+  - first:
+      213: -7378270119241432372
+    second: chest_keys_treasure_22
+  - first:
+      213: -5375086260932729224
+    second: chest_keys_treasure_23
+  - first:
+      213: 2990907293867970574
+    second: chest_keys_treasure_24
+  - first:
+      213: 2981375606091243874
+    second: chest_keys_treasure_25
+  - first:
+      213: -5618495988461479372
+    second: chest_keys_treasure_26
+  - first:
+      213: -2746042596371811759
+    second: chest_keys_treasure_27
+  - first:
+      213: -7629800362676190923
+    second: chest_keys_treasure_28
+  - first:
+      213: 5304821075952282971
+    second: chest_keys_treasure_29
+  - first:
+      213: 3991014414382523211
+    second: chest_keys_treasure_30
+  - first:
+      213: 7252922951698676671
+    second: chest_keys_treasure_31
+  - first:
+      213: 4622512128209945238
+    second: chest_keys_treasure_32
+  - first:
+      213: -8669036879869307119
+    second: chest_keys_treasure_33
+  - first:
+      213: -4339064744455927962
+    second: chest_keys_treasure_34
+  - first:
+      213: -1720089307448394622
+    second: chest_keys_treasure_35
+  - first:
+      213: 8285528304130816994
+    second: chest_keys_treasure_36
+  - first:
+      213: -2502851211204034615
+    second: chest_keys_treasure_37
+  - first:
+      213: 3767202028494109932
+    second: chest_keys_treasure_38
+  - first:
+      213: 3448629708041641615
+    second: chest_keys_treasure_39
+  - first:
+      213: -694621254738588423
+    second: chest_keys_treasure_40
+  - first:
+      213: -3305316228117672268
+    second: chest_keys_treasure_41
+  - first:
+      213: 2339972603853184270
+    second: chest_keys_treasure_42
+  - first:
+      213: -9065759405274958260
+    second: chest_keys_treasure_43
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: chest_keys_treasure_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 208
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0faff4cdd5e0045c0800000000000000
+      internalID: -4233367853437289744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chest_keys_treasure_1
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 208
+        width: 27
+        height: 34
+      alignment: 9
+      pivot: {x: 0.5, y: 0.41}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52775ef4d8e0827c0800000000000000
+      internalID: -4096007860999850203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chest_keys_treasure_2
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 208
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b155b9e4e10bff20800000000000000
+      internalID: 3457359221622133173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chest_keys_treasure_3
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 208
+        width: 23
+        height: 33
+      alignment: 9
+      pivot: {x: 0.5, y: 0.39}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e8fca1c0abd30000800000000000000
+      internalID: 1085908420720873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chest_keys_treasure_4
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 208
+        width: 23
+        height: 33
+      alignment: 9
+      pivot: {x: 0.5, y: 0.39}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 878b1ba62204bbb30800000000000000
+      internalID: 4304104385445738616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chest_keys_treasure_5
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 208
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f510b8d1020c790e0800000000000000
+      internalID: -2263129043563249313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chest_keys_treasure_6
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 208
+        width: 27
+        height: 34
+      alignment: 9
+      pivot: {x: 0.5, y: 0.41}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06e36ab83ca620e60800000000000000
+      internalID: 7927015682219589216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chest_keys_treasure_7
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 208
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bfb208c0305e9940800000000000000
+      internalID: 5304765581533298611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chest_keys_treasure_8
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 160
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bed10f1a46e11400800000000000000
+      internalID: 293268656777977525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chest_keys_treasure_9
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 160
+        width: 27
+        height: 34
+      alignment: 9
+      pivot: {x: 0.5, y: 0.41}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11d2ba62d1a3d1350800000000000000
+      internalID: 5989006976349842705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chest_keys_treasure_10
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 160
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c685e352bc1a0c460800000000000000
+      internalID: 7259980493196515436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chest_keys_treasure_11
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 159
+        width: 23
+        height: 33
+      alignment: 9
+      pivot: {x: 0.5, y: 0.41}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19feb8e76ea5751c0800000000000000
+      internalID: -4515040155403554927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chest_keys_treasure_12
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 160
+        width: 23
+        height: 33
+      alignment: 9
+      pivot: {x: 0.5, y: 0.41}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f06a4bc35a28609f0800000000000000
+      internalID: -502570662205544945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chest_keys_treasure_13
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 160
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 765d9ca37add30820800000000000000
+      internalID: 2883391896762832231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chest_keys_treasure_14
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 160
+        width: 27
+        height: 34
+      alignment: 9
+      pivot: {x: 0.5, y: 0.41}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae2ee48ce8a938c50800000000000000
+      internalID: 6666341811475112682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chest_keys_treasure_15
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 160
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4d764fb4ff8d11a0800000000000000
+      internalID: -6837150377934684851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chest_keys_treasure_16
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 112
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6548cc5bee62525a0800000000000000
+      internalID: -6546783676618996650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chest_keys_treasure_17
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 112
+        width: 27
+        height: 34
+      alignment: 9
+      pivot: {x: 0.5, y: 0.41}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffc3fd48d66fc8650800000000000000
+      internalID: 6236630534242385151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chest_keys_treasure_18
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 112
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1e61be9460b4a4f0800000000000000
+      internalID: -818335286068941284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chest_keys_treasure_19
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 112
+        width: 23
+        height: 33
+      alignment: 9
+      pivot: {x: 0.5, y: 0.41}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c6885a73a38d6960800000000000000
+      internalID: 7596872884599424713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chest_keys_treasure_20
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 112
+        width: 23
+        height: 33
+      alignment: 9
+      pivot: {x: 0.5, y: 0.41}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aa9368f0fc0ba760800000000000000
+      internalID: 7470078636023061156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chest_keys_treasure_21
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 112
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a6670e4ba10ae4a0800000000000000
+      internalID: -6563431671678933341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chest_keys_treasure_22
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 112
+        width: 27
+        height: 34
+      alignment: 9
+      pivot: {x: 0.5, y: 0.41}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc24cb51b6e1b9990800000000000000
+      internalID: -7378270119241432372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chest_keys_treasure_23
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 112
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 876a50c268bd765b0800000000000000
+      internalID: -5375086260932729224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chest_keys_treasure_24
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 82
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0010275656d18920800000000000000
+      internalID: 2990907293867970574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chest_keys_treasure_25
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 82
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26165175159ff5920800000000000000
+      internalID: 2981375606091243874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chest_keys_treasure_26
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 84
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43adbc3aaa71702b0800000000000000
+      internalID: -5618495988461479372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chest_keys_treasure_27
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 84
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 152ba29cec814e9d0800000000000000
+      internalID: -2746042596371811759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chest_keys_treasure_28
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 84
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5310a8b9ef08d1690800000000000000
+      internalID: -7629800362676190923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chest_keys_treasure_29
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 84
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5d242599a28e9940800000000000000
+      internalID: 5304821075952282971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chest_keys_treasure_30
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 85
+        width: 12
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b43ebbee67ee26730800000000000000
+      internalID: 3991014414382523211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chest_keys_treasure_31
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 84
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbbf6473ffe87a460800000000000000
+      internalID: 7252922951698676671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chest_keys_treasure_32
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 85
+        width: 12
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69283eb1a46762040800000000000000
+      internalID: 4622512128209945238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chest_keys_treasure_33
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 84
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11711a663e461b780800000000000000
+      internalID: -8669036879869307119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chest_keys_treasure_34
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 85
+        width: 12
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6678841ba9b88c3c0800000000000000
+      internalID: -4339064744455927962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chest_keys_treasure_35
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 84
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28c379763e30128e0800000000000000
+      internalID: -1720089307448394622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chest_keys_treasure_36
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 69
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eb7920181c1cf270800000000000000
+      internalID: 8285528304130816994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chest_keys_treasure_37
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 69
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cff6868516144dd0800000000000000
+      internalID: -2502851211204034615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chest_keys_treasure_38
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 68
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cecb581194ac74430800000000000000
+      internalID: 3767202028494109932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chest_keys_treasure_39
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 68
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8e5ea5a27efbdf20800000000000000
+      internalID: 3448629708041641615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chest_keys_treasure_40
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 68
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fcced926a53c56f0800000000000000
+      internalID: -694621254738588423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chest_keys_treasure_41
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 68
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4be46b027682122d0800000000000000
+      internalID: -3305316228117672268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chest_keys_treasure_42
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 69
+        width: 12
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0d90dc7fa0497020800000000000000
+      internalID: 2339972603853184270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: chest_keys_treasure_43
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 68
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c46fd657ad3ff2280800000000000000
+      internalID: -9065759405274958260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
