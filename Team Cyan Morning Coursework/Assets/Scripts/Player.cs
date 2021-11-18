@@ -23,8 +23,8 @@ public class Player : MonoBehaviour
 
     private void FixedUpdate()
     {
-        float x = Input.GetAxisRaw("Horizontal") * speed;
-        float y = Input.GetAxisRaw("Vertical")* speed;
+        float x = Input.GetAxisRaw("Horizontal") * speed/10;
+        float y = Input.GetAxisRaw("Vertical")* speed/10;
 
         // Reset moveDelta
         moveDelta = new Vector3(x, y, 0);
