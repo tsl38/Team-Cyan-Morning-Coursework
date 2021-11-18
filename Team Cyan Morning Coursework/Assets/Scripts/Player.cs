@@ -8,6 +8,7 @@ public class Player : MonoBehaviour
     private BoxCollider2D boxCollider;
     private Vector3 moveDelta;
     private RaycastHit2D hit;
+    private Vector3 lastDirection;
  
 
     public Inventory playerInventory; //Inventory object.
@@ -20,6 +21,7 @@ public class Player : MonoBehaviour
     private void Start()
     {
         boxCollider = GetComponent<BoxCollider2D>();
+        lastDirection = Vector3.one * speed / 10;
     }
 
     private void FixedUpdate()
@@ -31,10 +33,13 @@ public class Player : MonoBehaviour
         moveDelta = new Vector3(x, y, 0);
 
         // Swap sprite direction depending on player movement
-        if (moveDelta.x > 0)
-            transform.localScale = Vector3.one;
-        else if (moveDelta.x < 0)
-            transform.localScale = new Vector3(-1, 1, 1);
+        if (moveDelta.x != lastDirection.x && moveDelta.x != 0)
+        {
+            Vector3 t = transform.localScale;
+            t.x *= -1;
+            transform.localScale = t;
+            lastDirection = moveDelta;
+        }
 
         // Ensure character is allowed to move in y direction by casting a box there, if it returns null, character can move
         hit = Physics2D.BoxCast(transform.position, boxCollider.size, 0, new Vector2(0, moveDelta.y), Mathf.Abs(moveDelta.y * Time.deltaTime), LayerMask.GetMask("Actor", "Blocking"));
