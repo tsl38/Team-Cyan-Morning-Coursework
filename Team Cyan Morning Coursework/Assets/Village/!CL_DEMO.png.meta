@@ -493,7 +493,7 @@ TextureImporter:
     second: Berry_Box_2
   - first:
       213: 3227946685286016828
-    second: '!CL_DEMO_163'
+    second: Berry
   - first:
       213: -7612639351647986394
     second: Normal_Small_Tree_1
@@ -4234,7 +4234,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: '!CL_DEMO_163'
+      name: Berry
       rect:
         serializedVersion: 2
         x: 608
@@ -5796,7 +5796,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5817,7 +5817,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5838,7 +5838,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

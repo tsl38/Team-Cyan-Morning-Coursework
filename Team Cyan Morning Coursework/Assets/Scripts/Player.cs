@@ -11,6 +11,13 @@ public class Player : MonoBehaviour
     private Vector3 lastDirection;
  
 
+    public Inventory playerInventory; //Inventory object.
+
+    private void Awake() {
+        //Initializes the player inventory.
+        playerInventory = new Inventory();
+    }
+
     private void Start()
     {
         boxCollider = GetComponent<BoxCollider2D>();
