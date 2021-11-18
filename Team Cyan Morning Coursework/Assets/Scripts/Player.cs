@@ -10,9 +10,10 @@ public class Player : MonoBehaviour
     private RaycastHit2D hit;
  
 
-    private Inventory playerInventory;
+    public Inventory playerInventory; //Inventory object.
 
     private void Awake() {
+        //Initializes the player inventory.
         playerInventory = new Inventory();
     }
 
