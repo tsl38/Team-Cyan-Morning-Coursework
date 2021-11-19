@@ -46,12 +46,16 @@ public class Enemy : Mover
         }
         else
         {
-            dist = Vector3.Distance(transform.position, waypoints[waypointIndex].position);
-            if (dist <= 0.1f)
+            if (waypoints.Length != 0)
             {
-                IncreaseIndex();
+                dist = Vector3.Distance(transform.position, waypoints[waypointIndex].position);
+                if (dist <= 0.1f)
+                {
+                    IncreaseIndex();
+                }
+                Patrol();
             }
-            Patrol();
+           
         }
 
             //Check for overlaps

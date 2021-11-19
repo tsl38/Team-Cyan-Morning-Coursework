@@ -8,12 +8,10 @@ public abstract class Mover : Fighter
     protected BoxCollider2D boxCollider;
     protected Vector3 moveDelta;
     protected RaycastHit2D hit;
-    protected Vector3 lastDirection;
 
     protected virtual void Start()
     {
         boxCollider = GetComponent<BoxCollider2D>();
-        lastDirection = Vector3.one * speed / 10;
     }
 
     protected virtual void UpdateMotor(Vector3 input)
@@ -24,7 +22,7 @@ public abstract class Mover : Fighter
         // Swap sprite direction depending on player movement
         if (moveDelta.x != 0)
         {
-            transform.localScale = new Vector3(Mathf.Sign(moveDelta.x), transform.localScale.y, 1);
+            transform.localScale = new Vector3(Mathf.Abs(transform.localScale.x)*Mathf.Sign(moveDelta.x), transform.localScale.y, transform.localScale.z);
         }
 
         // Add push Vector if any 
