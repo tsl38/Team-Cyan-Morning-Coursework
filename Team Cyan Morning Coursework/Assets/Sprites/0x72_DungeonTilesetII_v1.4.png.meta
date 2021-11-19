@@ -1,7 +1,31 @@
 fileFormatVersion: 2
 guid: d62580d35961dcf49b9d4e39115d92b7
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 713163285030852893
+    second: Rusty_Sword
+  - first:
+      213: 8178937437051159178
+    second: extra_wide_long_sword
+  - first:
+      213: -5908182510162382659
+    second: 0x72_DungeonTilesetII_v1.4_2
+  - first:
+      213: 2140842894146505812
+    second: Medium_Warhammer
+  - first:
+      213: -1395916485779578574
+    second: Wide_long_sword
+  - first:
+      213: -5321348085281630725
+    second: Medium_Sword
+  - first:
+      213: -7148777005419144832
+    second: Max_Sword
+  - first:
+      213: -4254748507566664220
+    second: Dagger
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -101,7 +125,175 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Rusty_Sword
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 465
+        width: 13
+        height: 30
+      alignment: 9
+      pivot: {x: 0.43779132, y: 0.48512203}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d195d1faa3aa5e900800000000000000
+      internalID: 713163285030852893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: extra_wide_long_sword
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 401
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a82049fd34c618170800000000000000
+      internalID: 8178937437051159178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0x72_DungeonTilesetII_v1.4_2
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 369
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db078955f4be10ea0800000000000000
+      internalID: -5908182510162382659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medium_Warhammer
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 432
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45c8581054dc5bd10800000000000000
+      internalID: 2140842894146505812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wide_long_sword
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 401
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2312ff02a55b0ace0800000000000000
+      internalID: -1395916485779578574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medium_Sword
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 465
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf555923c16c626b0800000000000000
+      internalID: -5321348085281630725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Max_Sword
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 465
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 089d28d70317acc90800000000000000
+      internalID: -7148777005419144832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dagger
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 481
+        width: 14
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e59dd566c814f4c0800000000000000
+      internalID: -4254748507566664220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
