@@ -47,11 +47,29 @@ TagManager:
   - name: Floor
     uniqueID: 3771554837
     locked: 0
-  - name: Items
-    uniqueID: 1255355363
+  - name: FloorSecond
+    uniqueID: 2216367813
+    locked: 0
+  - name: DeadAngle
+    uniqueID: 3882830659
+    locked: 0
+  - name: Wall
+    uniqueID: 2995931441
+    locked: 0
+  - name: Enviroment
+    uniqueID: 3687711385
+    locked: 0
+  - name: Column-Bottom
+    uniqueID: 3486730933
     locked: 0
   - name: Player
     uniqueID: 1731116811
+    locked: 0
+  - name: Column-Head
+    uniqueID: 3541299417
+    locked: 0
+  - name: Items
+    uniqueID: 1255355363
     locked: 0
   - name: Building
     uniqueID: 2254812603

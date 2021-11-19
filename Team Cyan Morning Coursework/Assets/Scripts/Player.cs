@@ -9,7 +9,6 @@ public class Player : MonoBehaviour
     private Vector3 moveDelta;
     private RaycastHit2D hit;
     private Vector3 lastDirection;
- 
 
     public Inventory playerInventory; //Inventory object.
 
