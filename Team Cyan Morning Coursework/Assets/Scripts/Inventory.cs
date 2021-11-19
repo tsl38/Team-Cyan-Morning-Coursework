@@ -13,6 +13,13 @@ public class Inventory
     //Constructor to initialize the list.
     public Inventory() {
         listOfItems = new List<Loot>();
+
+        //TESTING FOR UI
+        //TESTING FOR UI
+        addItem(new Loot { lootType = Item.ItemType.Apple, lootAmount = 1 });
+        addItem(new Loot { lootType = Item.ItemType.Berry, lootAmount = 1 });
+        //TESTING FOR UI
+        //TESTING FOR UI
     }
 
     //A function to add items to the inventory.
@@ -45,5 +52,9 @@ public class Inventory
         {
             Debug.Log(listOfItems[i].lootType + ", " + listOfItems[i].lootAmount);
         }
+    }
+
+    public List<Loot> getListOfItems() {
+        return listOfItems;
     }
 }

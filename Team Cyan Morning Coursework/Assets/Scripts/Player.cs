@@ -12,10 +12,13 @@ public class Player : MonoBehaviour
  
 
     public Inventory playerInventory; //Inventory object.
+    [SerializeField] private Inventory_UI inventoryUi; //Inventory_UI object.
 
     private void Awake() {
         //Initializes the player inventory.
         playerInventory = new Inventory();
+        //Sets the playerInventory in the Inventory_UI script.
+        inventoryUi.setInventory(playerInventory);
     }
 
     private void Start()
