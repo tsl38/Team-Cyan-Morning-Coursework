@@ -62,14 +62,14 @@ TagManager:
   - name: Column-Bottom
     uniqueID: 3486730933
     locked: 0
+  - name: Items
+    uniqueID: 1255355363
+    locked: 0
   - name: Player
     uniqueID: 1731116811
     locked: 0
   - name: Column-Head
     uniqueID: 3541299417
-    locked: 0
-  - name: Items
-    uniqueID: 1255355363
     locked: 0
   - name: Building
     uniqueID: 2254812603

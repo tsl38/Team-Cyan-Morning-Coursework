@@ -42,7 +42,7 @@ public class Player : MonoBehaviour
         }
 
         // Ensure character is allowed to move in y direction by casting a box there, if it returns null, character can move
-        hit = Physics2D.BoxCast(transform.position, boxCollider.size, 0, new Vector2(0, moveDelta.y), Mathf.Abs(moveDelta.y * Time.deltaTime), LayerMask.GetMask("Actor", "Blocking"));
+        hit = Physics2D.BoxCast(transform.position, boxCollider.size, 0, new Vector2(0, moveDelta.y), Mathf.Abs(moveDelta.y * Time.deltaTime), LayerMask.GetMask("Player", "Blocking"));
         if (hit.collider == null)
         {
             // Make sprite move in y-axis
@@ -50,7 +50,7 @@ public class Player : MonoBehaviour
         }
 
         // Ensure character is allowed to move in x direction by casting a box there, if it returns null, character can move
-        hit = Physics2D.BoxCast(transform.position, boxCollider.size, 0, new Vector2(moveDelta.x, 0), Mathf.Abs(moveDelta.x * Time.deltaTime), LayerMask.GetMask("Actor", "Blocking"));
+        hit = Physics2D.BoxCast(transform.position, boxCollider.size, 0, new Vector2(moveDelta.x, 0), Mathf.Abs(moveDelta.x * Time.deltaTime), LayerMask.GetMask("Player", "Blocking"));
         if (hit.collider == null)
         {
             // Make sprite move in x-axis
