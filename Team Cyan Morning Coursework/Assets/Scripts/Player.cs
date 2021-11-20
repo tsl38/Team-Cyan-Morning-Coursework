@@ -5,11 +5,16 @@ using UnityEngine;
 public class Player : Mover
 {
     public Inventory playerInventory; //Inventory object.
+    [SerializeField] private Inventory_UI inventoryUi;
 
     private void Awake()
     {
         //Initializes the player inventory.
         playerInventory = new Inventory();
+        if (inventoryUi != null)
+        {
+            inventoryUi.setInventory(playerInventory);
+        }
     }
 
     private void FixedUpdate()
