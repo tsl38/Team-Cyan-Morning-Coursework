@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 8491152856566982278}
   - component: {fileID: 8491152856566982273}
-  - component: {fileID: 8491152856566982272}
   m_Layer: 0
   m_Name: Chest_Gold_Left_1
   m_TagString: Untagged
@@ -47,6 +46,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -68,11 +68,10 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 724851171
-  m_SortingLayer: 3
+  m_SortingLayerID: 1731116811
+  m_SortingLayer: 8
   m_SortingOrder: 0
-  m_Sprite: {fileID: -6546783676618996650, guid: e2981759e7efbf0469150dcdd81b9520,
-    type: 3}
+  m_Sprite: {fileID: -6546783676618996650, guid: e2981759e7efbf0469150dcdd81b9520, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -83,34 +82,3 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!60 &8491152856566982272
-PolygonCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8491152856566982279}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.6875, y: 1.75}
-    newSize: {x: 1.6875, y: 1.75}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: 0.5099173, y: 0.85442054}
-      - {x: -0.78887117, y: 0.20045006}
-      - {x: -0.7929205, y: -0.6298633}
-      - {x: -0.25457996, y: -0.88185984}
-      - {x: 0.80259097, y: -0.3780452}
-      - {x: 0.7853939, y: 0.6394417}
