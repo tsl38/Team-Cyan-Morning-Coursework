@@ -12,7 +12,7 @@ public class Item : Collectable
     //Enumeration of item types. Can add more, as long as these items are meant to despawn when the player picks it up. i.e. so not chests.
     public enum ItemType { 
         Apple,
-        Berry,
+        Berry
     }
     //Can set the itemtype and amount in the unity editor.
     public ItemType itemType;
@@ -29,7 +29,7 @@ public class Item : Collectable
             //Creates a loot object that stores the information of itemSprite, itemType and amount.
             Loot tempLoot = new Loot { sprite = itemSprite, lootType = itemType, lootAmount = amount };
             //Adds the loot to the player inventory. And stores a bool to check if add is sucessful.
-            bool addSuccessful = GameObject.Find("Player").GetComponent<Player>().playerInventory.addItem(tempLoot);
+            bool addSuccessful = GameObject.Find("Player").GetComponent<Player>().playerInventory.AddItem(tempLoot);
             //Destroys the game object. (removes it from the map.)
             if (addSuccessful)
             {

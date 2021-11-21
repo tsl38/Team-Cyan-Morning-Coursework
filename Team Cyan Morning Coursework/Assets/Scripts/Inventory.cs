@@ -9,7 +9,7 @@ using UnityEngine;
 public class Inventory
 {
     //Creates an event that will trigger when item is added to the inventory.
-    public event EventHandler onItemListChange;
+    public event EventHandler OnItemListChange;
 
     //A list of Loot to store items picked up by the player.
     private List<Loot> listOfItems;
@@ -20,7 +20,7 @@ public class Inventory
     }
 
     //A function to add items to the inventory.
-    public bool addItem(Loot loot) {
+    public bool AddItem(Loot loot) {
         bool addSuccessful = false; //Loot has not been added to the inventory yet, so this is false by default.
         bool containsLoot = false; //Bool to indicate whether the item to be added is in the inventory already or not.
         int index = -1; //Index of the already added item.
@@ -48,7 +48,7 @@ public class Inventory
         else
         {
             //If item is stackable, increase the amount.
-            if (loot.isStackable())
+            if (loot.IsStackable())
             {
                 listOfItems[index].lootAmount = listOfItems[index].lootAmount + loot.lootAmount;
                 addSuccessful = true;
@@ -66,7 +66,7 @@ public class Inventory
         }
 
         //triggers the event. Which calls the function in Inventory_UI that refreshes the inventory UI.
-        onItemListChange?.Invoke(this, EventArgs.Empty);
+        OnItemListChange?.Invoke(this, EventArgs.Empty);
 
         //Temp: Prints out the inventory list to console.
         for (int i = 0; i < listOfItems.Count; i++)
@@ -78,7 +78,7 @@ public class Inventory
     }
 
     //Funtion to remove 1 item from the inventory.
-    public Loot removeItem(int index) {
+    public Loot RemoveItem(int index) {
         //Sets the return value to be null.
         Loot temp = null;
         //Make sure the index is less than 6, since max inventory space is 6.
@@ -86,7 +86,7 @@ public class Inventory
             //Set temp to be the item to be removed.
             temp = listOfItems[index];
             //Check if the item is stackable.
-            if (listOfItems[index].isStackable())
+            if (listOfItems[index].IsStackable())
             {
                 //Check if the stackable item has count of 2 or more.
                 if (listOfItems[index].lootAmount > 1)
@@ -108,7 +108,7 @@ public class Inventory
         }
 
         //triggers the event. Which calls the function in Inventory_UI that refreshes the inventory UI.
-        onItemListChange?.Invoke(this, EventArgs.Empty);
+        OnItemListChange?.Invoke(this, EventArgs.Empty);
 
         //Temp: Prints out the inventory list to console.
         for (int i = 0; i < listOfItems.Count; i++)
@@ -120,7 +120,7 @@ public class Inventory
         return temp;
     }
 
-    public List<Loot> getListOfItems() {
+    public List<Loot> GetListOfItems() {
         return listOfItems;
     }
 }

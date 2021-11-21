@@ -7,7 +7,7 @@ using TMPro;
 public class UIButtonClick : MonoBehaviour
 {
     //When the button on the item slot is pressed.
-    public void onItemButtonClicked() {
+    public void OnItemButtonClicked() {
         //Gets the game object transform.
         Transform gameObj = gameObject.transform;
         //Sets the value of the x and y position of the item slot based on the values stored in the hidden text.
@@ -33,7 +33,7 @@ public class UIButtonClick : MonoBehaviour
 
         //Checks to make sure x is not -1, then remove item from the inventory.
         if (index >= 0) {
-            Loot item = GameObject.Find("Player").GetComponent<Player>().playerInventory.removeItem(index);
+            Loot item = GameObject.Find("Player").GetComponent<Player>().playerInventory.RemoveItem(index);
             //Use item.
         }
 

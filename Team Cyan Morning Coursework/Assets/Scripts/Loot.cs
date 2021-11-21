@@ -15,12 +15,12 @@ public class Loot
     public int lootAmount;
 
     //A function that returns the sprite of the loot.
-    public Sprite getSprite() {
+    public Sprite GetSprite() {
         return sprite;
     }
 
     //A function to check if the item is stackable.
-    public bool isStackable() {
+    public bool IsStackable() {
         switch (lootType) {
             default:
                 return false;
