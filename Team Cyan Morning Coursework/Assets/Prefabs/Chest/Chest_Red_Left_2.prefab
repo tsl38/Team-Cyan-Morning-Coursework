@@ -10,7 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 9223101871776442843}
   - component: {fileID: 9223101871776442842}
-  - component: {fileID: 9223101871776442821}
+  - component: {fileID: 848606027277963425}
+  - component: {fileID: 2780903562015177314}
   m_Layer: 0
   m_Name: Chest_Red_Left_2
   m_TagString: Untagged
@@ -69,7 +70,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1731116811
+  m_SortingLayerID: 1255355363
   m_SortingLayer: 8
   m_SortingOrder: 0
   m_Sprite: {fileID: 7259980493196515436, guid: e2981759e7efbf0469150dcdd81b9520, type: 3}
@@ -83,8 +84,8 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!60 &9223101871776442821
-PolygonCollider2D:
+--- !u!61 &848606027277963425
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -106,11 +107,34 @@ PolygonCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: 0.3953331, y: 0.7944002}
-      - {x: -0.6633743, y: 0.2386446}
-      - {x: -0.6649351, y: -0.5421464}
-      - {x: -0.12908286, y: -0.79455763}
-      - {x: 0.67163765, y: -0.43260908}
-      - {x: 0.67080945, y: 0.56305236}
+  serializedVersion: 2
+  m_Size: {x: 1.4375, y: 1.625}
+  m_EdgeRadius: 0
+--- !u!114 &2780903562015177314
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9223101871776442840}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e281888a8ca558a41aa42ff2a3405d83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  filter2D:
+    useTriggers: 0
+    useLayerMask: 0
+    useDepth: 0
+    useOutsideDepth: 0
+    useNormalAngle: 0
+    useOutsideNormalAngle: 0
+    layerMask:
+      serializedVersion: 2
+      m_Bits: 0
+    minDepth: 0
+    maxDepth: 0
+    minNormalAngle: 0
+    maxNormalAngle: 0
+  goldAmount: 1800
+  emptyChestSprite: {fileID: -4515040155403554927, guid: e2981759e7efbf0469150dcdd81b9520, type: 3}

@@ -77,6 +77,49 @@ public class Inventory
         return addSuccessful;
     }
 
+    //Funtion to remove 1 item from the inventory.
+    public Loot removeItem(int index) {
+        //Sets the return value to be null.
+        Loot temp = null;
+        //Make sure the index is less than 6, since max inventory space is 6.
+        if (index < 6) {
+            //Set temp to be the item to be removed.
+            temp = listOfItems[index];
+            //Check if the item is stackable.
+            if (listOfItems[index].isStackable())
+            {
+                //Check if the stackable item has count of 2 or more.
+                if (listOfItems[index].lootAmount > 1)
+                {
+                    //Decrease the count by 1.
+                    listOfItems[index].lootAmount = listOfItems[index].lootAmount - 1;
+                }
+                //If the count was 1, just remove it.
+                else
+                {
+                    listOfItems.RemoveAt(index);
+                }
+            }
+            //If the item is not stackable, just remove it.
+            else 
+            {
+                listOfItems.RemoveAt(index);
+            }
+        }
+
+        //triggers the event. Which calls the function in Inventory_UI that refreshes the inventory UI.
+        onItemListChange?.Invoke(this, EventArgs.Empty);
+
+        //Temp: Prints out the inventory list to console.
+        for (int i = 0; i < listOfItems.Count; i++)
+        {
+            Debug.Log(listOfItems[i].lootType + ", " + listOfItems[i].lootAmount);
+        }
+
+        //Returns the removed item.
+        return temp;
+    }
+
     public List<Loot> getListOfItems() {
         return listOfItems;
     }

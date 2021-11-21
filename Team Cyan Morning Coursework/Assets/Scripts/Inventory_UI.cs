@@ -10,12 +10,14 @@ public class Inventory_UI : MonoBehaviour
     private Transform itemSlotGroup;
     private Transform itemSlot;
 
-    private void Awake() {
+    private void Awake()
+    {
         itemSlotGroup = transform.Find("Inventory_Slots");
         itemSlot = itemSlotGroup.Find("Inventory_Slot_1");
     }
 
-    public void setInventory(Inventory inventory) {
+    public void setInventory(Inventory inventory)
+    {
         this.inventory = inventory;
 
         //Subriscribe to the event in Inventory.
@@ -24,15 +26,18 @@ public class Inventory_UI : MonoBehaviour
     }
 
     //On triggering the even in Inventory, calls the function RefreshItemsInInventory().
-    private void Inventory_onItemListChange(object sender, System.EventArgs e) {
+    private void Inventory_onItemListChange(object sender, System.EventArgs e)
+    {
         RefreshItemsInInventory();
     }
 
-    private void RefreshItemsInInventory() {
+    private void RefreshItemsInInventory()
+    {
         //Destroy all item slots in the item slot group, except the item_slot_1 object, which acts as a template.
         foreach (Transform child in itemSlotGroup)
         {
-            if (child == itemSlot) {
+            if (child == itemSlot)
+            {
                 continue;
             }
             Destroy(child.gameObject);
@@ -63,15 +68,23 @@ public class Inventory_UI : MonoBehaviour
                 amountText.SetText(loot.lootAmount.ToString());
             }
             //If the amount is 1 or less, hide the text by setting it to nothing.
-            else 
+            else
             {
                 amountText.SetText("");
             }
 
+            TextMeshProUGUI xText = itemSlotRectTransform.Find("x").GetComponent<TextMeshProUGUI>();
+            xText.enabled = false;
+            xText.SetText(x.ToString());
+            TextMeshProUGUI yText = itemSlotRectTransform.Find("y").GetComponent<TextMeshProUGUI>();
+            yText.enabled = false;
+            yText.SetText(y.ToString());
+
             //Increments the x position
             x++;
             //If x is larger than 3
-            if (x > 3f) {
+            if (x > 3f)
+            {
                 //set x back to 0 and increment y.
                 x = 0.95f;
                 y--;
