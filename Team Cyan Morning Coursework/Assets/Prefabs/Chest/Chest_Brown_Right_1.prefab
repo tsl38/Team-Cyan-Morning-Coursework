@@ -10,7 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 450873690132179877}
   - component: {fileID: 450873690132179876}
-  - component: {fileID: 450873690132179898}
+  - component: {fileID: 4372515717225223972}
+  - component: {fileID: 980457275072132216}
   m_Layer: 0
   m_Name: Chest_Brown_Right_1
   m_TagString: Untagged
@@ -47,6 +48,7 @@ SpriteRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -68,11 +70,10 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 724851171
-  m_SortingLayer: 3
+  m_SortingLayerID: 1255355363
+  m_SortingLayer: 8
   m_SortingOrder: 0
-  m_Sprite: {fileID: 5304765581533298611, guid: e2981759e7efbf0469150dcdd81b9520,
-    type: 3}
+  m_Sprite: {fileID: 5304765581533298611, guid: e2981759e7efbf0469150dcdd81b9520, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -83,8 +84,8 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!60 &450873690132179898
-PolygonCollider2D:
+--- !u!61 &4372515717225223972
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -106,11 +107,34 @@ PolygonCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.50974506, y: 0.80735934}
-      - {x: -0.7653402, y: 0.57694095}
-      - {x: -0.7929205, y: -0.33965173}
-      - {x: 0.23172003, y: -0.78773695}
-      - {x: 0.7869035, y: -0.6055083}
-      - {x: 0.79323786, y: 0.19235903}
+  serializedVersion: 2
+  m_Size: {x: 1.6875, y: 1.75}
+  m_EdgeRadius: 0
+--- !u!114 &980457275072132216
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 450873690132179879}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e281888a8ca558a41aa42ff2a3405d83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  filter2D:
+    useTriggers: 0
+    useLayerMask: 0
+    useDepth: 0
+    useOutsideDepth: 0
+    useNormalAngle: 0
+    useOutsideNormalAngle: 0
+    layerMask:
+      serializedVersion: 2
+      m_Bits: 0
+    minDepth: 0
+    maxDepth: 0
+    minNormalAngle: 0
+    maxNormalAngle: 0
+  goldAmount: 100
+  emptyChestSprite: {fileID: 7927015682219589216, guid: e2981759e7efbf0469150dcdd81b9520, type: 3}
