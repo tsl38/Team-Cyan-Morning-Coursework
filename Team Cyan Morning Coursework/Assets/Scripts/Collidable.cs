@@ -9,7 +9,7 @@ using UnityEngine;
 public class Collidable : MonoBehaviour
 {
     public ContactFilter2D filter2D;
-    private BoxCollider2D collider; //Needs the boxcollider component to detect collisions.
+    private new BoxCollider2D collider; //Needs the boxcollider component to detect collisions.
     private Collider2D[] arrayOfHits = new Collider2D[50]; //An array to store a list of colliders that collided with this object.
 
     protected virtual void Start() {

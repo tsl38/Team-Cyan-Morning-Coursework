@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Player : Mover
 {
-    public Inventory playerInventory; //Inventory object.
+    public Inventory playerInventory;
     private PlayerHealthList healthList;
     [SerializeField] private Inventory_UI inventoryUi;
     [SerializeField] private Health_Bar_UI healthBarUI;
@@ -12,8 +12,8 @@ public class Player : Mover
     private void Awake()
     {        
         // Load the player resources
-        playerInventory = GameManager.instance.playerInventory;
-        gameObject.GetComponent<Gold_Amount>().goldAmount = GameManager.instance.goldAmount;
+        playerInventory = GameManager.Instance.playerInventory;
+        gameObject.GetComponent<GoldAmount>().goldAmount = GameManager.Instance.goldAmount;
         healthList = new PlayerHealthList();
 
         // Testing: print list of items
@@ -25,7 +25,7 @@ public class Player : Mover
         // Initialise inventory UI
         if (inventoryUi != null)
         {
-            inventoryUi.setInventory(playerInventory);
+            inventoryUi.SetInventory(playerInventory);
         }
         if (healthBarUI != null)
         {
@@ -47,7 +47,7 @@ public class Player : Mover
     // Save player's inventory to GameManager
     public void SavePlayer()
     {
-        GameManager.instance.playerInventory = playerInventory;
-        GameManager.instance.goldAmount = gameObject.GetComponent<Gold_Amount>().goldAmount;
+        GameManager.Instance.playerInventory = playerInventory;
+        GameManager.Instance.goldAmount = gameObject.GetComponent<GoldAmount>().goldAmount;
     }
 }

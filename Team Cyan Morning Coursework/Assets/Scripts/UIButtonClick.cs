@@ -34,14 +34,14 @@ public class UIButtonClick : MonoBehaviour
 
         //Checks to make sure x is not -1, then remove item from the inventory.
         if (index >= 0) {
-            Loot item = GameObject.Find("Player").GetComponent<Player>().playerInventory.removeItem(index);
+            Loot item = GameObject.Find("Player").GetComponent<Player>().playerInventory.RemoveItem(index);
             //Set the loot amount to be 1.
             item.lootAmount = 1;
             //Use item.
             bool successful = UseItem(item);
             //If not used successfully, add the item back in to the inventory.
             if (!successful) {
-                GameObject.Find("Player").GetComponent<Player>().playerInventory.addItem(item);
+                GameObject.Find("Player").GetComponent<Player>().playerInventory.AddItem(item);
             }
         }
 

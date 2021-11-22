@@ -16,7 +16,7 @@ public class Inventory_UI : MonoBehaviour
         itemSlot = itemSlotGroup.Find("Inventory_Slot_1");
     }
 
-    public void setInventory(Inventory inventory)
+    public void SetInventory(Inventory inventory)
     {
         this.inventory = inventory;
 

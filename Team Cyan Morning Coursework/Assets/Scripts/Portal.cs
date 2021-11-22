@@ -9,7 +9,9 @@ public class Portal : Collidable
     {
         if (boxCollider.name == "Player")
         {
+            // Save Player state
             GameObject.Find("Player").GetComponent<Player>().SavePlayer();
+            // Switch to Dungeon 1 Scene
             string sceneName = sceneNames[1];
             UnityEngine.SceneManagement.SceneManager.LoadScene(sceneName);
         }

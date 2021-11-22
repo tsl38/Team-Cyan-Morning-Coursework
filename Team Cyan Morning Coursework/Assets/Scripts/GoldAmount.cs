@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
-public class Gold_Amount : MonoBehaviour
+public class GoldAmount : MonoBehaviour
 {
-    private int goldAmount;
+    public int goldAmount;
     public TextMeshProUGUI goldAmountText;
 
 
