@@ -5,7 +5,7 @@ using TMPro;
 
 public class Gold_Amount : MonoBehaviour
 {
-    private int goldAmount;
+    public int goldAmount;
     public TextMeshProUGUI goldAmountText;
 
 
