@@ -11,6 +11,9 @@ public class GameManager : MonoBehaviour
     public Inventory playerInventory;       // Player's inventory
     public int goldAmount;      // Player's gold
 
+    // UI Resources
+    public FloatingTextManager floatingTextManager;
+
     private void Awake()
     {
         if (Instance == null)
@@ -23,5 +26,11 @@ public class GameManager : MonoBehaviour
         {
             Destroy(gameObject);
         }
+    }
+
+    // Floating text
+    public void ShowText(string msg, int fontSize, Color color, Vector3 position, Vector3 motion, float duration)
+    {
+        floatingTextManager.Show(msg, fontSize, color, position, motion, duration);
     }
 }
