@@ -14,6 +14,7 @@ public class Portal : Collidable
             // Switch to Dungeon 1 Scene
             string sceneName = sceneNames[1];
             UnityEngine.SceneManagement.SceneManager.LoadScene(sceneName);
+            Debug.Log("Entered Scene: " + sceneName);
         }
     }
 }
