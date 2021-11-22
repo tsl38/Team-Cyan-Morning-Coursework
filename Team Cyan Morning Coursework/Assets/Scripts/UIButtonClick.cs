@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -33,10 +34,42 @@ public class UIButtonClick : MonoBehaviour
 
         //Checks to make sure x is not -1, then remove item from the inventory.
         if (index >= 0) {
-            Loot item = GameObject.Find("Player").GetComponent<Player>().playerInventory.RemoveItem(index);
+            Loot item = GameObject.Find("Player").GetComponent<Player>().playerInventory.removeItem(index);
+            //Set the loot amount to be 1.
+            item.lootAmount = 1;
             //Use item.
+            bool successful = UseItem(item);
+            //If not used successfully, add the item back in to the inventory.
+            if (!successful) {
+                GameObject.Find("Player").GetComponent<Player>().playerInventory.addItem(item);
+            }
         }
 
         Debug.Log("Button Clicked: " + index);
+    }
+
+    //Function that uses the item removed from the inventory.
+    private bool UseItem(Loot item) {
+        //Bool value to indictate whether or not the item was used successfully.
+        bool usedsuccessfully = false;
+        //If the loot type is Apple or Berry, then heal the player.
+        if (item.lootType == Item.ItemType.Apple || item.lootType == Item.ItemType.Berry)
+        {
+            int heal = item.GetHealingAmount(); //gets the heal amount based on the item type.
+            //Only uses the item to heal the player if the player's current hp is less than the max hp.
+            if (GameObject.Find("Player").GetComponent<Player>().hitpoint < GameObject.Find("Player").GetComponent<Player>().maxHitpoint) {
+                GameObject.Find("Player").GetComponent<Player>().hitpoint += heal;
+                //if the resulting hp is larger than the max hp, set the hp to be the max hp.
+                if (GameObject.Find("Player").GetComponent<Player>().hitpoint > GameObject.Find("Player").GetComponent<Player>().maxHitpoint)
+                {
+                    GameObject.Find("Player").GetComponent<Player>().hitpoint = GameObject.Find("Player").GetComponent<Player>().maxHitpoint;
+                }
+                //Finds the Health_Bar_UI object in the UI canvas, and then finds the script attached to it to get the health list, and add the updated values to the list.
+                GameObject.Find("Health_Bar_UI").GetComponent<Health_Bar_UI>().GetList().ChangeHealth(GameObject.Find("Player").GetComponent<Player>().hitpoint, GameObject.Find("Player").GetComponent<Player>().maxHitpoint);
+                usedsuccessfully = true;
+            }
+        }
+
+        return usedsuccessfully;
     }
 }

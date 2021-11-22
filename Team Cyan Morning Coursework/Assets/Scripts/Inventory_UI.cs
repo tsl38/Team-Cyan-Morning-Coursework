@@ -25,7 +25,7 @@ public class Inventory_UI : MonoBehaviour
         RefreshItemsInInventory();
     }
 
-    //On triggering the even in Inventory, calls the function RefreshItemsInInventory().
+    //On triggering the event in Inventory, calls the function RefreshItemsInInventory().
     private void Inventory_onItemListChange(object sender, System.EventArgs e)
     {
         RefreshItemsInInventory();

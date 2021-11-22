@@ -5,13 +5,16 @@ using UnityEngine;
 public class Player : Mover
 {
     public Inventory playerInventory; //Inventory object.
+    private PlayerHealthList healthList;
     [SerializeField] private Inventory_UI inventoryUi;
+    [SerializeField] private Health_Bar_UI healthBarUI;
 
     private void Awake()
-    {
+    {        
         // Load the player resources
         playerInventory = GameManager.instance.playerInventory;
         gameObject.GetComponent<Gold_Amount>().goldAmount = GameManager.instance.goldAmount;
+        healthList = new PlayerHealthList();
 
         // Testing: print list of items
         List<Loot> listOfItems = GameObject.Find("Player").GetComponent<Player>().playerInventory.GetListOfItems();
@@ -23,6 +26,13 @@ public class Player : Mover
         if (inventoryUi != null)
         {
             inventoryUi.setInventory(playerInventory);
+        }
+        if (healthBarUI != null)
+        {
+            //Sets the initial values of current health and max health.
+            healthList.GetHealthList().Add(hitpoint);
+            healthList.GetHealthList().Add(maxHitpoint);
+            healthBarUI.SetHealthStats(healthList);
         }
     }
 
