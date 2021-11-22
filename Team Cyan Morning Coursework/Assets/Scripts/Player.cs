@@ -12,8 +12,8 @@ public class Player : Mover
     private void Awake()
     {        
         // Load the player resources
-        playerInventory = GameManager.instance.playerInventory;
-        gameObject.GetComponent<GoldAmount>().goldAmount = GameManager.instance.goldAmount;
+        playerInventory = GameManager.Instance.playerInventory;
+        gameObject.GetComponent<GoldAmount>().goldAmount = GameManager.Instance.goldAmount;
         healthList = new PlayerHealthList();
 
         // Testing: print list of items
@@ -47,7 +47,7 @@ public class Player : Mover
     // Save player's inventory to GameManager
     public void SavePlayer()
     {
-        GameManager.instance.playerInventory = playerInventory;
-        GameManager.instance.goldAmount = gameObject.GetComponent<GoldAmount>().goldAmount;
+        GameManager.Instance.playerInventory = playerInventory;
+        GameManager.Instance.goldAmount = gameObject.GetComponent<GoldAmount>().goldAmount;
     }
 }
