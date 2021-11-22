@@ -116,8 +116,10 @@ public class Inventory
             Debug.Log(listOfItems[i].lootType + ", " + listOfItems[i].lootAmount);
         }
 
-        //Returns the removed item.
-        return temp;
+        //Avoid altering the removed object by direct reference.
+        Loot duplicateItem = new Loot { sprite = temp.sprite, lootType = temp.lootType, lootAmount = temp.lootAmount };
+        //Returns the removed item (duplicated from the actual removed item.
+        return duplicateItem;
     }
 
     public List<Loot> getListOfItems() {
