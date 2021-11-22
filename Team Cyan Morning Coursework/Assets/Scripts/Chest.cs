@@ -12,7 +12,7 @@ public class Chest : Collectable
         if (!collected)
         {
             base.OnCollect();
-            GameObject.Find("Player").GetComponent<Gold_Amount>().AddGold(goldAmount);
+            GameObject.Find("Player").GetComponent<GoldAmount>().AddGold(goldAmount);
             GetComponent<SpriteRenderer>().sprite = emptyChestSprite;
         }
     }
