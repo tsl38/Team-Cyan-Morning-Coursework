@@ -34,7 +34,7 @@ public class Health_Bar_UI : MonoBehaviour
         RefreshHealthBarUI();
     }
 
-    private void RefreshHealthBarUI()
+    public void RefreshHealthBarUI()
     {
         //Destroy all hearts in the health_heart_group, except the heart_1 object, which acts as a template.
         foreach (Transform child in Health_Heart_Group)
