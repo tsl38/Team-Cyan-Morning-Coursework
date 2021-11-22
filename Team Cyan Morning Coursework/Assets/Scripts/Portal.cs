@@ -9,6 +9,7 @@ public class Portal : Collidable
     {
         if (boxCollider.name == "Player")
         {
+            GameObject.Find("Player").GetComponent<Player>().SavePlayer();
             string sceneName = sceneNames[1];
             UnityEngine.SceneManagement.SceneManager.LoadScene(sceneName);
         }
