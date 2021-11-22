@@ -7,7 +7,7 @@ public class Player : Mover
     public Inventory playerInventory; //Inventory object.
     [SerializeField] private Inventory_UI inventoryUi;
 
-    void Awake()
+    private void Awake()
     {
         // Load the player resources
         playerInventory = GameManager.instance.playerInventory;
@@ -26,7 +26,7 @@ public class Player : Mover
         }
     }
 
-    void FixedUpdate()
+    private void FixedUpdate()
     {
         float x = Input.GetAxisRaw("Horizontal") * speed / 10;
         float y = Input.GetAxisRaw("Vertical") * speed / 10;
