@@ -21,7 +21,7 @@ public class Inventory_UI : MonoBehaviour
         this.inventory = inventory;
 
         //Subriscribe to the event in Inventory.
-        this.inventory.onItemListChange += Inventory_onItemListChange;
+        this.inventory.OnItemListChange += Inventory_onItemListChange;
         RefreshItemsInInventory();
     }
 
@@ -47,7 +47,7 @@ public class Inventory_UI : MonoBehaviour
         float y = -1.06f; //Initial y position
         float cellSize = 19f; //size of the item slot.
         //Loops through all items in the inventory.
-        foreach (Loot loot in inventory.getListOfItems())
+        foreach (Loot loot in inventory.GetListOfItems())
         {
             //Instantiate a new item slot under the item slot group and set it to be active (not hidden)
             RectTransform itemSlotRectTransform = Instantiate(itemSlot, itemSlotGroup).GetComponent<RectTransform>();
@@ -58,7 +58,7 @@ public class Inventory_UI : MonoBehaviour
             //Finds the icon image under the item slot.
             Image image = itemSlotRectTransform.Find("Icon").GetComponent<Image>();
             //Sets the image to the sprite of the item in the inventory.
-            image.sprite = loot.getSprite();
+            image.sprite = loot.GetSprite();
 
             //Finds the Amount text under the item slot.
             TextMeshProUGUI amountText = itemSlotRectTransform.Find("Amount").GetComponent<TextMeshProUGUI>();

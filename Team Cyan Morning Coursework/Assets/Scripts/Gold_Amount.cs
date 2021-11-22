@@ -9,12 +9,12 @@ public class Gold_Amount : MonoBehaviour
     public TextMeshProUGUI goldAmountText;
 
 
-    public void addGold(int amount) {
+    public void AddGold(int amount) {
         goldAmount = goldAmount + amount;
         goldAmountText.text = goldAmount.ToString();
     }
 
-    public void removeGold(int amount) {
+    public void RemoveGold(int amount) {
         if (amount < goldAmount) {
             goldAmount = goldAmount - amount;
             goldAmountText.text = goldAmount.ToString();

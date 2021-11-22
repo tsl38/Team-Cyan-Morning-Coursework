@@ -8,7 +8,7 @@ using TMPro;
 public class UIButtonClick : MonoBehaviour
 {
     //When the button on the item slot is pressed.
-    public void onItemButtonClicked() {
+    public void OnItemButtonClicked() {
         //Gets the game object transform.
         Transform gameObj = gameObject.transform;
         //Sets the value of the x and y position of the item slot based on the values stored in the hidden text.
