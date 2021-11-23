@@ -14,6 +14,7 @@ public class Player : Mover
         // Load the player resources
         playerInventory = GameManager.Instance.playerInventory;
         gameObject.GetComponent<GoldAmount>().goldAmount = GameManager.Instance.goldAmount;
+        hitpoint = GameManager.Instance.hitpoint;
         healthList = new PlayerHealthList();
 
         // Testing: print list of items
@@ -32,6 +33,7 @@ public class Player : Mover
             //Sets the initial values of current health and max health.
             healthList.GetHealthList().Add(hitpoint);
             healthList.GetHealthList().Add(maxHitpoint);
+            healthList.ChangeHealth(hitpoint, maxHitpoint);
             healthBarUI.SetHealthStats(healthList);
         }
     }
@@ -49,5 +51,6 @@ public class Player : Mover
     {
         GameManager.Instance.playerInventory = playerInventory;
         GameManager.Instance.goldAmount = gameObject.GetComponent<GoldAmount>().goldAmount;
+        GameManager.Instance.hitpoint = hitpoint;
     }
 }

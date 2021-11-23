@@ -19,6 +19,7 @@ public class Inventory_UI : MonoBehaviour
     public void SetInventory(Inventory inventory)
     {
         this.inventory = inventory;
+        RefreshItemsInInventory();
 
         //Subriscribe to the event in Inventory.
         this.inventory.OnItemListChange += Inventory_onItemListChange;
