@@ -18,7 +18,6 @@ public class GameManager : MonoBehaviour
         {
             DontDestroyOnLoad(gameObject);
             Instance = this;
-            playerInventory = new Inventory();
         }
         else if (Instance != this)
         {
