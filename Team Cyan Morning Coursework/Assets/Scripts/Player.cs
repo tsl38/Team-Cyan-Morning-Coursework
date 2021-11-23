@@ -10,9 +10,16 @@ public class Player : Mover
     [SerializeField] private Health_Bar_UI healthBarUI;
 
     private void Awake()
-    {        
+    {
         // Load the player resources
-        playerInventory = GameManager.Instance.playerInventory;
+        if (GameManager.Instance.playerInventory != null)
+        {
+            playerInventory = GameManager.Instance.playerInventory;
+        }
+        else 
+        {
+            playerInventory = new Inventory();
+        }
         gameObject.GetComponent<GoldAmount>().goldAmount = GameManager.Instance.goldAmount;
         hitpoint = GameManager.Instance.hitpoint;
         healthList = new PlayerHealthList();
@@ -23,6 +30,7 @@ public class Player : Mover
         {
             Debug.Log(listOfItems[i].lootType + ", " + listOfItems[i].lootAmount);
         }
+
         // Initialise inventory UI
         if (inventoryUi != null)
         {
