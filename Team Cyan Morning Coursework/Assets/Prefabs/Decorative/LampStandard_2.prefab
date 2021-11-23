@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5520248467850163827}
   - component: {fileID: 5520248467850163826}
+  - component: {fileID: 5518369545759511164}
   m_Layer: 0
   m_Name: LampStandard_2
   m_TagString: Untagged
@@ -68,8 +69,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 724851171
-  m_SortingLayer: 0
+  m_SortingLayerID: 1255355363
+  m_SortingLayer: 8
   m_SortingOrder: 0
   m_Sprite: {fileID: 3163905203284068580, guid: 7ddcc64ef2718014b86e0522e00a7359, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -82,3 +83,29 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &5518369545759511164
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5520248467850163824}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.0053037405, y: -0.031875968}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.18, y: 0.43}
+    newSize: {x: 1.125, y: 2.6875}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.15249848, y: 0.36339593}
+  m_EdgeRadius: 0
