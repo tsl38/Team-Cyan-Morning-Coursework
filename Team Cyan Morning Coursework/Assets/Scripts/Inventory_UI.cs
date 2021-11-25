@@ -15,6 +15,7 @@ public class Inventory_UI : MonoBehaviour
     {
         itemSlotGroup = transform.Find("Inventory_Slots");
         itemSlot = itemSlotGroup.Find("Inventory_Slot_1");
+        //List of KeyCodes for the  inventory UI buttons.
         listOfKeys = new List<KeyCode>(){ KeyCode.Alpha1, KeyCode.Alpha2, KeyCode.Alpha3, KeyCode.Alpha4, KeyCode.Alpha5, KeyCode.Alpha6 };
     }
 
@@ -79,6 +80,7 @@ public class Inventory_UI : MonoBehaviour
                     amountText.SetText("");
                 }
 
+                //Add KeyCodes to the UIButtonClick script.
                 itemSlotRectTransform.GetComponent<UIButtonClick>().key = listOfKeys[keyCodeIndex];
                 keyCodeIndex++;
 
