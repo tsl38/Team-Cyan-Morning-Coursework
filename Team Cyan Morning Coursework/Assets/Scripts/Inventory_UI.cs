@@ -9,11 +9,13 @@ public class Inventory_UI : MonoBehaviour
     private Inventory inventory;
     private Transform itemSlotGroup;
     private Transform itemSlot;
+    private List<KeyCode> listOfKeys;
 
     private void Awake()
     {
         itemSlotGroup = transform.Find("Inventory_Slots");
         itemSlot = itemSlotGroup.Find("Inventory_Slot_1");
+        listOfKeys = new List<KeyCode>(){ KeyCode.Alpha1, KeyCode.Alpha2, KeyCode.Alpha3, KeyCode.Alpha4, KeyCode.Alpha5, KeyCode.Alpha6 };
     }
 
     public void SetInventory(Inventory inventory)
@@ -46,6 +48,7 @@ public class Inventory_UI : MonoBehaviour
                 Destroy(child.gameObject);
             }
 
+            int keyCodeIndex = 0;
             float x = 0.95f; //Initial x posiiton
             float y = -1.06f; //Initial y position
             float cellSize = 19f; //size of the item slot.
@@ -75,6 +78,9 @@ public class Inventory_UI : MonoBehaviour
                 {
                     amountText.SetText("");
                 }
+
+                itemSlotRectTransform.GetComponent<UIButtonClick>().key = listOfKeys[keyCodeIndex];
+                keyCodeIndex++;
 
                 TextMeshProUGUI xText = itemSlotRectTransform.Find("x").GetComponent<TextMeshProUGUI>();
                 xText.enabled = false;
