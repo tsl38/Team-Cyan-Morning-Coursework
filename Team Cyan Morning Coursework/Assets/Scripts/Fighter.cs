@@ -32,23 +32,30 @@ public class Fighter : MonoBehaviour
 				hitpoint = 0;
 				Death();
 			}
-			
+
+			//PLAYER DEATH, RESPAWN AND SPAWN PLAYER GHOST.
 			//If the current gameObject this script is attached to is the player (By checking the object name, which should be unique), update the health list. so that the health bar UI will update.
 			if (gameObject.name == "Player")
 			{
 				//Finds the Health_Bar_UI object in the UI canvas, and then finds the script attached to it to get the health list, and add the updated values to the list.
 				GameObject.Find("Health_Bar_UI").GetComponent<Health_Bar_UI>().GetList().ChangeHealth(GameObject.Find("Player").GetComponent<Player>().hitpoint, GameObject.Find("Player").GetComponent<Player>().maxHitpoint);
 				//If the player health reaches zero from this hit, respawn the player using the function in the playerRespawn script (playerRespawn.cs).
-				if (GameObject.Find("Player").GetComponent<Player>().hitpoint == 0) {
+				if (GameObject.Find("Player").GetComponent<Player>().hitpoint == 0)
+				{
+					//Stores the death position and rotation of the player character.
+					Vector3 deathPosition = gameObject.transform.position;
+					Quaternion deathRotation = gameObject.transform.rotation;
+					//Respawn the player first, which also disables the collider on the player for 1 second.
 					GameObject.Find("Player").GetComponent<PlayerDeath>().respawnPlayer();
+					//Spawns the player ghost at the death location.
+					GameObject.Find("Player").GetComponent<PlayerDeath>().SpawnGhost(deathPosition, deathRotation);
 				}
 			}
 		}
 	}
 
 	protected virtual void Death()
-    {
-
-    }
-
+	{
+		//Not needed for player.
+	}
 }

@@ -7,6 +7,33 @@ using TMPro;
 
 public class UIButtonClick : MonoBehaviour
 {
+    public KeyCode key; //The keyCode for keyboard keys.
+
+    private Button button; //The button component attached to the gameObject.
+
+    private void Awake() {
+        //Initializes the button component.
+        button = GetComponent<Button>();
+    }
+
+    private void Update() {
+        //When the button with KeyCode key is pressed down, call the function that was set to in the onClick function.
+        if (Input.GetKeyDown(key))
+        {
+            ChangeColorOnButtonPress(button.colors.pressedColor);
+            button.onClick.Invoke();
+        }
+        else if (Input.GetKeyUp(key)) 
+        {
+            ChangeColorOnButtonPress(button.colors.normalColor);
+        }
+    }
+
+    private void ChangeColorOnButtonPress(Color color) {
+        Graphic graphic = GetComponent<Graphic>();
+        graphic.CrossFadeColor(color, button.colors.fadeDuration, true, true);
+    }
+
     //When the button on the item slot is pressed.
     public void OnItemButtonClicked() {
         //Gets the game object transform.
