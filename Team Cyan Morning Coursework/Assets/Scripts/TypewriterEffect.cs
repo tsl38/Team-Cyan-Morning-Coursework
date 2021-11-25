@@ -5,27 +5,35 @@ using TMPro;
 
 public class TypewriterEffect : MonoBehaviour
 {
-    [SerializeField] private float typewriterSpeed = 2f;
-    public void Run(string textToType, TMP_Text textLabel)
+    [SerializeField] public float typewriterSpeed;     // Set speed for text being shown
+    public bool spedUp;    // True if text in current box has been sped up
+
+    public Coroutine Run(string textToType, TMP_Text textLabel)
     {
-        StartCoroutine(TypeText(textToType, textLabel));
+        return StartCoroutine(TypeText(textToType, textLabel));
     }
 
     private IEnumerator TypeText(string textToType, TMP_Text textLabel)
     {
         textLabel.text = string.Empty;
-        //yield return new WaitForSeconds(1);       // For testing purposes
 
         float t = 0;
         int charIndex = 0;
 
         while (charIndex < textToType.Length)
         {
-            t += Time.deltaTime * typewriterSpeed;        // Tracks time
-            charIndex = Mathf.FloorToInt(t);     // Stores the time in seconds
-            charIndex = Mathf.Clamp(charIndex, 0, textToType.Length);       // Make sure charIndex doesn't exceed the length of the text
+            // Speed up text if user presses space
+            if (Input.GetKeyDown(KeyCode.Space) && charIndex > 1)
+            {
+                spedUp = true;
+                typewriterSpeed += 100;
+            }
 
-            textLabel.text = textToType.Substring(0, charIndex);
+            t += Time.deltaTime * typewriterSpeed;      // Track time
+            charIndex = Mathf.FloorToInt(t);    // Store the time in seconds
+            charIndex = Mathf.Clamp(charIndex, 0, textToType.Length);   // Make sure charIndex doesn't exceed the length of the text
+
+            textLabel.text = textToType.Substring(0, charIndex);    // Print a character out
 
             yield return null;
         }
