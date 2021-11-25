@@ -32,6 +32,17 @@ public class Fighter : MonoBehaviour
 				hitpoint = 0;
 				Death();
 			}
+			
+			//If the current gameObject this script is attached to is the player (By checking the object name, which should be unique), update the health list. so that the health bar UI will update.
+			if (gameObject.name == "Player")
+			{
+				//Finds the Health_Bar_UI object in the UI canvas, and then finds the script attached to it to get the health list, and add the updated values to the list.
+				GameObject.Find("Health_Bar_UI").GetComponent<Health_Bar_UI>().GetList().ChangeHealth(GameObject.Find("Player").GetComponent<Player>().hitpoint, GameObject.Find("Player").GetComponent<Player>().maxHitpoint);
+				//If the player health reaches zero from this hit, respawn the player using the function in the playerRespawn script (playerRespawn.cs).
+				if (GameObject.Find("Player").GetComponent<Player>().hitpoint == 0) {
+					GameObject.Find("Player").GetComponent<PlayerDeath>().respawnPlayer();
+				}
+			}
 		}
 	}
 
