@@ -6,7 +6,8 @@ using TMPro;
 public class TypewriterEffect : MonoBehaviour
 {
     [SerializeField] public float typewriterSpeed;     // Set speed for text being shown
-    public bool spedUp;    // True if text in current box has been sped up
+    private bool spedUp;    // True if text in current box has been sped up
+    private int speedMultiplier;    // How much speed is sped up
 
     public Coroutine Run(string textToType, TMP_Text textLabel)
     {
@@ -27,6 +28,7 @@ public class TypewriterEffect : MonoBehaviour
             {
                 spedUp = true;
                 typewriterSpeed += 100;
+                speedMultiplier += 1;
             }
 
             t += Time.deltaTime * typewriterSpeed;      // Track time
@@ -36,6 +38,13 @@ public class TypewriterEffect : MonoBehaviour
             textLabel.text = textToType.Substring(0, charIndex);    // Print a character out
 
             yield return null;
+        }
+
+        if (spedUp == true)
+        {
+            spedUp = false;
+            typewriterSpeed -= 100 * speedMultiplier;
+            speedMultiplier = 0;
         }
 
         textLabel.text = textToType;

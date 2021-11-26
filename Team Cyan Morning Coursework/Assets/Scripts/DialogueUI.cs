@@ -14,7 +14,6 @@ public class DialogueUI : MonoBehaviour
     {
         typewriterEffect = GetComponent<TypewriterEffect>();  //"The lady over there told me to go see you to get a potion of fire resistance\nThe lady over there told me to go see you to get a potion of fire resistance"
         CloseDialogueUI();
-        ShowDialogue(testDialogue);
     }
 
     public void ShowDialogue(DialogueList dialogueList)
@@ -25,18 +24,11 @@ public class DialogueUI : MonoBehaviour
 
     private IEnumerator StepThroughDialogue(DialogueList dialogueList)
     {
-        yield return new WaitForSeconds(1);       // For testing purposes
+        //yield return new WaitForSeconds(1);       // For testing purposes
 
         foreach (string dialogue in dialogueList.Dialogue)
         {
             yield return typewriterEffect.Run(dialogue, textLabel);
-
-            if (typewriterEffect.spedUp)
-            {
-                typewriterEffect.spedUp = false;
-                typewriterEffect.typewriterSpeed -= 100;
-            }
-
             yield return new WaitUntil(() => Input.GetKeyDown(KeyCode.Space));
         }
 
