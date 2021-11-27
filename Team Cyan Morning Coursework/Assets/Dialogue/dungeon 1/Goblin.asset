@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0fd62d6f46903e44ba68486dfe0a8583, type: 3}
-  m_Name: lost child
+  m_Name: Goblin
   m_EditorClassIdentifier: 
   dialogue:
-  - can you help me?
+  - 'Klex:  Tenderloin, ribs, pork belly, hero what do you want'
