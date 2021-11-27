@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0fd62d6f46903e44ba68486dfe0a8583, type: 3}
-  m_Name: thief
+  m_Name: Half_Elf
   m_EditorClassIdentifier: 
   dialogue:
-  - What does it matter to me if your gold is missing?
+  - 'Yosi:  Hero, would u like to know your future? Divination of everything.'
