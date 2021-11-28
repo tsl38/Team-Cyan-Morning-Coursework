@@ -119,6 +119,9 @@ TextureImporter:
   - first:
       213: 7364620659091962
     second: Mace
+  - first:
+      213: 2281975958946533104
+    second: 0x72_DungeonTilesetII_v1.4_39
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -1026,7 +1029,7 @@ TextureImporter:
         width: 13
         height: 30
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1034,6 +1037,27 @@ TextureImporter:
       bones: []
       spriteID: af96a4e551a2a1000800000000000000
       internalID: 7364620659091962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0x72_DungeonTilesetII_v1.4_39
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 369
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fe4df25b053baf10800000000000000
+      internalID: 2281975958946533104
       vertices: []
       indices: 
       edges: []
