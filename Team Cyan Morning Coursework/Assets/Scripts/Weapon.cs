@@ -17,6 +17,9 @@ public class Weapon : Collidable
 	private float lastSwing;
 	public Animator animator;
 
+	//A vector3 to store the current orientation of the player. Default to be no direction.
+	private Vector3 playerOrientation = new Vector3(0, 0, 0);
+
 	protected override void Start()
 	{
 		base.Start();
@@ -27,17 +30,55 @@ public class Weapon : Collidable
 	{
 		base.Update();
 
+		//Only attack if left click is pressed.
 		if (Input.GetMouseButtonDown(0))
 		{
+			//If the current orientation is up, then attack up.
+			if (playerOrientation.y > 0)
+			{
+				animator.SetInteger("UpOrDown", 1);
+			}
+			//If the current orientation is down, then attack down.
+			else if (playerOrientation.y < 0)
+			{
+				animator.SetInteger("UpOrDown", -1);
+			}
+			//Else attack left or right.
+			else
+			{
+				animator.SetInteger("UpOrDown", 0);
+			}
+
+			//Swing the weapon.
 			if (Time.time - lastSwing > cooldown)
 			{
 				lastSwing = Time.time;
 				Swing();
 			}
 		}
-		if(Input.GetMouseButtonUp(0)){
+
+		if (Input.GetMouseButtonUp(0)){
 			lastSwing = Time.time;
 			Swing();
+		}
+	}
+
+	private void FixedUpdate() {
+		//Gets the current orientation of the player.
+		float x = Input.GetAxisRaw("Horizontal");
+		float y = Input.GetAxisRaw("Vertical");
+		//Only updates the current orientation vector if either left/right or up/down was pressed.
+		if (x != 0 || y != 0) {
+			//If only y is none zero, set the orientation vector.
+			if(x == 0 && y != 0)
+			{
+				playerOrientation = new Vector3(0.0f, y, 0.0f);
+			}
+			//If x is none zero, set the orientation vector.
+			else if (x != 0 && y == 0)
+			{
+				playerOrientation = new Vector3(x, 0.0f, 0.0f);
+			}
 		}
 	}
 
@@ -65,6 +106,7 @@ public class Weapon : Collidable
 
 	private void Swing()
 	{
-		animator.SetTrigger("Swing");
+		//Activate the trigger to play the swing animation.
+		animator.SetTrigger("PlayerSwing");
 	}
 }

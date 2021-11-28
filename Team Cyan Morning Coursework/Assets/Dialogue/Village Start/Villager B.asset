@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Villager B
   m_EditorClassIdentifier: 
   dialogue:
-  - 'Villager B: Heading into the forest? Good luck boy!'
+  - 'Blacksmith:  Heading into the forest? Good luck boy!'
