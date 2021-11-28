@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 2665206569213200763}
   - component: {fileID: 2665206569213200756}
   - component: {fileID: 292751784052922969}
+  - component: {fileID: 2548294149643835742}
   m_Layer: 0
   m_Name: PlayerGhost
   m_TagString: PlayerGhost
@@ -74,7 +75,7 @@ SpriteRenderer:
   m_SortingLayerID: 1255355363
   m_SortingLayer: 8
   m_SortingOrder: 0
-  m_Sprite: {fileID: 5631701655452186726, guid: 08764bdf016d49c41b650ff2e41342d5, type: 3}
+  m_Sprite: {fileID: 8531121220023917423, guid: f319754a4ab4d594b862dd812378a2cc, type: 3}
   m_Color: {r: 0.3679245, g: 0.3679245, b: 0.3679245, a: 0.5058824}
   m_FlipX: 0
   m_FlipY: 0
@@ -98,11 +99,11 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.0052788258, y: 0}
+  m_Offset: {x: -0.0052788258, y: -0.01}
   m_SpriteTilingProperty:
-    border: {x: 0.02, y: 0, z: 0.03, w: 0.03}
+    border: {x: 0.02, y: 0, z: 0.03, w: 0.049999997}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.15, y: 0.19}
+    oldSize: {x: 0.15, y: 0.21}
     newSize: {x: 0.15, y: 0.19}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -137,6 +138,25 @@ MonoBehaviour:
     maxDepth: 0
     minNormalAngle: 0
     maxNormalAngle: 0
+--- !u!95 &2548294149643835742
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2665206569213200757}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 9456db7105032964e97f2c34879a5d3d, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &7893943462401649511
 GameObject:
   m_ObjectHideFlags: 0

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fd62d6f46903e44ba68486dfe0a8583, type: 3}
+  m_Name: Old Man
+  m_EditorClassIdentifier: 
+  dialogue:
+  - 'Old Man: Warrior, do you want to enter the castle?'
+  - 'Tony: Yes, I want to retrieve our memories for the whole village. I received
+    a letter that guided me to the dungeon. Do you know some clues about the castle?'
+  - 'Old Man: In the early years, there was a myth that there was a witch inside
+    this castle. No one dared to go inside. It seems that no one has lived in this
+    castle for a long time. I just passed by and'
+  - wanted to have a look. It really looks haunted and scary indeed. Anyway, it sounds
+    like something very unfortunate happened to you. Are you sure you want to go
+    in?
+  - 'Tony: I have to go in, I only have this clue right now.'
+  - 'Old Man: Sometimes losing memory is not a bad thing. Resetting everything to
+    zero can also represent a new chance and hope. But if you insist on doing this,
+    I can only wish you good'
+  - " luck, young man!\r"
+  - 'Tony: Thanks, take care.'

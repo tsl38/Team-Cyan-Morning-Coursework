@@ -184,7 +184,10 @@ TextureImporter:
     second: Elite_Sword
   - first:
       213: 3612768411021588499
-    second: Large_Elite_Sword
+    second: Elite_Swordd
+  - first:
+      213: 8136298248477777954
+    second: large_Elite_Sword
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -1528,16 +1531,16 @@ TextureImporter:
       name: Elite_Sword
       rect:
         serializedVersion: 2
-        x: 290
-        y: 337
-        width: 11
-        height: 23
+        x: 0
+        y: 0
+        width: 0
+        height: 0
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
       spriteID: 6b89bb5cb32ec9d00800000000000000
       internalID: 980907565208279222
@@ -1546,13 +1549,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Large_Elite_Sword
+      name: Elite_Swordd
       rect:
         serializedVersion: 2
-        x: 306
+        x: 290
         y: 337
         width: 12
-        height: 32
+        height: 28
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1566,11 +1569,32 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: large_Elite_Sword
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 337
+        width: 12
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 220a6272620f9e070800000000000000
+      internalID: 8136298248477777954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
-    internalID: 0
+    spriteID: 318b1b28ab1232230800000000000000
+    internalID: 3612768411021588499
     vertices: []
     indices: 
     edges: []
