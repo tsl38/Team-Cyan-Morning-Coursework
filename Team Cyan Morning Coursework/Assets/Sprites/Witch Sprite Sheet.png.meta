@@ -1,0 +1,828 @@
+fileFormatVersion: 2
+guid: 34e23d060928c534d854667511244e33
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5861918153687331951
+    second: Witch_Walk_1
+  - first:
+      213: 1695899913026797140
+    second: Witch_Walk_2
+  - first:
+      213: -3983967587842051103
+    second: Witch_Walk_3
+  - first:
+      213: 7017317022086860891
+    second: Witch_Walk_4
+  - first:
+      213: 3514260798988723699
+    second: Witch_Walk_5
+  - first:
+      213: -2642056329096655613
+    second: Witch_Walk_6
+  - first:
+      213: -9203436435691366051
+    second: Witch_Walk_7
+  - first:
+      213: -8640903989521060576
+    second: Witch_Walk_8
+  - first:
+      213: -28442747422088511
+    second: Witch_Appear_1
+  - first:
+      213: -6290351493453434371
+    second: Witch_Appear_2
+  - first:
+      213: 3899300120594848015
+    second: Witch_Appear_3
+  - first:
+      213: -950251401726453963
+    second: Witch_Appear_4
+  - first:
+      213: -5126418016596961992
+    second: Witch_Appear_5
+  - first:
+      213: 6871005769876319402
+    second: Witch_Appear_6
+  - first:
+      213: -3829949509263074554
+    second: Witch_Appear_7
+  - first:
+      213: 1573874211095990646
+    second: Witch_Appear_8
+  - first:
+      213: -4438935526343550710
+    second: Witch_Appear_9
+  - first:
+      213: 1505514826293153313
+    second: Witch_Appear_10
+  - first:
+      213: -2068982855655587785
+    second: Witch_Idle_1
+  - first:
+      213: 713880857422160453
+    second: Witch_Idle_2
+  - first:
+      213: -316210727215146673
+    second: Witch_Idle_3
+  - first:
+      213: -671821432026016512
+    second: Witch_Idle_4
+  - first:
+      213: -5072394025251240195
+    second: Witch_Attack_1
+  - first:
+      213: 7355430312511724347
+    second: Witch_Attack_2
+  - first:
+      213: 7442324232909464075
+    second: Witch_Attack_3
+  - first:
+      213: 2006363251903347686
+    second: Witch_Attack_4
+  - first:
+      213: -7853746265432411059
+    second: Witch_Attack_5
+  - first:
+      213: 1252959164264326423
+    second: Witch_Attack_6
+  - first:
+      213: -4181210163995712047
+    second: Witch_Attack_7
+  - first:
+      213: 1478184691376067844
+    second: Witch_Attack_8
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Witch_Walk_1
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 128
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6472f4c087b95150800000000000000
+      internalID: 5861918153687331951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Witch_Walk_2
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 128
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45ef3925cfb098710800000000000000
+      internalID: 1695899913026797140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Witch_Walk_3
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 128
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e3310a369a16b8c0800000000000000
+      internalID: -3983967587842051103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Witch_Walk_4
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 128
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b501ac9f6a4826160800000000000000
+      internalID: 7017317022086860891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Witch_Walk_5
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 128
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f5adcbc39925c030800000000000000
+      internalID: 3514260798988723699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Witch_Walk_6
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 128
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30d0f9354c7855bd0800000000000000
+      internalID: -2642056329096655613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Witch_Walk_7
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 128
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d599ab9d253d64080800000000000000
+      internalID: -9203436435691366051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Witch_Walk_8
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 128
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02d675e5a97551880800000000000000
+      internalID: -8640903989521060576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Witch_Appear_1
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 32
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c2687fc873fa9ff0800000000000000
+      internalID: -28442747422088511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Witch_Appear_2
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 32
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df13c58f4ae24b8a0800000000000000
+      internalID: -6290351493453434371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Witch_Appear_3
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 32
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0991b0ecc81d1630800000000000000
+      internalID: 3899300120594848015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Witch_Appear_4
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 32
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53717c0826700d2f0800000000000000
+      internalID: -950251401726453963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Witch_Appear_5
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 32
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 835539e89fd4bd8b0800000000000000
+      internalID: -5126418016596961992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Witch_Appear_6
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 32
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aac2323f757ba5f50800000000000000
+      internalID: 6871005769876319402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Witch_Appear_7
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 32
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60b51b8963949dac0800000000000000
+      internalID: -3829949509263074554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Witch_Appear_8
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 32
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6715689914687d510800000000000000
+      internalID: 1573874211095990646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Witch_Appear_9
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 32
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a095e6348abb562c0800000000000000
+      internalID: -4438935526343550710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Witch_Appear_10
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 32
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12e894902c9a4e410800000000000000
+      internalID: 1505514826293153313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Witch_Idle_1
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 160
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73086420e0f7943e0800000000000000
+      internalID: -2068982855655587785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Witch_Idle_2
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 160
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54269968bd638e900800000000000000
+      internalID: 713880857422160453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Witch_Idle_3
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 160
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f495c2ad4089c9bf0800000000000000
+      internalID: -316210727215146673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Witch_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 160
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 005589f87f53da6f0800000000000000
+      internalID: -671821432026016512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Witch_Attack_1
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 96
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df6061c328c3b99b0800000000000000
+      internalID: -5072394025251240195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Witch_Attack_2
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 96
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3bd66306ecb31660800000000000000
+      internalID: 7355430312511724347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Witch_Attack_3
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 96
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b02a9dd6572784760800000000000000
+      internalID: 7442324232909464075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Witch_Attack_4
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 96
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ebb8185fb808db10800000000000000
+      internalID: 2006363251903347686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Witch_Attack_5
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 96
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d44b9dce163e10390800000000000000
+      internalID: -7853746265432411059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Witch_Attack_6
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 96
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 715ab00b8b7636110800000000000000
+      internalID: 1252959164264326423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Witch_Attack_7
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 96
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d568c3428b59f5c0800000000000000
+      internalID: -4181210163995712047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Witch_Attack_8
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 96
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40514e12521938410800000000000000
+      internalID: 1478184691376067844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

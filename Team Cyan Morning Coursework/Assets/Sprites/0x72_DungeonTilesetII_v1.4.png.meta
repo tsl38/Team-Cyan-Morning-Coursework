@@ -121,7 +121,73 @@ TextureImporter:
     second: Mace
   - first:
       213: 2281975958946533104
-    second: 0x72_DungeonTilesetII_v1.4_39
+    second: Masked_Troll_1
+  - first:
+      213: -5809864835831401188
+    second: Masked_Troll_2
+  - first:
+      213: 8229040774131421686
+    second: Masked_Troll_3
+  - first:
+      213: -7124937307271501722
+    second: Masked_Troll_4
+  - first:
+      213: 7014606105723156919
+    second: Masked_Troll_5
+  - first:
+      213: 5975649956888430028
+    second: Masked_Troll_6
+  - first:
+      213: 7812840260131685175
+    second: Masked_Troll_7
+  - first:
+      213: 4572807878673982784
+    second: Masked_Troll_8
+  - first:
+      213: 2035507965761299660
+    second: Sludge_Monster_1
+  - first:
+      213: 9091015359542434747
+    second: Sludge_Monster_2
+  - first:
+      213: -4787485247985658173
+    second: Sludge_Monster_3
+  - first:
+      213: -3554022282060277434
+    second: Sludge_Monster_4
+  - first:
+      213: 8352877051953631315
+    second: Chomp_Demon_7
+  - first:
+      213: 3146997810256049117
+    second: Chomp_Demon_1
+  - first:
+      213: 6647656503668154288
+    second: Chomp_Demon_2
+  - first:
+      213: 5058106581062625451
+    second: Chomp_Demon_3
+  - first:
+      213: 8530176930102535068
+    second: Chomp_Demon_4
+  - first:
+      213: -7607617516079556826
+    second: Chomp_Demon_5
+  - first:
+      213: 1905647589285223077
+    second: Chomp_Demon_6
+  - first:
+      213: -2838603354365129453
+    second: Chomp_Demon_8
+  - first:
+      213: 980907565208279222
+    second: Elite_Sword
+  - first:
+      213: 3612768411021588499
+    second: Elite_Swordd
+  - first:
+      213: 8136298248477777954
+    second: large_Elite_Sword
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -1042,15 +1108,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 0x72_DungeonTilesetII_v1.4_39
+      name: Masked_Troll_1
       rect:
         serializedVersion: 2
-        x: 290
-        y: 369
+        x: 370
+        y: 320
         width: 13
-        height: 30
+        height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1062,11 +1128,473 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Masked_Troll_2
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 320
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c157c3bb6b63f5fa0800000000000000
+      internalID: -5809864835831401188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Masked_Troll_3
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 320
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f11f481cfc633270800000000000000
+      internalID: 8229040774131421686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Masked_Troll_4
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 320
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6686721c4432f1d90800000000000000
+      internalID: -7124937307271501722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Masked_Troll_5
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 320
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b93ae29613e85160800000000000000
+      internalID: 7014606105723156919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Masked_Troll_6
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 320
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc5c966b9f5cde250800000000000000
+      internalID: 5975649956888430028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Masked_Troll_7
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 320
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 733050882d8cc6c60800000000000000
+      internalID: 7812840260131685175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Masked_Troll_8
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 320
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0456872b980e57f30800000000000000
+      internalID: 4572807878673982784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sludge_Monster_1
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 384
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc42ea4d5b39f3c10800000000000000
+      internalID: 2035507965761299660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sludge_Monster_2
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 384
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbb9521ad46c92e70800000000000000
+      internalID: 9091015359542434747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sludge_Monster_3
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 384
+        width: 17
+        height: 17
+      alignment: 9
+      pivot: {x: 0.5289809, y: 0.48067698}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c6546a388f6f8db0800000000000000
+      internalID: -4787485247985658173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sludge_Monster_4
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 384
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64959f180939daec0800000000000000
+      internalID: -3554022282060277434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chomp_Demon_7
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 112
+        width: 23
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 350553e5c616be370800000000000000
+      internalID: 8352877051953631315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chomp_Demon_1
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 112
+        width: 26
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd37e3db5d16cab20800000000000000
+      internalID: 3146997810256049117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chomp_Demon_2
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 112
+        width: 26
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bf94f98e58314c50800000000000000
+      internalID: 6647656503668154288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chomp_Demon_3
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 112
+        width: 26
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba8ad40f221023640800000000000000
+      internalID: 5058106581062625451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chomp_Demon_4
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 112
+        width: 26
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c936efd19b6416670800000000000000
+      internalID: 8530176930102535068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chomp_Demon_5
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 112
+        width: 26
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 627d90f0d205c6690800000000000000
+      internalID: -7607617516079556826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chomp_Demon_6
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 112
+        width: 26
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aadc6ac268327a10800000000000000
+      internalID: 1905647589285223077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chomp_Demon_8
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 112
+        width: 26
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31d85dce9414b98d0800000000000000
+      internalID: -2838603354365129453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elite_Sword
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b89bb5cb32ec9d00800000000000000
+      internalID: 980907565208279222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Elite_Swordd
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 337
+        width: 12
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 318b1b28ab1232230800000000000000
+      internalID: 3612768411021588499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: large_Elite_Sword
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 337
+        width: 12
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 220a6272620f9e070800000000000000
+      internalID: 8136298248477777954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
-    internalID: 0
+    spriteID: 318b1b28ab1232230800000000000000
+    internalID: 3612768411021588499
     vertices: []
     indices: 
     edges: []

@@ -18,6 +18,7 @@ public class Enemy : Mover
     private int waypointIndex;
     private float dist;
     private int rand;
+    private Animator animator;
 
     //Hitbox
     public ContactFilter2D filter;
@@ -31,15 +32,27 @@ public class Enemy : Mover
         target = GameObject.Find("Player").transform;
         startingPosition = transform.position;
         hitbox = transform.GetChild(0).GetComponent<BoxCollider2D>();
+        animator = GetComponent<Animator>();
     }
 
     private void FixedUpdate()
     {  
         if (Vector3.Distance(target.position, transform.position) < checkRadius)
         {
+            animator.SetBool("Run", true);
+            Debug.Log("Run");
+          if(Vector3.Distance(target.position, transform.position) < 0.3)
+            {
+                animator.SetBool("Attack", true);
+                Debug.Log("Attack");
+            }
+            else
+            {
+                animator.SetBool("Attack", false);
+            }
             if (!collidingWithPlayer)
             {
-                Debug.Log("YES");
+                
                 moveDelta = Vector3.Normalize(target.position - transform.position);
                 UpdateMotor(moveDelta * speed * Time.deltaTime);
             }
@@ -48,12 +61,17 @@ public class Enemy : Mover
         {
             if (waypoints.Length != 0)
             {
+                animator.SetBool("Run", true);
                 dist = Vector3.Distance(transform.position, waypoints[waypointIndex].position);
                 if (dist <= 0.1f)
                 {
                     IncreaseIndex();
                 }
                 Patrol();
+            }
+            else
+            {
+                animator.SetBool("Run", false);
             }
            
         }
@@ -109,8 +127,7 @@ public class Enemy : Mover
 
     protected override void Death()
         {
-        	Destroy(gameObject);
-        //	GameManager.instance.experience += xpValue;
-        //	GameManager.instance.ShowText("+" + xpValue + "xp", 30, Coloe.magenta, transform.position, Vector3.up * 40, 1.0f);
+            //destroys enemy and its parent class to remove all unneeded gameobjects
+        	Destroy(gameObject.transform.parent.gameObject);
         }
 }
