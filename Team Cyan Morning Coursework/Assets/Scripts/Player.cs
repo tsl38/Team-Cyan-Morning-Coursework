@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -8,6 +9,7 @@ public class Player : Mover
     private PlayerHealthList healthList;
     [SerializeField] private Inventory_UI inventoryUi;
     [SerializeField] private Health_Bar_UI healthBarUI;
+    public Animator animator;
 
     private void Awake()
     {
@@ -50,6 +52,13 @@ public class Player : Mover
     {
         float x = Input.GetAxisRaw("Horizontal") * speed / 10;
         float y = Input.GetAxisRaw("Vertical") * speed / 10;
+
+        //If the animator is active, set the float parameter to be the current speed maginitude of the player, to trigger animations.
+        if (animator.gameObject.activeSelf)
+        {
+            float magnitudeSpeed = (float)Math.Sqrt(Math.Pow(x, 2) + Math.Pow(y, 2));
+            animator.SetFloat("Speed", magnitudeSpeed);
+        }
 
         UpdateMotor(new Vector3(x, y, 0));
     }
