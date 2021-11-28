@@ -41,10 +41,9 @@ public class Weapon : Collidable
 
 		if (coll.tag == "Fighter")
 		{
-			//Checks to make sure the collier is not player or head collider object on the player.
+			//Checks to make sure the collider is not player or head collider object on the player.
 			if (coll.name == "Player" || coll.name == "Head Collider")
 				return;
-			Debug.Log(coll.name);
 			//Create a new damage object, then we'll send it to the fighter we've hit
 			Damage dmg = new Damage()
 			{
