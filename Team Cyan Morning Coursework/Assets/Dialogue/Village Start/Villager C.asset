@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Villager C
   m_EditorClassIdentifier: 
   dialogue:
-  - 'Villager C: My apples are the best in Hilkingham!'
+  - 'Apple Farmer:  My apples are the best in Hilkingham!'
