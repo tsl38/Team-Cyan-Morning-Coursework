@@ -15,6 +15,7 @@ public class Weapon : Collidable
 	//Swing
 	private float cooldown = 0.5f;
 	private float lastSwing;
+	public Animator animator;
 
 	protected override void Start()
 	{
@@ -33,6 +34,10 @@ public class Weapon : Collidable
 				lastSwing = Time.time;
 				Swing();
 			}
+		}
+		if(Input.GetMouseButtonUp(0)){
+			lastSwing = Time.time;
+			Swing();
 		}
 	}
 
@@ -60,6 +65,6 @@ public class Weapon : Collidable
 
 	private void Swing()
 	{
-		Debug.Log("Swing");
+		animator.SetTrigger("Swing");
 	}
 }
