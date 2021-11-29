@@ -10,7 +10,7 @@ public class EnemyWeapon : Collidable
 
     private Vector3 travelDirection = new Vector3(0, 0, 0);
 	private Transform target;
-	private float cooldown = 0.5f;
+	public float cooldown = 0.5f;
 	private float lastSwing;
 	private Renderer renderer;
 

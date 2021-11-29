@@ -179,8 +179,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e379eeea0881635439fe1732d28f5e0d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitpoint: 15
-  maxHitpoint: 15
+  hitpoint: 9
+  maxHitpoint: 9
   pushRecoverySpeed: 0.2
   speed: 10
   xpValue: 1
@@ -191,7 +191,6 @@ MonoBehaviour:
   - {fileID: 4311960852600838980}
   random: 1
   checkRadius: 2
-  anny: {fileID: 0}
   filter:
     useTriggers: 0
     useLayerMask: 0
@@ -519,6 +518,7 @@ MonoBehaviour:
   damage: 2
   pushForce: 2.5
   animator: {fileID: 4311960853495740549}
+  cooldown: 1.5
 --- !u!95 &4311960853495740549
 Animator:
   serializedVersion: 3

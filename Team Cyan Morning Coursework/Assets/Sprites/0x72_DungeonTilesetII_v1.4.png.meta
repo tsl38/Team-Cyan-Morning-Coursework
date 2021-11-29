@@ -188,6 +188,9 @@ TextureImporter:
   - first:
       213: 8136298248477777954
     second: large_Elite_Sword
+  - first:
+      213: -1238997915796689107
+    second: 0x72_DungeonTilesetII_v1.4_62
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -1557,7 +1560,7 @@ TextureImporter:
         width: 12
         height: 28
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1578,7 +1581,7 @@ TextureImporter:
         width: 12
         height: 31
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1586,6 +1589,27 @@ TextureImporter:
       bones: []
       spriteID: 220a6272620f9e070800000000000000
       internalID: 8136298248477777954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 0x72_DungeonTilesetII_v1.4_62
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 369
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2f2d77c5f13ecee0800000000000000
+      internalID: -1238997915796689107
       vertices: []
       indices: 
       edges: []
