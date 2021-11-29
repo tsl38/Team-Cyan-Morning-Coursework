@@ -114,6 +114,7 @@ MonoBehaviour:
   damage: 3
   pushForce: 3
   animator: {fileID: 444292619869374516}
+  cooldown: 0.5
 --- !u!61 &444292619869374537
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -621,8 +622,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e379eeea0881635439fe1732d28f5e0d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitpoint: 15
-  maxHitpoint: 15
+  hitpoint: 12
+  maxHitpoint: 12
   pushRecoverySpeed: 0.2
   speed: 10
   xpValue: 1
@@ -633,7 +634,6 @@ MonoBehaviour:
   - {fileID: 444292621134571312}
   random: 1
   checkRadius: 4
-  anny: {fileID: 0}
   filter:
     useTriggers: 0
     useLayerMask: 0

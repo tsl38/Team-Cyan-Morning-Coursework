@@ -254,6 +254,7 @@ MonoBehaviour:
   damage: 2
   pushForce: 2.5
   animator: {fileID: 1725447466830737139}
+  cooldown: 2
 --- !u!61 &1725447466830737132
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -409,7 +410,6 @@ MonoBehaviour:
   - {fileID: 0}
   random: 1
   checkRadius: 2.5
-  anny: {fileID: 0}
   filter:
     useTriggers: 0
     useLayerMask: 0
