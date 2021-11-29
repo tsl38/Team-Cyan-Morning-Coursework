@@ -25,7 +25,7 @@ public class EnemyWeapon : Collidable
 	{
 		base.Update();
 
-		//Only attack if animator enabled and within correct distance
+		//Only attack if animator enabled and within the distance the length of the weapon
 		if (Vector3.Distance(target.position, transform.position) < 2* renderer.bounds.extents.magnitude && animator!= null)
 		{
 			//If the current orientation is up, then attack up.
@@ -55,7 +55,7 @@ public class EnemyWeapon : Collidable
 
 	private void FixedUpdate()
 	{
-		if (Vector3.Distance(target.position, transform.position) < 0.5 && animator != null)
+		if (Vector3.Distance(target.position, transform.position) < 2 * renderer.bounds.extents.magnitude && animator != null)
 		{
 			travelDirection = target.position - transform.position;
 		}

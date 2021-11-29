@@ -11,7 +11,6 @@ public class Enemy : Mover
     public Transform[] waypoints;
     public bool random;
     public float checkRadius;
-    public Animator anny;
 
     private bool collidingWithPlayer;
     private Transform target;
