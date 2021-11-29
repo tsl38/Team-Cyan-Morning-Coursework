@@ -39,14 +39,11 @@ public class Enemy : Mover
     {  
         if (Vector3.Distance(target.position, transform.position) < checkRadius)
         {
-            animator.SetBool("Run", true);
-            Debug.Log("Run");
-          if(Vector3.Distance(target.position, transform.position) < 0.3)
+          if(Vector3.Distance(target.position, transform.position) < 0.3 && gameObject.name =="Witch")
             {
                 animator.SetBool("Attack", true);
-                Debug.Log("Attack");
             }
-            else
+            else if (gameObject.name =="Witch")
             {
                 animator.SetBool("Attack", false);
             }
@@ -61,17 +58,12 @@ public class Enemy : Mover
         {
             if (waypoints.Length != 0)
             {
-                animator.SetBool("Run", true);
                 dist = Vector3.Distance(transform.position, waypoints[waypointIndex].position);
                 if (dist <= 0.1f)
                 {
                     IncreaseIndex();
                 }
                 Patrol();
-            }
-            else
-            {
-                animator.SetBool("Run", false);
             }
            
         }

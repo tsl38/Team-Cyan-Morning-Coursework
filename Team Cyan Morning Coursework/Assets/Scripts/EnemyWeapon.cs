@@ -6,8 +6,62 @@ public class EnemyWeapon : Collidable
 {
     public int damage;
     public float pushForce;
+	public Animator animator;
 
-    protected override void OnCollide(Collider2D coll)
+    private Vector3 travelDirection = new Vector3(0, 0, 0);
+	private Transform target;
+	private float cooldown = 0.5f;
+	private float lastSwing;
+	private Renderer renderer;
+
+	protected override void Start()
+	{
+		base.Start();
+		target = GameObject.Find("Player").transform;
+		renderer = GetComponent<Renderer>();
+	}
+	
+	protected override void Update()
+	{
+		base.Update();
+
+		//Only attack if animator enabled and within the distance the length of the weapon
+		if (Vector3.Distance(target.position, transform.position) < 2* renderer.bounds.extents.magnitude && animator!= null)
+		{
+			//If the current orientation is up, then attack up.
+			if (travelDirection.y > 0.1)
+			{
+				animator.SetInteger("UpOrDown", 1);
+			}
+			//If the current orientation is down, then attack down.
+			else if (travelDirection.y < -0.1)
+			{
+				animator.SetInteger("UpOrDown", -1);
+			}
+			//Else attack left or right.
+			else
+			{
+				animator.SetInteger("UpOrDown", 0);
+			}
+
+			//Swing the weapon.
+			if (Time.time - lastSwing > cooldown)
+			{
+				lastSwing = Time.time;
+				Swing();
+			}
+		}
+	}
+
+	private void FixedUpdate()
+	{
+		if (Vector3.Distance(target.position, transform.position) < 2 * renderer.bounds.extents.magnitude && animator != null)
+		{
+			travelDirection = target.position - transform.position;
+		}
+	}
+
+	protected override void OnCollide(Collider2D coll)
     {
         if(coll.name =="Player" && coll.tag == "Fighter")
         {
@@ -22,4 +76,10 @@ public class EnemyWeapon : Collidable
             coll.SendMessage("ReceiveDamage", dmg);
         }
     }
+
+	private void Swing()
+	{
+		//Activate the trigger to play the swing animation.
+		animator.SetTrigger("PlayerSwing");
+	}
 }
