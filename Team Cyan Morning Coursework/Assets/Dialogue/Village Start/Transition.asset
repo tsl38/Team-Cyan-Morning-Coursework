@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fd62d6f46903e44ba68486dfe0a8583, type: 3}
+  m_Name: Transition
+  m_EditorClassIdentifier: 
+  dialogue:
+  - "Tony walked through thorns and thistles in the dark forest. He put some armour
+    on himself for protection. He followed the map that led him to the gate of the
+    castle of Shingville. The castle looks haunted and creepy. It is so rusty that
+    it seems like no one has been getting in and out of the castle for quite a while.\r\n\r\nThere
+    is a mysterious old man with a stick standing in the gate. Tony decided to ask
+    him for some news\r."
