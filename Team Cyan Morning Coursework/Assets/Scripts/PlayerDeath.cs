@@ -12,6 +12,9 @@ public class PlayerDeath : MonoBehaviour
     private Coroutine collidersDisabled = null; //Coroutine for disabling the colliders for 1 second.
     private Coroutine moverDisabled = null; //Coroutine for disabling the the Player Mover for 5 seconds.
 
+
+    [SerializeField] private DialogueList deathDialogue;
+
     //Function to set the death position and rotation of the player character.
     public void SetDeathPosition(Vector3 position, Quaternion rotation) {
         this.position = position;
@@ -45,6 +48,9 @@ public class PlayerDeath : MonoBehaviour
         }
         //When respawning the player, disable the Mover script of the player so that the player cannot move. This effect only lasts for 5 second and can be altered to fit the duration of the death screen.
         moverDisabled = StartCoroutine(DisableMoverForSeconds(5));
+
+        // Show death screen
+        GameObject.Find("RespawnPoint").GetComponent<Transition_onEvent>().DeathTransition(deathDialogue);
     }
 
     //A function that spawns a player ghost at the death location.
