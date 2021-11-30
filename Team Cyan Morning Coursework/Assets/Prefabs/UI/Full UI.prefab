@@ -1155,6 +1155,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5804091563475318962}
   - component: {fileID: 5804091563475318961}
+  - component: {fileID: 2734326424929784701}
   m_Layer: 0
   m_Name: Inventory_UI
   m_TagString: Untagged
@@ -1195,6 +1196,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb7d9af74d2fff9459b85bc5a7c650e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!225 &2734326424929784701
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5804091563475318963}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &5804091563562881167
 GameObject:
   m_ObjectHideFlags: 0
@@ -2247,7 +2260,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   typewriterSpeed: 25
-  spedUp: 0
 --- !u!1 &5804091564263448856
 GameObject:
   m_ObjectHideFlags: 0
@@ -3530,6 +3542,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f030d8427a4e7744486038e2c95e1471, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  key: 0
 --- !u!1 &5804091564808179804
 GameObject:
   m_ObjectHideFlags: 0

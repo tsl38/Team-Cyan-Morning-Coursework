@@ -10,6 +10,10 @@ public class Inventory_UI : MonoBehaviour
     private Transform itemSlotGroup;
     private Transform itemSlot;
     private List<KeyCode> listOfKeys;
+    //////A boolean to check if the inventory has been interacted with.
+    //private bool interacted;
+    //////Coroutine to wait for 5 seconds before hiding the inventory UI.
+    //private Coroutine waitForOneSecond = null;
 
     private void Awake()
     {
@@ -17,7 +21,31 @@ public class Inventory_UI : MonoBehaviour
         itemSlot = itemSlotGroup.Find("Inventory_Slot_1");
         //List of KeyCodes for the  inventory UI buttons.
         listOfKeys = new List<KeyCode>(){ KeyCode.Alpha1, KeyCode.Alpha2, KeyCode.Alpha3, KeyCode.Alpha4, KeyCode.Alpha5, KeyCode.Alpha6 };
+        //////Sets the interacted with inventory UI bool to true.
+        //interacted = true;
     }
+
+    //Makes the inventory disappear after 5 seconds if it is not interacted with.
+    /*public void Update() {
+        if (interacted)
+        {
+            if (waitForOneSecond == null)
+            {
+                waitForOneSecond = StartCoroutine(waitToDisableUI(5));
+                interacted = false;
+            }
+            else
+            {
+                StopCoroutine(waitForOneSecond);
+                waitForOneSecond = StartCoroutine(waitToDisableUI(5));
+                interacted = false;
+            }
+        }
+        if (Input.GetKeyDown(KeyCode.E)) {
+            interacted = true;
+            GameObject.Find("Inventory_UI").GetComponent<CanvasGroup>().alpha = 1;
+        }
+    }*/
 
     public void SetInventory(Inventory inventory)
     {
@@ -33,6 +61,9 @@ public class Inventory_UI : MonoBehaviour
     private void Inventory_onItemListChange(object sender, System.EventArgs e)
     {
         RefreshItemsInInventory();
+        //////Sets the interacted with inventory UI bool to true.
+        //interacted = true;
+        //GameObject.Find("Inventory_UI").GetComponent<CanvasGroup>().alpha = 1;
     }
 
     private void RefreshItemsInInventory()
@@ -102,5 +133,12 @@ public class Inventory_UI : MonoBehaviour
                 }
             }
         }
+    }
+
+    //////A function to wait for 5 seconds and then hide the inventory UI.
+    private IEnumerator waitToDisableUI(float seconds)
+    {
+        yield return new WaitForSeconds(seconds);
+        GameObject.Find("Inventory_UI").GetComponent<CanvasGroup>().alpha = 0;
     }
 }
