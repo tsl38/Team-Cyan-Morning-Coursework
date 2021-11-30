@@ -7,7 +7,6 @@ public class NPC_Interact : Collidable
 
     [SerializeField] private DialogueList npcDialogue;
 
-    // Start is called before the first frame update
     protected override void OnCollide(Collider2D boxCollider)
     {
         //Debug.Log(collision.collider.name);

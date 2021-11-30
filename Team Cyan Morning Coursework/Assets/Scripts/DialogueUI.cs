@@ -6,13 +6,13 @@ public class DialogueUI : MonoBehaviour
 {
     [SerializeField] private GameObject dialogueUI;
     [SerializeField] private TMP_Text textLabel;
-    [SerializeField] private DialogueList testDialogue;
+    [SerializeField] private DialogueList npcDialogue;
 
     private TypewriterEffect typewriterEffect;
 
     private void Start()
     {
-        typewriterEffect = GetComponent<TypewriterEffect>();  //"The lady over there told me to go see you to get a potion of fire resistance\nThe lady over there told me to go see you to get a potion of fire resistance"
+        typewriterEffect = GetComponent<TypewriterEffect>();
         CloseDialogueUI();
     }
 

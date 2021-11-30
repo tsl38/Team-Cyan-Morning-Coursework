@@ -1,0 +1,44 @@
+using System.Collections;
+using UnityEngine;
+using TMPro;
+
+public class TransitionUI : MonoBehaviour
+{
+    [SerializeField] private GameObject transitionUI;
+    [SerializeField] private TMP_Text textLabel;
+    [SerializeField] private DialogueList transDialogue;
+
+    private TypewriterEffect typewriterEffect;
+
+    private void Start()
+    {
+        typewriterEffect = GetComponent<TypewriterEffect>();
+        CloseTransitionUI();
+    }
+
+    public void ShowTransition(DialogueList dialogueList, int pause)
+    {
+        transitionUI.SetActive(true);
+        StartCoroutine(StepThroughDialogue(dialogueList , pause));
+    }
+
+    private IEnumerator StepThroughDialogue(DialogueList dialogueList, int pause)
+    {
+        //yield return new WaitForSeconds(1);       // For testing purposes
+
+        foreach (string dialogue in dialogueList.Dialogue)
+        {
+            yield return typewriterEffect.Run(dialogue, textLabel);
+            yield return new WaitUntil(() => Input.GetKeyDown(KeyCode.Space));
+        }
+
+        yield return new WaitForSeconds(pause);
+        CloseTransitionUI();
+    }
+
+    private void CloseTransitionUI()
+    {
+        transitionUI.SetActive(false);
+        textLabel.text = string.Empty;
+    }
+}
