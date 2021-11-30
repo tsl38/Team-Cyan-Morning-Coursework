@@ -10,7 +10,6 @@ public class PlayerDeath : MonoBehaviour
     private GameObject[] listOfPlayerGhosts; //Array of PlayerGhost objects.
 
     private Coroutine collidersDisabled = null; //Coroutine for disabling the colliders for 1 second.
-    private Coroutine moverDisabled = null; //Coroutine for disabling the the Player Mover for 5 seconds.
 
 
     [SerializeField] private DialogueList deathDialogue;
@@ -46,10 +45,11 @@ public class PlayerDeath : MonoBehaviour
             gameObject.transform.position = new Vector3(0, 0, 0);
             Debug.Log("Please create an object called \"RespawnPoint\" in the hierarchy. The player has respawned at 0, 0, 0 for now.");
         }
-        //When respawning the player, disable the Mover script of the player so that the player cannot move. This effect only lasts for 5 second and can be altered to fit the duration of the death screen.
-        moverDisabled = StartCoroutine(DisableMoverForSeconds(5));
 
-        // Show death screen
+        //Disable the mover.cs script of the player, so the player cannot move.
+        gameObject.GetComponent<Mover>().enabled = false;
+
+        // Show death screen, and re-enable the mover.cs script afterwards.
         GameObject.Find("RespawnPoint").GetComponent<Transition_onEvent>().DeathTransition(deathDialogue);
     }
 
@@ -73,16 +73,10 @@ public class PlayerDeath : MonoBehaviour
 
     //A function that disables the player's colliders for 1 second as soon as they die.
     //This is so they do not pick up the player ghost immediately before respawning at the respawn point.
-    private IEnumerator DisableColliderForSeconds(float seconds) {
+    private IEnumerator DisableColliderForSeconds(float seconds)
+    {
         gameObject.GetComponent<BoxCollider2D>().enabled = false;
         yield return new WaitForSeconds(seconds);
         gameObject.GetComponent<BoxCollider2D>().enabled = true;
-    }
-
-    //A function that disables the player's Mover script for 5 seconds as soon as they die.
-    private IEnumerator DisableMoverForSeconds(float seconds) {
-        gameObject.GetComponent<Mover>().enabled = false;
-        yield return new WaitForSeconds(seconds);
-        gameObject.GetComponent<Mover>().enabled = true;
     }
 }
