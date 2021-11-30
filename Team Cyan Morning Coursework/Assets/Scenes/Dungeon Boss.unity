@@ -1184,6 +1184,7 @@ MonoBehaviour:
   damage: 1
   pushForce: 1
   animator: {fileID: 0}
+  cooldown: 0.5
 --- !u!1 &61140573
 GameObject:
   m_ObjectHideFlags: 0
@@ -59922,6 +59923,7 @@ MonoBehaviour:
   damage: 1
   pushForce: 1
   animator: {fileID: 0}
+  cooldown: 0.5
 --- !u!1001 &73812037
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -61151,6 +61153,7 @@ MonoBehaviour:
   damage: 1
   pushForce: 1
   animator: {fileID: 0}
+  cooldown: 0.5
 --- !u!1001 &131842175
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -61471,11 +61474,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 675132956273029843, guid: 61cdf5887560fc348959c458eeb5841f, type: 3}
       propertyPath: hitpoint
-      value: 10
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 675132956273029843, guid: 61cdf5887560fc348959c458eeb5841f, type: 3}
       propertyPath: maxHitpoint
-      value: 10
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 675132956273029843, guid: 61cdf5887560fc348959c458eeb5841f, type: 3}
       propertyPath: waypoints.Array.data[0]
@@ -62264,6 +62267,7 @@ MonoBehaviour:
   damage: 1
   pushForce: 1
   animator: {fileID: 0}
+  cooldown: 0.5
 --- !u!1 &212317151
 GameObject:
   m_ObjectHideFlags: 0
@@ -62694,6 +62698,7 @@ MonoBehaviour:
   damage: 1
   pushForce: 1
   animator: {fileID: 0}
+  cooldown: 0.5
 --- !u!1001 &233161956
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -63393,6 +63398,7 @@ MonoBehaviour:
   damage: 1
   pushForce: 1
   animator: {fileID: 0}
+  cooldown: 0.5
 --- !u!114 &301049174 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5804091563475318961, guid: dce8d4b5b83e63349949c4c64f86902a, type: 3}
@@ -63438,6 +63444,7 @@ MonoBehaviour:
   damage: 1
   pushForce: 1
   animator: {fileID: 0}
+  cooldown: 0.5
 --- !u!1 &306598453 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8608062377209543135, guid: 0b4d1eb18dd0b5c43b1000bcbda40240, type: 3}
@@ -64206,6 +64213,7 @@ MonoBehaviour:
   damage: 1
   pushForce: 1
   animator: {fileID: 0}
+  cooldown: 0.5
 --- !u!1 &347864625 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6970387360105725367, guid: df852dc7c212e9d4d93fabd0dfe55998, type: 3}
@@ -64497,6 +64505,7 @@ MonoBehaviour:
   damage: 1
   pushForce: 1
   animator: {fileID: 0}
+  cooldown: 0.5
 --- !u!1001 &387365770
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -64889,6 +64898,7 @@ MonoBehaviour:
   damage: 1
   pushForce: 1
   animator: {fileID: 0}
+  cooldown: 0.5
 --- !u!1001 &419064189
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -66754,6 +66764,7 @@ MonoBehaviour:
   damage: 1
   pushForce: 1
   animator: {fileID: 0}
+  cooldown: 0.5
 --- !u!1 &525890375 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6970387360105725367, guid: df852dc7c212e9d4d93fabd0dfe55998, type: 3}
@@ -67403,6 +67414,7 @@ MonoBehaviour:
   damage: 1
   pushForce: 1
   animator: {fileID: 0}
+  cooldown: 0.5
 --- !u!1 &581896464
 GameObject:
   m_ObjectHideFlags: 0
@@ -68695,6 +68707,7 @@ MonoBehaviour:
   damage: 1
   pushForce: 1
   animator: {fileID: 0}
+  cooldown: 0.5
 --- !u!1001 &665195736
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -69801,6 +69814,7 @@ MonoBehaviour:
   damage: 1
   pushForce: 1
   animator: {fileID: 0}
+  cooldown: 0.5
 --- !u!1001 &751148381
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -69975,6 +69989,7 @@ MonoBehaviour:
   damage: 1
   pushForce: 1
   animator: {fileID: 0}
+  cooldown: 0.5
 --- !u!1001 &760008617
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -71703,6 +71718,7 @@ MonoBehaviour:
   damage: 1
   pushForce: 1
   animator: {fileID: 0}
+  cooldown: 0.5
 --- !u!1001 &901495117
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -73326,6 +73342,7 @@ MonoBehaviour:
   damage: 1
   pushForce: 1
   animator: {fileID: 0}
+  cooldown: 0.5
 --- !u!1001 &1026996588
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -73426,6 +73443,7 @@ MonoBehaviour:
   damage: 1
   pushForce: 1
   animator: {fileID: 0}
+  cooldown: 0.5
 --- !u!1001 &1029169212
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -73779,11 +73797,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 675132956273029843, guid: 61cdf5887560fc348959c458eeb5841f, type: 3}
       propertyPath: hitpoint
-      value: 10
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 675132956273029843, guid: 61cdf5887560fc348959c458eeb5841f, type: 3}
       propertyPath: maxHitpoint
-      value: 10
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 675132956273029843, guid: 61cdf5887560fc348959c458eeb5841f, type: 3}
       propertyPath: waypoints.Array.data[0]
@@ -74766,6 +74784,7 @@ MonoBehaviour:
   damage: 1
   pushForce: 1
   animator: {fileID: 0}
+  cooldown: 0.5
 --- !u!1001 &1078891053
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -75383,6 +75402,7 @@ MonoBehaviour:
   damage: 2
   pushForce: 2
   animator: {fileID: 1121035393}
+  cooldown: 2
 --- !u!212 &1121035392
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -76333,6 +76353,7 @@ MonoBehaviour:
   damage: 1
   pushForce: 1
   animator: {fileID: 0}
+  cooldown: 0.5
 --- !u!1001 &1208042420
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -76602,6 +76623,7 @@ MonoBehaviour:
   damage: 1
   pushForce: 1
   animator: {fileID: 0}
+  cooldown: 0.5
 --- !u!1 &1237944515
 GameObject:
   m_ObjectHideFlags: 0
@@ -92250,6 +92272,7 @@ MonoBehaviour:
   damage: 1
   pushForce: 1
   animator: {fileID: 0}
+  cooldown: 0.5
 --- !u!1 &1498037089 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5067142987969050860, guid: 866051e94024c364ab086013d8a96962, type: 3}
@@ -92284,6 +92307,7 @@ MonoBehaviour:
   damage: 1
   pushForce: 1
   animator: {fileID: 0}
+  cooldown: 0.5
 --- !u!1 &1499489160
 GameObject:
   m_ObjectHideFlags: 0
@@ -92449,6 +92473,7 @@ MonoBehaviour:
   damage: 1
   pushForce: 1
   animator: {fileID: 0}
+  cooldown: 0.5
 --- !u!1001 &1518381920
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -92615,6 +92640,7 @@ MonoBehaviour:
   damage: 1
   pushForce: 1
   animator: {fileID: 0}
+  cooldown: 0.5
 --- !u!1001 &1524519291
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -92780,6 +92806,7 @@ MonoBehaviour:
   damage: 1
   pushForce: 1
   animator: {fileID: 0}
+  cooldown: 0.5
 --- !u!1 &1539568898 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7978367406946988813, guid: a3b89afdc74f56d48bbfa02c38e40416, type: 3}
@@ -93003,6 +93030,7 @@ MonoBehaviour:
   damage: 1
   pushForce: 1
   animator: {fileID: 0}
+  cooldown: 0.5
 --- !u!1001 &1570605673
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -93234,6 +93262,7 @@ MonoBehaviour:
   damage: 1
   pushForce: 1
   animator: {fileID: 0}
+  cooldown: 0.5
 --- !u!1 &1588429926
 GameObject:
   m_ObjectHideFlags: 0
@@ -94187,6 +94216,7 @@ MonoBehaviour:
   damage: 1
   pushForce: 1
   animator: {fileID: 0}
+  cooldown: 0.5
 --- !u!1 &1673325974 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6970387360105725367, guid: df852dc7c212e9d4d93fabd0dfe55998, type: 3}
@@ -97193,6 +97223,7 @@ MonoBehaviour:
   damage: 1
   pushForce: 1
   animator: {fileID: 0}
+  cooldown: 0.5
 --- !u!1001 &1906276541
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -97824,6 +97855,7 @@ MonoBehaviour:
   damage: 1
   pushForce: 1
   animator: {fileID: 0}
+  cooldown: 0.5
 --- !u!1001 &1943652253
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -99259,6 +99291,7 @@ MonoBehaviour:
   damage: 1
   pushForce: 1
   animator: {fileID: 0}
+  cooldown: 0.5
 --- !u!1 &2028853950 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5067142987969050860, guid: 866051e94024c364ab086013d8a96962, type: 3}
@@ -99293,6 +99326,7 @@ MonoBehaviour:
   damage: 1
   pushForce: 1
   animator: {fileID: 0}
+  cooldown: 0.5
 --- !u!1001 &2029680600
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -100340,6 +100374,7 @@ MonoBehaviour:
   damage: 1
   pushForce: 2
   animator: {fileID: 0}
+  cooldown: 0.5
 --- !u!114 &2108904992
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -100554,6 +100589,7 @@ MonoBehaviour:
   damage: 1
   pushForce: 1
   animator: {fileID: 0}
+  cooldown: 0.5
 --- !u!1001 &2130189332
 PrefabInstance:
   m_ObjectHideFlags: 0
