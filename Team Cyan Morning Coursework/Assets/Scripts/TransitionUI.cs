@@ -41,7 +41,8 @@ public class TransitionUI : MonoBehaviour
         transitionUI.SetActive(false);
         textLabel.text = string.Empty;
         //Re-enable the mover.cs script on player.
-        if (GameObject.Find("Player").GetComponent<Mover>().isActiveAndEnabled == false) {
+        if (GameObject.Find("Player").GetComponent<Mover>().isActiveAndEnabled == false)
+        {
             GameObject.Find("Player").GetComponent<Mover>().enabled = true;
         }
     }
