@@ -12,8 +12,12 @@ public class NPC_Interact : Collidable
         //Debug.Log(collision.collider.name);
         if ((boxCollider.name == "Player" || boxCollider.name == "Head Collider") && Input.GetKeyDown(KeyCode.F))
         {
-            //Debug.Log("NPC is here");     // Testing purposes
-            GameObject.Find("Canvas").GetComponent<DialogueUI>().ShowDialogue(npcDialogue);
+            //Makes sure the game is not paused.
+            if (PauseMenu.isGamePaused == false)
+            {
+                //Debug.Log("NPC is here");     // Testing purposes
+                GameObject.Find("Canvas").GetComponent<DialogueUI>().ShowDialogue(npcDialogue);
+            }
         }
     }
 }
