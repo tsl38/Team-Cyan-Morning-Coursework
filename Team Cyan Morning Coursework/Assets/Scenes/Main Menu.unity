@@ -242,18 +242,49 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   arrayOfSounds:
-  - soundClip: {fileID: 8300000, guid: 47222f85a964e2943b87b10d2a4002f9, type: 3}
+  - soundClip: {fileID: 8300000, guid: 9b56e336568405940aabbf7ab4d9e0da, type: 3}
     source: {fileID: 0}
     nameOfSound: MainMenuTheme
     volume: 0.1
     pitch: 1
     loop: 1
-  - soundClip: {fileID: 8300000, guid: d0a2e8e3a13680344921d9636c8b1e69, type: 3}
+  - soundClip: {fileID: 8300000, guid: 0c44642f7388c9945a15326e15424404, type: 3}
     source: {fileID: 0}
     nameOfSound: VillageTheme
     volume: 0.1
     pitch: 1
     loop: 1
+  - soundClip: {fileID: 8300000, guid: 016ef8c8ad8a4ba429e90d47ce232750, type: 3}
+    source: {fileID: 0}
+    nameOfSound: DungeonLevelOneTheme
+    volume: 0.1
+    pitch: 1
+    loop: 1
+  - soundClip: {fileID: 8300000, guid: cfa136bd03ab89b4fabfab918979cb04, type: 3}
+    source: {fileID: 0}
+    nameOfSound: DungeonFinalBossTheme
+    volume: 0.1
+    pitch: 1
+    loop: 1
+  - soundClip: {fileID: 8300000, guid: cd1e8465926b5164584f7188e876e94e, type: 3}
+    source: {fileID: 0}
+    nameOfSound: SwordSwing
+    volume: 0.1
+    pitch: 1
+    loop: 0
+  - soundClip: {fileID: 8300000, guid: c2f0e7052a6dc6b47899b12562076b5a, type: 3}
+    source: {fileID: 0}
+    nameOfSound: PlayerDeath
+    volume: 0.3
+    pitch: 1
+    loop: 0
+  - soundClip: {fileID: 8300000, guid: 9d0e17bbaca4a1746b345fe637fe6e63, type: 3}
+    source: {fileID: 0}
+    nameOfSound: GettingHit
+    volume: 0.3
+    pitch: 1
+    loop: 0
+  currentTheme: 
 --- !u!1 &193242242
 GameObject:
   m_ObjectHideFlags: 0

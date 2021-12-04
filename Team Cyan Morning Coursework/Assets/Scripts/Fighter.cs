@@ -41,6 +41,11 @@ public class Fighter : MonoBehaviour
 				//If the player health reaches zero from this hit, respawn the player using the function in the playerRespawn script (playerRespawn.cs).
 				if (GameObject.Find("Player").GetComponent<Player>().hitpoint == 0)
 				{
+					//Plays player death audio.
+					FindObjectOfType<SoundManager>().Play("PlayerDeath");
+					//Disables the player audio source, so no running sound is played.
+					GameObject.Find("Player").GetComponent<AudioSource>().enabled = false;
+
 					//Stores the death position and rotation of the player character.
 					Vector3 deathPosition = gameObject.transform.position;
 					Quaternion deathRotation = gameObject.transform.rotation;

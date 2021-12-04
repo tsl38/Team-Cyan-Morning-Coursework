@@ -74,6 +74,9 @@ public class EnemyWeapon : Collidable
             };
 
             coll.SendMessage("ReceiveDamage", dmg);
+
+			//Plays player getting hit sound effect.
+			FindObjectOfType<SoundManager>().Play("GettingHit");
         }
     }
 
