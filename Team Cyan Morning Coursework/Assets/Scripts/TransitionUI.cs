@@ -45,5 +45,15 @@ public class TransitionUI : MonoBehaviour
         {
             GameObject.Find("Player").GetComponent<Mover>().enabled = true;
         }
+
+        //If the player has a weapon and the weapon script is disabled, re-enable it.
+        if (GameObject.Find("Player_Knife") != null && GameObject.Find("Player_Knife").GetComponent<Weapon>().isActiveAndEnabled == false) {
+            GameObject.Find("Player_Knife").GetComponent<Weapon>().enabled = true;
+        }
+    }
+
+    //Returns the TransitionUI object.
+    public GameObject GetTransitionUI() {
+        return transitionUI;
     }
 }

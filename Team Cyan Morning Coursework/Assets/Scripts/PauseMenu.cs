@@ -45,6 +45,14 @@ public class PauseMenu : MonoBehaviour
         Time.timeScale = 0f;
         //Puase the current background music of the level when the game is paused.
         FindObjectOfType<SoundManager>().PauseCurrent();
+
+        //Disable the audio source
+        GameObject.Find("Player").GetComponent<AudioSource>().enabled = false;
+        //Disables the weapon script for player.
+        if (GameObject.Find("Player_Knife") != null)
+        {
+            GameObject.Find("Player_Knife").GetComponent<Weapon>().enabled = false;
+        }
     }
 
     //Function that resumes the game.
@@ -59,6 +67,18 @@ public class PauseMenu : MonoBehaviour
         Time.timeScale = 1f;
         //Resume the current background music of the level when the game is resumed.
         FindObjectOfType<SoundManager>().ResumeCurrent();
+
+        //On resume, if no transition UI screen is active, re-enable all things that was disabled when the game was paused.
+        if (GameObject.Find("Canvas").GetComponent<TransitionUI>().GetTransitionUI().activeSelf == false)
+        {
+            //Re-enables the player audio source.
+            GameObject.Find("Player").GetComponent<AudioSource>().enabled = true;
+            //Re-enables the weapon script for player.
+            if (GameObject.Find("Player_Knife") != null)
+            {
+                GameObject.Find("Player_Knife").GetComponent<Weapon>().enabled = true;
+            }
+        }
     }
 
     //Function that quits the game application.

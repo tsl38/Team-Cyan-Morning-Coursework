@@ -7,7 +7,8 @@ public class SoundManager : MonoBehaviour
     //An array to store some objects of the type Sounds.
     public Sounds[] arrayOfSounds;
     //Current Sound Object.
-    private Sounds current;
+    [HideInInspector]
+    public string currentTheme;
 
     //Instance of SoundManager for singleton pattern
     public static SoundManager _instance;
@@ -42,13 +43,12 @@ public class SoundManager : MonoBehaviour
     void Start() {
         //Play menu theme.
         Play("MainMenuTheme");
+        currentTheme = "MainMenuTheme";
     }
 
     //Finds the name of the sound object and plays the AudioClip from the AudioSource.
     public void Play(string name) {
         Sounds soundsObj = Array.Find(arrayOfSounds, sound => sound.nameOfSound == name);
-        //Sets the current sounds object to be this object.
-        current = soundsObj;
         //Plays the sound if the object is not null, i.e. if the object is found.
         if (soundsObj != null)
         {
@@ -80,22 +80,27 @@ public class SoundManager : MonoBehaviour
 
     //Stops playing the current sound clip.
     public void StopCurrent() {
-        if (current != null) {
-            current.source.Stop();
+        Sounds soundsObj = Array.Find(arrayOfSounds, sound => sound.nameOfSound == currentTheme);
+        if (soundsObj != null) {
+            soundsObj.source.Stop();
         }
     }
 
     //Pauses the current track.
     public void PauseCurrent() {
-        if (current != null) {
-            current.source.Pause();
+        Sounds soundsObj = Array.Find(arrayOfSounds, sound => sound.nameOfSound == currentTheme);
+        if (soundsObj != null)
+        {
+            soundsObj.source.Pause();
         }
     }
   
     //Resumes the current track.
     public void ResumeCurrent() {
-        if (current != null) {
-            current.source.UnPause();
+        Sounds soundsObj = Array.Find(arrayOfSounds, sound => sound.nameOfSound == currentTheme);
+        if (soundsObj != null)
+        {
+            soundsObj.source.UnPause();
         }
     }
 }

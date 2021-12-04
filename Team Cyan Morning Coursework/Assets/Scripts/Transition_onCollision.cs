@@ -12,6 +12,11 @@ public class Transition_onCollision : Collidable
         {
             //Disables the player mover script until the transition screen is over.
             GameObject.Find("Player").GetComponent<Mover>().enabled = false;
+            //Disables the weapon script for player.
+            if (GameObject.Find("Player_Knife") != null)
+            {
+                GameObject.Find("Player_Knife").GetComponent<Weapon>().enabled = false;
+            }
             //Display the transition screen.
             GameObject.Find("Canvas").GetComponent<TransitionUI>().ShowTransition(transDialogue, 0);
             //Deletes the object that colides with the player, so the transition screen cannot be triggered again.
@@ -24,8 +29,20 @@ public class Transition_onCollision : Collidable
             if (currentSceneIndex == 1)
             {
                 FindObjectOfType<SoundManager>().StopCurrent();
-                //FindObjectOfType<SoundManager>().Stop("MainMenuTheme");
                 FindObjectOfType<SoundManager>().Play("VillageTheme");
+                FindObjectOfType<SoundManager>().currentTheme = "VillageTheme";
+            }
+            else if (currentSceneIndex == 2) 
+            {
+                FindObjectOfType<SoundManager>().StopCurrent();
+                FindObjectOfType<SoundManager>().Play("DungeonLevelOneTheme");
+                FindObjectOfType<SoundManager>().currentTheme = "DungeonLevelOneTheme";
+            }
+            else if (currentSceneIndex == 3)
+            {
+                FindObjectOfType<SoundManager>().StopCurrent();
+                FindObjectOfType<SoundManager>().Play("DungeonFinalBossTheme");
+                FindObjectOfType<SoundManager>().currentTheme = "DungeonFinalBossTheme";
             }
         }
     }

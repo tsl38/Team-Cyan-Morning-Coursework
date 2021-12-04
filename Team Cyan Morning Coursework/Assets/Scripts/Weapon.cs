@@ -55,6 +55,9 @@ public class Weapon : Collidable
 				lastSwing = Time.time;
 				Swing();
 			}
+
+			//Plays the audio for sword swing.
+			FindObjectOfType<SoundManager>().Play("SwordSwing");
 		}
 
 		if (Input.GetMouseButtonUp(0)){
@@ -99,6 +102,9 @@ public class Weapon : Collidable
 			};
 
 			coll.SendMessage("ReceiveDamage", dmg);
+
+			//Plays the audio for enemies getting hit by the player sword.
+			GetComponent<AudioSource>().Play();
 
 		}
 	}
