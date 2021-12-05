@@ -322,6 +322,7 @@ GameObject:
   - component: {fileID: 6514591640625328079}
   - component: {fileID: 3241458629810617856}
   - component: {fileID: 4528682450991026546}
+  - component: {fileID: 9171828737977242284}
   m_Layer: 6
   m_Name: Mace
   m_TagString: Untagged
@@ -448,5 +449,24 @@ MonoBehaviour:
     maxNormalAngle: 0
   damage: 3
   pushForce: 3
-  animator: {fileID: 0}
+  animator: {fileID: 9171828737977242284}
   cooldown: 2.5
+--- !u!95 &9171828737977242284
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7231981077886792589}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 25b75f79b676aa94bb2ff34aa68ffcf2, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0

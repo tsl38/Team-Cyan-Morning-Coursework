@@ -58,6 +58,9 @@ public class PauseMenu : MonoBehaviour
     //Function that resumes the game.
     public void ResumeGame()
     {
+        //plays the button sound effect.
+        FindObjectOfType<SoundManager>().Play("MenuButtonPress");
+
         //Sets all the buttons and the panel of the pause menu to be in-active, so the user can't see them.
         pauseMenuButtons.SetActive(false);
         pauseMenuBackground.SetActive(false);
@@ -84,6 +87,9 @@ public class PauseMenu : MonoBehaviour
     //Function that quits the game application.
     public void PauseMenuQuitGame()
     {
+        //Plays the button sound effect.
+        FindObjectOfType<SoundManager>().Play("MenuButtonPress");
+
         Application.Quit();
     }
 }

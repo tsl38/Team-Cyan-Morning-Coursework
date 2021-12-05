@@ -37,7 +37,7 @@ public class UIButtonClick : MonoBehaviour
     //When the button on the item slot is pressed.
     public void OnItemButtonClicked() {
         //Only Runs if the game is not paused.
-        if(PauseMenu.isGamePaused == false) {
+        if(PauseMenu.isGamePaused == false && GameObject.Find("Canvas").GetComponent<TransitionUI>().GetTransitionUI().activeSelf == false) {
             //Gets the game object transform.
             Transform gameObj = gameObject.transform;
             //Sets the value of the x and y position of the item slot based on the values stored in the hidden text.
@@ -69,8 +69,14 @@ public class UIButtonClick : MonoBehaviour
                 //Use item.
                 bool successful = UseItem(item);
                 //If not used successfully, add the item back in to the inventory.
-                if (!successful) {
+                if (!successful)
+                {
                     GameObject.Find("Player").GetComponent<Player>().playerInventory.AddItem(item);
+                }
+                else 
+                {
+                    //Plays the item consumption sound if item used successfully.
+                    FindObjectOfType<SoundManager>().Play("ItemConsumption");
                 }
             }
 

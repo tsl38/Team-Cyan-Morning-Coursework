@@ -263,13 +263,13 @@ MonoBehaviour:
   - soundClip: {fileID: 8300000, guid: cfa136bd03ab89b4fabfab918979cb04, type: 3}
     source: {fileID: 0}
     nameOfSound: DungeonFinalBossTheme
-    volume: 0.1
+    volume: 0.025
     pitch: 1
     loop: 1
   - soundClip: {fileID: 8300000, guid: cd1e8465926b5164584f7188e876e94e, type: 3}
     source: {fileID: 0}
     nameOfSound: SwordSwing
-    volume: 0.1
+    volume: 0.2
     pitch: 1
     loop: 0
   - soundClip: {fileID: 8300000, guid: c2f0e7052a6dc6b47899b12562076b5a, type: 3}
@@ -281,6 +281,42 @@ MonoBehaviour:
   - soundClip: {fileID: 8300000, guid: 9d0e17bbaca4a1746b345fe637fe6e63, type: 3}
     source: {fileID: 0}
     nameOfSound: GettingHit
+    volume: 0.3
+    pitch: 1
+    loop: 0
+  - soundClip: {fileID: 8300000, guid: 6f9d419fff4524a4fbdfec329f442cf9, type: 3}
+    source: {fileID: 0}
+    nameOfSound: ItemPickedUp
+    volume: 0.5
+    pitch: 1
+    loop: 0
+  - soundClip: {fileID: 8300000, guid: 84dbca6f07fc4404590619ea80a7aa12, type: 3}
+    source: {fileID: 0}
+    nameOfSound: MenuButtonPress
+    volume: 0.5
+    pitch: 1
+    loop: 0
+  - soundClip: {fileID: 8300000, guid: 437de75459270514d93051ccc8caf5bf, type: 3}
+    source: {fileID: 0}
+    nameOfSound: EnemySwordSwing1
+    volume: 0.3
+    pitch: 1
+    loop: 0
+  - soundClip: {fileID: 8300000, guid: 446d4ca9ef97c4d4f8c86bda8deba020, type: 3}
+    source: {fileID: 0}
+    nameOfSound: EnemySwordSwing2
+    volume: 0.3
+    pitch: 0.5
+    loop: 0
+  - soundClip: {fileID: 8300000, guid: 912ddabd8acca834e8c7f17bc7890c44, type: 3}
+    source: {fileID: 0}
+    nameOfSound: ItemConsumption
+    volume: 0.3
+    pitch: 1
+    loop: 0
+  - soundClip: {fileID: 8300000, guid: 1d37947d7f201724c86a9b69b700b1de, type: 3}
+    source: {fileID: 0}
+    nameOfSound: SwordHitStone
     volume: 0.3
     pitch: 1
     loop: 0

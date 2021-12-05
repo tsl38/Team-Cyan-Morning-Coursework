@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Fighter
   - PlayerGhost
+  - StoneWall
   layers:
   - Default
   - TransparentFX
