@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Villager G
   m_EditorClassIdentifier: 
   dialogue:
-  - "Timmie:  Have I seen you before? You don\u2019t look familiar to me."
+  - "Timmie: Do I know you? You don\u2019t look familiar to me."

@@ -13,5 +13,17 @@ MonoBehaviour:
   m_Name: MainMenuToVillage
   m_EditorClassIdentifier: 
   dialogue:
-  - 'THIS IS A TEST. THIS IS A TEST. THIS IS A TEST. THIS IS A TEST. THIS IS A TEST.
-    THIS IS A TEST. THIS IS A TEST. THIS IS A TEST. '
+  - Tony was walking back home to the village of Hilkingham. He suddenly felt extremely
+    dizzy and drowsy, and suddenly fell on the floor... After a few hours, Tony finally
+    woke up. He could not recall anything about the village he was in. Whilst trying
+    to figure out what happened, he noticed there was a letter on the floor. He picked
+    it up and read it...
+  - "\u201CTo Tony, son of Edward. The memories of the villagers of Hilkingham, including
+    yours, have been stolen by the dream eater witch. To retrieve them, you must
+    head to the castle. It will not be an easy trip, however. I hope you can make
+    it out in one piece. Good luck, \r\n\t\t\t\t\t\t\t--Tawnia\u201D.\r\n"
+  - 'The name Tawnia was not familiar to him. He flipped the paper back and found
+    a map of the village of Hilkingham, and the castle of Shingville.
+
+    And thus,
+    his unlikely adventure began...'

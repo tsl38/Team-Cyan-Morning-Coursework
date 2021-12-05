@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: Half_Elf
   m_EditorClassIdentifier: 
   dialogue:
-  - 'Yosi:  Hero, would u like to know your future? Divination of everything.'
+  - 'Yosi: Hero, would you like to know your future? My divination leaves no stone
+    unturned.'
