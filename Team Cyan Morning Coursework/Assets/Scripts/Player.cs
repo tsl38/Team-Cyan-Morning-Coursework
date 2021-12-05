@@ -46,6 +46,9 @@ public class Player : Mover
             healthList.ChangeHealth(hitpoint, maxHitpoint);
             healthBarUI.SetHealthStats(healthList);
         }
+
+        //Disable the audio source at the beginning, so no sound plays.
+        GetComponent<AudioSource>().enabled = false;
     }
 
     private void FixedUpdate()
@@ -58,6 +61,23 @@ public class Player : Mover
         {
             float magnitudeSpeed = (float)Math.Sqrt(Math.Pow(x, 2) + Math.Pow(y, 2));
             animator.SetFloat("Speed", magnitudeSpeed);
+
+            //Plays running sound if the player has a decent speed.
+            if (magnitudeSpeed > 0.1)
+            {
+                //If the audio source is disabled, enable it.
+                if (GetComponent<AudioSource>().isActiveAndEnabled == false)
+                {
+                    GetComponent<AudioSource>().enabled = true;
+                }
+                //Unpause the sound.
+                GetComponent<AudioSource>().UnPause();
+            }
+            //If the speed is less that 0.1, pause the running sound.
+            else 
+            {
+                GetComponent<AudioSource>().Pause();
+            }
         }
 
         UpdateMotor(new Vector3(x, y, 0));

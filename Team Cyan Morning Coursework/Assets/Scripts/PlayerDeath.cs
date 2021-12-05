@@ -48,6 +48,10 @@ public class PlayerDeath : MonoBehaviour
 
         //Disable the mover.cs script of the player, so the player cannot move.
         gameObject.GetComponent<Mover>().enabled = false;
+        //If the player has a weapon, the weapon script attached to the weapon is temporarily disabled too.
+        if (transform.GetChild(1).gameObject != null) {
+            transform.GetChild(1).gameObject.GetComponent<Weapon>().enabled = false;
+        }
 
         // Show death screen, and re-enable the mover.cs script afterwards.
         GameObject.Find("RespawnPoint").GetComponent<Transition_onEvent>().DeathTransition(deathDialogue);
