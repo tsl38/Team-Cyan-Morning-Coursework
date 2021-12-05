@@ -266,7 +266,7 @@ GameObject:
   - component: {fileID: 18622905}
   m_Layer: 7
   m_Name: Coliders
-  m_TagString: Untagged
+  m_TagString: StoneWall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -383,7 +383,7 @@ GameObject:
   - component: {fileID: 19835312}
   m_Layer: 7
   m_Name: Collider (19)
-  m_TagString: Untagged
+  m_TagString: StoneWall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -710,6 +710,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 8064980305224777694, guid: 2d5595dfce835de4dabf0c25345730af, type: 3}
+      propertyPath: m_TagString
+      value: StoneWall
+      objectReference: {fileID: 0}
     - target: {fileID: 8064980305847476943, guid: 2d5595dfce835de4dabf0c25345730af, type: 3}
       propertyPath: m_RootOrder
       value: 61
@@ -762,6 +766,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 8064980305847476977, guid: 2d5595dfce835de4dabf0c25345730af, type: 3}
+      propertyPath: m_TagString
+      value: StoneWall
+      objectReference: {fileID: 0}
     - target: {fileID: 8064980307190195702, guid: 2d5595dfce835de4dabf0c25345730af, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -769,6 +777,10 @@ PrefabInstance:
     - target: {fileID: 8064980307190195704, guid: 2d5595dfce835de4dabf0c25345730af, type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8064980307190195704, guid: 2d5595dfce835de4dabf0c25345730af, type: 3}
+      propertyPath: m_TagString
+      value: StoneWall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2d5595dfce835de4dabf0c25345730af, type: 3}
@@ -866,6 +878,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 4154796112439246886, guid: 25759ef29fa7804489ba2adb5e4e5f75, type: 3}
+      propertyPath: m_TagString
+      value: StoneWall
+      objectReference: {fileID: 0}
     - target: {fileID: 4154796113936473589, guid: 25759ef29fa7804489ba2adb5e4e5f75, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -873,6 +889,10 @@ PrefabInstance:
     - target: {fileID: 4154796113936473591, guid: 25759ef29fa7804489ba2adb5e4e5f75, type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4154796113936473591, guid: 25759ef29fa7804489ba2adb5e4e5f75, type: 3}
+      propertyPath: m_TagString
+      value: StoneWall
       objectReference: {fileID: 0}
     - target: {fileID: 4154796113983879645, guid: 25759ef29fa7804489ba2adb5e4e5f75, type: 3}
       propertyPath: m_RootOrder
@@ -925,6 +945,10 @@ PrefabInstance:
     - target: {fileID: 4154796113983879647, guid: 25759ef29fa7804489ba2adb5e4e5f75, type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4154796113983879647, guid: 25759ef29fa7804489ba2adb5e4e5f75, type: 3}
+      propertyPath: m_TagString
+      value: StoneWall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 25759ef29fa7804489ba2adb5e4e5f75, type: 3}
@@ -1105,6 +1129,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 4154796112439246886, guid: 06c858dcc3338cd46870b0ead1ff9f40, type: 3}
+      propertyPath: m_TagString
+      value: StoneWall
+      objectReference: {fileID: 0}
     - target: {fileID: 4154796113936473589, guid: 06c858dcc3338cd46870b0ead1ff9f40, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -1112,6 +1140,10 @@ PrefabInstance:
     - target: {fileID: 4154796113936473591, guid: 06c858dcc3338cd46870b0ead1ff9f40, type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4154796113936473591, guid: 06c858dcc3338cd46870b0ead1ff9f40, type: 3}
+      propertyPath: m_TagString
+      value: StoneWall
       objectReference: {fileID: 0}
     - target: {fileID: 4154796113983879645, guid: 06c858dcc3338cd46870b0ead1ff9f40, type: 3}
       propertyPath: m_RootOrder
@@ -1164,6 +1196,10 @@ PrefabInstance:
     - target: {fileID: 4154796113983879647, guid: 06c858dcc3338cd46870b0ead1ff9f40, type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4154796113983879647, guid: 06c858dcc3338cd46870b0ead1ff9f40, type: 3}
+      propertyPath: m_TagString
+      value: StoneWall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 06c858dcc3338cd46870b0ead1ff9f40, type: 3}
@@ -59804,6 +59840,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 4154796112439246886, guid: 25759ef29fa7804489ba2adb5e4e5f75, type: 3}
+      propertyPath: m_TagString
+      value: StoneWall
+      objectReference: {fileID: 0}
     - target: {fileID: 4154796113936473589, guid: 25759ef29fa7804489ba2adb5e4e5f75, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -59811,6 +59851,10 @@ PrefabInstance:
     - target: {fileID: 4154796113936473591, guid: 25759ef29fa7804489ba2adb5e4e5f75, type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4154796113936473591, guid: 25759ef29fa7804489ba2adb5e4e5f75, type: 3}
+      propertyPath: m_TagString
+      value: StoneWall
       objectReference: {fileID: 0}
     - target: {fileID: 4154796113983879645, guid: 25759ef29fa7804489ba2adb5e4e5f75, type: 3}
       propertyPath: m_RootOrder
@@ -59863,6 +59907,10 @@ PrefabInstance:
     - target: {fileID: 4154796113983879647, guid: 25759ef29fa7804489ba2adb5e4e5f75, type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4154796113983879647, guid: 25759ef29fa7804489ba2adb5e4e5f75, type: 3}
+      propertyPath: m_TagString
+      value: StoneWall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 25759ef29fa7804489ba2adb5e4e5f75, type: 3}
@@ -59960,6 +60008,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 4154796112439246886, guid: 06c858dcc3338cd46870b0ead1ff9f40, type: 3}
+      propertyPath: m_TagString
+      value: StoneWall
+      objectReference: {fileID: 0}
     - target: {fileID: 4154796113936473589, guid: 06c858dcc3338cd46870b0ead1ff9f40, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -59967,6 +60019,10 @@ PrefabInstance:
     - target: {fileID: 4154796113936473591, guid: 06c858dcc3338cd46870b0ead1ff9f40, type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4154796113936473591, guid: 06c858dcc3338cd46870b0ead1ff9f40, type: 3}
+      propertyPath: m_TagString
+      value: StoneWall
       objectReference: {fileID: 0}
     - target: {fileID: 4154796113983879645, guid: 06c858dcc3338cd46870b0ead1ff9f40, type: 3}
       propertyPath: m_RootOrder
@@ -60019,6 +60075,10 @@ PrefabInstance:
     - target: {fileID: 4154796113983879647, guid: 06c858dcc3338cd46870b0ead1ff9f40, type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4154796113983879647, guid: 06c858dcc3338cd46870b0ead1ff9f40, type: 3}
+      propertyPath: m_TagString
+      value: StoneWall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 06c858dcc3338cd46870b0ead1ff9f40, type: 3}
@@ -60711,7 +60771,7 @@ GameObject:
   - component: {fileID: 144947297}
   m_Layer: 7
   m_Name: Collider (3)
-  m_TagString: Untagged
+  m_TagString: StoneWall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -60862,7 +60922,7 @@ GameObject:
   - component: {fileID: 167364701}
   m_Layer: 7
   m_Name: Collider (13)
-  m_TagString: Untagged
+  m_TagString: StoneWall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -61320,7 +61380,7 @@ GameObject:
   - component: {fileID: 204048590}
   m_Layer: 7
   m_Name: Collider (16)
-  m_TagString: Untagged
+  m_TagString: StoneWall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -61737,7 +61797,7 @@ GameObject:
   - component: {fileID: 228291808}
   m_Layer: 7
   m_Name: Collider (7)
-  m_TagString: Untagged
+  m_TagString: StoneWall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -62416,7 +62476,7 @@ GameObject:
   - component: {fileID: 310553168}
   m_Layer: 7
   m_Name: Collider (6)
-  m_TagString: Untagged
+  m_TagString: StoneWall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -62664,6 +62724,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 4154796112439246886, guid: 06c858dcc3338cd46870b0ead1ff9f40, type: 3}
+      propertyPath: m_TagString
+      value: StoneWall
+      objectReference: {fileID: 0}
     - target: {fileID: 4154796113936473589, guid: 06c858dcc3338cd46870b0ead1ff9f40, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -62671,6 +62735,10 @@ PrefabInstance:
     - target: {fileID: 4154796113936473591, guid: 06c858dcc3338cd46870b0ead1ff9f40, type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4154796113936473591, guid: 06c858dcc3338cd46870b0ead1ff9f40, type: 3}
+      propertyPath: m_TagString
+      value: StoneWall
       objectReference: {fileID: 0}
     - target: {fileID: 4154796113983879645, guid: 06c858dcc3338cd46870b0ead1ff9f40, type: 3}
       propertyPath: m_RootOrder
@@ -62723,6 +62791,10 @@ PrefabInstance:
     - target: {fileID: 4154796113983879647, guid: 06c858dcc3338cd46870b0ead1ff9f40, type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4154796113983879647, guid: 06c858dcc3338cd46870b0ead1ff9f40, type: 3}
+      propertyPath: m_TagString
+      value: StoneWall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 06c858dcc3338cd46870b0ead1ff9f40, type: 3}
@@ -65051,7 +65123,7 @@ GameObject:
   - component: {fileID: 537505820}
   m_Layer: 7
   m_Name: Collider (14)
-  m_TagString: Untagged
+  m_TagString: StoneWall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -65119,6 +65191,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 8064980305224777694, guid: 2d5595dfce835de4dabf0c25345730af, type: 3}
+      propertyPath: m_TagString
+      value: StoneWall
+      objectReference: {fileID: 0}
     - target: {fileID: 8064980305847476943, guid: 2d5595dfce835de4dabf0c25345730af, type: 3}
       propertyPath: m_RootOrder
       value: 63
@@ -65171,6 +65247,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 8064980305847476977, guid: 2d5595dfce835de4dabf0c25345730af, type: 3}
+      propertyPath: m_TagString
+      value: StoneWall
+      objectReference: {fileID: 0}
     - target: {fileID: 8064980307190195702, guid: 2d5595dfce835de4dabf0c25345730af, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -65178,6 +65258,10 @@ PrefabInstance:
     - target: {fileID: 8064980307190195704, guid: 2d5595dfce835de4dabf0c25345730af, type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8064980307190195704, guid: 2d5595dfce835de4dabf0c25345730af, type: 3}
+      propertyPath: m_TagString
+      value: StoneWall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2d5595dfce835de4dabf0c25345730af, type: 3}
@@ -65198,7 +65282,7 @@ GameObject:
   - component: {fileID: 545139865}
   m_Layer: 7
   m_Name: Collider (1)
-  m_TagString: Untagged
+  m_TagString: StoneWall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -65255,7 +65339,7 @@ GameObject:
   - component: {fileID: 552320682}
   m_Layer: 7
   m_Name: Collider (17)
-  m_TagString: Untagged
+  m_TagString: StoneWall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -65712,7 +65796,7 @@ GameObject:
   - component: {fileID: 599144412}
   m_Layer: 7
   m_Name: Collider (4)
-  m_TagString: Untagged
+  m_TagString: StoneWall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -65780,6 +65864,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 4154796112439246886, guid: 25759ef29fa7804489ba2adb5e4e5f75, type: 3}
+      propertyPath: m_TagString
+      value: StoneWall
+      objectReference: {fileID: 0}
     - target: {fileID: 4154796113936473589, guid: 25759ef29fa7804489ba2adb5e4e5f75, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -65787,6 +65875,10 @@ PrefabInstance:
     - target: {fileID: 4154796113936473591, guid: 25759ef29fa7804489ba2adb5e4e5f75, type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4154796113936473591, guid: 25759ef29fa7804489ba2adb5e4e5f75, type: 3}
+      propertyPath: m_TagString
+      value: StoneWall
       objectReference: {fileID: 0}
     - target: {fileID: 4154796113983879645, guid: 25759ef29fa7804489ba2adb5e4e5f75, type: 3}
       propertyPath: m_RootOrder
@@ -65840,6 +65932,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 4154796113983879647, guid: 25759ef29fa7804489ba2adb5e4e5f75, type: 3}
+      propertyPath: m_TagString
+      value: StoneWall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 25759ef29fa7804489ba2adb5e4e5f75, type: 3}
 --- !u!4 &606988804 stripped
@@ -65859,7 +65955,7 @@ GameObject:
   - component: {fileID: 620390694}
   m_Layer: 7
   m_Name: Collider (12)
-  m_TagString: Untagged
+  m_TagString: StoneWall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -66726,7 +66822,7 @@ GameObject:
   - component: {fileID: 676750399}
   m_Layer: 7
   m_Name: Collider (18)
-  m_TagString: Untagged
+  m_TagString: StoneWall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -67362,6 +67458,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 4154796112439246886, guid: 06c858dcc3338cd46870b0ead1ff9f40, type: 3}
+      propertyPath: m_TagString
+      value: StoneWall
+      objectReference: {fileID: 0}
     - target: {fileID: 4154796113936473589, guid: 06c858dcc3338cd46870b0ead1ff9f40, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -67369,6 +67469,10 @@ PrefabInstance:
     - target: {fileID: 4154796113936473591, guid: 06c858dcc3338cd46870b0ead1ff9f40, type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4154796113936473591, guid: 06c858dcc3338cd46870b0ead1ff9f40, type: 3}
+      propertyPath: m_TagString
+      value: StoneWall
       objectReference: {fileID: 0}
     - target: {fileID: 4154796113983879645, guid: 06c858dcc3338cd46870b0ead1ff9f40, type: 3}
       propertyPath: m_RootOrder
@@ -67421,6 +67525,10 @@ PrefabInstance:
     - target: {fileID: 4154796113983879647, guid: 06c858dcc3338cd46870b0ead1ff9f40, type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4154796113983879647, guid: 06c858dcc3338cd46870b0ead1ff9f40, type: 3}
+      propertyPath: m_TagString
+      value: StoneWall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 06c858dcc3338cd46870b0ead1ff9f40, type: 3}
@@ -67659,7 +67767,7 @@ GameObject:
   - component: {fileID: 764648718}
   m_Layer: 7
   m_Name: Collider (2)
-  m_TagString: Untagged
+  m_TagString: StoneWall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -67773,7 +67881,7 @@ GameObject:
   - component: {fileID: 782185661}
   m_Layer: 7
   m_Name: Collider (23)
-  m_TagString: Untagged
+  m_TagString: StoneWall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -68608,7 +68716,7 @@ GameObject:
   - component: {fileID: 864950107}
   m_Layer: 7
   m_Name: Collider (8)
-  m_TagString: Untagged
+  m_TagString: StoneWall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -69344,7 +69452,7 @@ GameObject:
   - component: {fileID: 924541293}
   m_Layer: 7
   m_Name: Collider (24)
-  m_TagString: Untagged
+  m_TagString: StoneWall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -69627,7 +69735,7 @@ GameObject:
   - component: {fileID: 932534892}
   m_Layer: 7
   m_Name: Collider (20)
-  m_TagString: Untagged
+  m_TagString: StoneWall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -70684,6 +70792,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 4154796112439246886, guid: 25759ef29fa7804489ba2adb5e4e5f75, type: 3}
+      propertyPath: m_TagString
+      value: StoneWall
+      objectReference: {fileID: 0}
     - target: {fileID: 4154796113936473589, guid: 25759ef29fa7804489ba2adb5e4e5f75, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -70691,6 +70803,10 @@ PrefabInstance:
     - target: {fileID: 4154796113936473591, guid: 25759ef29fa7804489ba2adb5e4e5f75, type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4154796113936473591, guid: 25759ef29fa7804489ba2adb5e4e5f75, type: 3}
+      propertyPath: m_TagString
+      value: StoneWall
       objectReference: {fileID: 0}
     - target: {fileID: 4154796113983879645, guid: 25759ef29fa7804489ba2adb5e4e5f75, type: 3}
       propertyPath: m_RootOrder
@@ -70743,6 +70859,10 @@ PrefabInstance:
     - target: {fileID: 4154796113983879647, guid: 25759ef29fa7804489ba2adb5e4e5f75, type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4154796113983879647, guid: 25759ef29fa7804489ba2adb5e4e5f75, type: 3}
+      propertyPath: m_TagString
+      value: StoneWall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 25759ef29fa7804489ba2adb5e4e5f75, type: 3}
@@ -70804,6 +70924,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 4154796112439246886, guid: 25759ef29fa7804489ba2adb5e4e5f75, type: 3}
+      propertyPath: m_TagString
+      value: StoneWall
+      objectReference: {fileID: 0}
     - target: {fileID: 4154796113936473589, guid: 25759ef29fa7804489ba2adb5e4e5f75, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -70811,6 +70935,10 @@ PrefabInstance:
     - target: {fileID: 4154796113936473591, guid: 25759ef29fa7804489ba2adb5e4e5f75, type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4154796113936473591, guid: 25759ef29fa7804489ba2adb5e4e5f75, type: 3}
+      propertyPath: m_TagString
+      value: StoneWall
       objectReference: {fileID: 0}
     - target: {fileID: 4154796113983879645, guid: 25759ef29fa7804489ba2adb5e4e5f75, type: 3}
       propertyPath: m_RootOrder
@@ -70863,6 +70991,10 @@ PrefabInstance:
     - target: {fileID: 4154796113983879647, guid: 25759ef29fa7804489ba2adb5e4e5f75, type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4154796113983879647, guid: 25759ef29fa7804489ba2adb5e4e5f75, type: 3}
+      propertyPath: m_TagString
+      value: StoneWall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 25759ef29fa7804489ba2adb5e4e5f75, type: 3}
@@ -71135,7 +71267,7 @@ GameObject:
   - component: {fileID: 1062469140}
   m_Layer: 7
   m_Name: Collider (11)
-  m_TagString: Untagged
+  m_TagString: StoneWall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -71269,6 +71401,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 4154796112439246886, guid: 06c858dcc3338cd46870b0ead1ff9f40, type: 3}
+      propertyPath: m_TagString
+      value: StoneWall
+      objectReference: {fileID: 0}
     - target: {fileID: 4154796113936473589, guid: 06c858dcc3338cd46870b0ead1ff9f40, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -71276,6 +71412,10 @@ PrefabInstance:
     - target: {fileID: 4154796113936473591, guid: 06c858dcc3338cd46870b0ead1ff9f40, type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4154796113936473591, guid: 06c858dcc3338cd46870b0ead1ff9f40, type: 3}
+      propertyPath: m_TagString
+      value: StoneWall
       objectReference: {fileID: 0}
     - target: {fileID: 4154796113983879645, guid: 06c858dcc3338cd46870b0ead1ff9f40, type: 3}
       propertyPath: m_RootOrder
@@ -71329,6 +71469,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 4154796113983879647, guid: 06c858dcc3338cd46870b0ead1ff9f40, type: 3}
+      propertyPath: m_TagString
+      value: StoneWall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 06c858dcc3338cd46870b0ead1ff9f40, type: 3}
 --- !u!4 &1068641929 stripped
@@ -71348,7 +71492,7 @@ GameObject:
   - component: {fileID: 1074224162}
   m_Layer: 7
   m_Name: Collider (10)
-  m_TagString: Untagged
+  m_TagString: StoneWall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -71533,6 +71677,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 4154796112439246886, guid: 06c858dcc3338cd46870b0ead1ff9f40, type: 3}
+      propertyPath: m_TagString
+      value: StoneWall
+      objectReference: {fileID: 0}
     - target: {fileID: 4154796113936473589, guid: 06c858dcc3338cd46870b0ead1ff9f40, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -71540,6 +71688,10 @@ PrefabInstance:
     - target: {fileID: 4154796113936473591, guid: 06c858dcc3338cd46870b0ead1ff9f40, type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4154796113936473591, guid: 06c858dcc3338cd46870b0ead1ff9f40, type: 3}
+      propertyPath: m_TagString
+      value: StoneWall
       objectReference: {fileID: 0}
     - target: {fileID: 4154796113983879645, guid: 06c858dcc3338cd46870b0ead1ff9f40, type: 3}
       propertyPath: m_RootOrder
@@ -71592,6 +71744,10 @@ PrefabInstance:
     - target: {fileID: 4154796113983879647, guid: 06c858dcc3338cd46870b0ead1ff9f40, type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4154796113983879647, guid: 06c858dcc3338cd46870b0ead1ff9f40, type: 3}
+      propertyPath: m_TagString
+      value: StoneWall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 06c858dcc3338cd46870b0ead1ff9f40, type: 3}
@@ -72144,7 +72300,7 @@ GameObject:
   - component: {fileID: 1134609921}
   m_Layer: 7
   m_Name: Collider (22)
-  m_TagString: Untagged
+  m_TagString: StoneWall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -72258,7 +72414,7 @@ GameObject:
   - component: {fileID: 1162133874}
   m_Layer: 7
   m_Name: Collider (15)
-  m_TagString: Untagged
+  m_TagString: StoneWall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -72326,6 +72482,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 4154796112439246886, guid: 06c858dcc3338cd46870b0ead1ff9f40, type: 3}
+      propertyPath: m_TagString
+      value: StoneWall
+      objectReference: {fileID: 0}
     - target: {fileID: 4154796113936473589, guid: 06c858dcc3338cd46870b0ead1ff9f40, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -72333,6 +72493,10 @@ PrefabInstance:
     - target: {fileID: 4154796113936473591, guid: 06c858dcc3338cd46870b0ead1ff9f40, type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4154796113936473591, guid: 06c858dcc3338cd46870b0ead1ff9f40, type: 3}
+      propertyPath: m_TagString
+      value: StoneWall
       objectReference: {fileID: 0}
     - target: {fileID: 4154796113983879645, guid: 06c858dcc3338cd46870b0ead1ff9f40, type: 3}
       propertyPath: m_RootOrder
@@ -72386,6 +72550,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 4154796113983879647, guid: 06c858dcc3338cd46870b0ead1ff9f40, type: 3}
+      propertyPath: m_TagString
+      value: StoneWall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 06c858dcc3338cd46870b0ead1ff9f40, type: 3}
 --- !u!4 &1166399721 stripped
@@ -72405,7 +72573,7 @@ GameObject:
   - component: {fileID: 1176979131}
   m_Layer: 7
   m_Name: Collider (5)
-  m_TagString: Untagged
+  m_TagString: StoneWall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -73223,6 +73391,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 8064980305224777694, guid: 2d5595dfce835de4dabf0c25345730af, type: 3}
+      propertyPath: m_TagString
+      value: StoneWall
+      objectReference: {fileID: 0}
     - target: {fileID: 8064980305847476943, guid: 2d5595dfce835de4dabf0c25345730af, type: 3}
       propertyPath: m_RootOrder
       value: 58
@@ -73275,6 +73447,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 8064980305847476977, guid: 2d5595dfce835de4dabf0c25345730af, type: 3}
+      propertyPath: m_TagString
+      value: StoneWall
+      objectReference: {fileID: 0}
     - target: {fileID: 8064980307190195702, guid: 2d5595dfce835de4dabf0c25345730af, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -73282,6 +73458,10 @@ PrefabInstance:
     - target: {fileID: 8064980307190195704, guid: 2d5595dfce835de4dabf0c25345730af, type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8064980307190195704, guid: 2d5595dfce835de4dabf0c25345730af, type: 3}
+      propertyPath: m_TagString
+      value: StoneWall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2d5595dfce835de4dabf0c25345730af, type: 3}
@@ -86591,6 +86771,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 8064980305224777694, guid: 2d5595dfce835de4dabf0c25345730af, type: 3}
+      propertyPath: m_TagString
+      value: StoneWall
+      objectReference: {fileID: 0}
     - target: {fileID: 8064980305847476943, guid: 2d5595dfce835de4dabf0c25345730af, type: 3}
       propertyPath: m_RootOrder
       value: 60
@@ -86643,6 +86827,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 8064980305847476977, guid: 2d5595dfce835de4dabf0c25345730af, type: 3}
+      propertyPath: m_TagString
+      value: StoneWall
+      objectReference: {fileID: 0}
     - target: {fileID: 8064980307190195702, guid: 2d5595dfce835de4dabf0c25345730af, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -86650,6 +86838,10 @@ PrefabInstance:
     - target: {fileID: 8064980307190195704, guid: 2d5595dfce835de4dabf0c25345730af, type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8064980307190195704, guid: 2d5595dfce835de4dabf0c25345730af, type: 3}
+      propertyPath: m_TagString
+      value: StoneWall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2d5595dfce835de4dabf0c25345730af, type: 3}
@@ -88353,7 +88545,7 @@ GameObject:
   - component: {fileID: 1557025019}
   m_Layer: 7
   m_Name: Collider (21)
-  m_TagString: Untagged
+  m_TagString: StoneWall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -89318,7 +89510,7 @@ GameObject:
   - component: {fileID: 1675093883}
   m_Layer: 7
   m_Name: Collider
-  m_TagString: Untagged
+  m_TagString: StoneWall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -89375,7 +89567,7 @@ GameObject:
   - component: {fileID: 1677616839}
   m_Layer: 7
   m_Name: Collider (9)
-  m_TagString: Untagged
+  m_TagString: StoneWall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -90228,6 +90420,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 8064980305224777694, guid: 2d5595dfce835de4dabf0c25345730af, type: 3}
+      propertyPath: m_TagString
+      value: StoneWall
+      objectReference: {fileID: 0}
     - target: {fileID: 8064980305847476943, guid: 2d5595dfce835de4dabf0c25345730af, type: 3}
       propertyPath: m_RootOrder
       value: 40
@@ -90280,6 +90476,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 8064980305847476977, guid: 2d5595dfce835de4dabf0c25345730af, type: 3}
+      propertyPath: m_TagString
+      value: StoneWall
+      objectReference: {fileID: 0}
     - target: {fileID: 8064980307190195702, guid: 2d5595dfce835de4dabf0c25345730af, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -90287,6 +90487,10 @@ PrefabInstance:
     - target: {fileID: 8064980307190195704, guid: 2d5595dfce835de4dabf0c25345730af, type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8064980307190195704, guid: 2d5595dfce835de4dabf0c25345730af, type: 3}
+      propertyPath: m_TagString
+      value: StoneWall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2d5595dfce835de4dabf0c25345730af, type: 3}
@@ -90349,6 +90553,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 8064980305224777694, guid: 2d5595dfce835de4dabf0c25345730af, type: 3}
+      propertyPath: m_TagString
+      value: StoneWall
+      objectReference: {fileID: 0}
     - target: {fileID: 8064980305847476943, guid: 2d5595dfce835de4dabf0c25345730af, type: 3}
       propertyPath: m_RootOrder
       value: 59
@@ -90401,6 +90609,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 8064980305847476977, guid: 2d5595dfce835de4dabf0c25345730af, type: 3}
+      propertyPath: m_TagString
+      value: StoneWall
+      objectReference: {fileID: 0}
     - target: {fileID: 8064980307190195702, guid: 2d5595dfce835de4dabf0c25345730af, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -90408,6 +90620,10 @@ PrefabInstance:
     - target: {fileID: 8064980307190195704, guid: 2d5595dfce835de4dabf0c25345730af, type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8064980307190195704, guid: 2d5595dfce835de4dabf0c25345730af, type: 3}
+      propertyPath: m_TagString
+      value: StoneWall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2d5595dfce835de4dabf0c25345730af, type: 3}
@@ -90698,6 +90914,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 4154796112439246886, guid: 06c858dcc3338cd46870b0ead1ff9f40, type: 3}
+      propertyPath: m_TagString
+      value: StoneWall
+      objectReference: {fileID: 0}
     - target: {fileID: 4154796113936473589, guid: 06c858dcc3338cd46870b0ead1ff9f40, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -90705,6 +90925,10 @@ PrefabInstance:
     - target: {fileID: 4154796113936473591, guid: 06c858dcc3338cd46870b0ead1ff9f40, type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4154796113936473591, guid: 06c858dcc3338cd46870b0ead1ff9f40, type: 3}
+      propertyPath: m_TagString
+      value: StoneWall
       objectReference: {fileID: 0}
     - target: {fileID: 4154796113983879645, guid: 06c858dcc3338cd46870b0ead1ff9f40, type: 3}
       propertyPath: m_RootOrder
@@ -90757,6 +90981,10 @@ PrefabInstance:
     - target: {fileID: 4154796113983879647, guid: 06c858dcc3338cd46870b0ead1ff9f40, type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4154796113983879647, guid: 06c858dcc3338cd46870b0ead1ff9f40, type: 3}
+      propertyPath: m_TagString
+      value: StoneWall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 06c858dcc3338cd46870b0ead1ff9f40, type: 3}
@@ -90997,8 +91225,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1875230111}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 125, y: 90, z: 18}
+  m_LocalPosition: {x: 0.0823, y: 0.4058, z: 0}
+  m_LocalScale: {x: 167.21954, y: 121.02517, z: 19.9278}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
@@ -91536,6 +91764,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 8064980305224777694, guid: 2d5595dfce835de4dabf0c25345730af, type: 3}
+      propertyPath: m_TagString
+      value: StoneWall
+      objectReference: {fileID: 0}
     - target: {fileID: 8064980305847476943, guid: 2d5595dfce835de4dabf0c25345730af, type: 3}
       propertyPath: m_RootOrder
       value: 57
@@ -91588,6 +91820,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 8064980305847476977, guid: 2d5595dfce835de4dabf0c25345730af, type: 3}
+      propertyPath: m_TagString
+      value: StoneWall
+      objectReference: {fileID: 0}
     - target: {fileID: 8064980307190195702, guid: 2d5595dfce835de4dabf0c25345730af, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -91595,6 +91831,10 @@ PrefabInstance:
     - target: {fileID: 8064980307190195704, guid: 2d5595dfce835de4dabf0c25345730af, type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8064980307190195704, guid: 2d5595dfce835de4dabf0c25345730af, type: 3}
+      propertyPath: m_TagString
+      value: StoneWall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2d5595dfce835de4dabf0c25345730af, type: 3}
@@ -93787,6 +94027,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 8064980305224777694, guid: 2d5595dfce835de4dabf0c25345730af, type: 3}
+      propertyPath: m_TagString
+      value: StoneWall
+      objectReference: {fileID: 0}
     - target: {fileID: 8064980305847476943, guid: 2d5595dfce835de4dabf0c25345730af, type: 3}
       propertyPath: m_RootOrder
       value: 62
@@ -93839,6 +94083,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 7
       objectReference: {fileID: 0}
+    - target: {fileID: 8064980305847476977, guid: 2d5595dfce835de4dabf0c25345730af, type: 3}
+      propertyPath: m_TagString
+      value: StoneWall
+      objectReference: {fileID: 0}
     - target: {fileID: 8064980307190195702, guid: 2d5595dfce835de4dabf0c25345730af, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -93846,6 +94094,10 @@ PrefabInstance:
     - target: {fileID: 8064980307190195704, guid: 2d5595dfce835de4dabf0c25345730af, type: 3}
       propertyPath: m_Layer
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8064980307190195704, guid: 2d5595dfce835de4dabf0c25345730af, type: 3}
+      propertyPath: m_TagString
+      value: StoneWall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2d5595dfce835de4dabf0c25345730af, type: 3}
