@@ -55,14 +55,13 @@ public class Weapon : Collidable
 				lastSwing = Time.time;
 				Swing();
 			}
-
-			//Plays the audio for sword swing.
-			FindObjectOfType<SoundManager>().Play("SwordSwing");
 		}
 
 		if (Input.GetMouseButtonUp(0)){
 			lastSwing = Time.time;
 			Swing();
+			//Plays the audio for sword swing.
+			FindObjectOfType<SoundManager>().Play("SwordSwing");
 		}
 	}
 
@@ -106,6 +105,10 @@ public class Weapon : Collidable
 			//Plays the audio for enemies getting hit by the player sword.
 			GetComponent<AudioSource>().Play();
 
+		}
+		//If the collision is with a wall, play the SwordHitStone sound effect.
+		else if (coll.tag == "StoneWall") {
+			FindObjectOfType<SoundManager>().Play("SwordHitStone");
 		}
 	}
 
