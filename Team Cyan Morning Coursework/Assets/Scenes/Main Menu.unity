@@ -251,7 +251,7 @@ MonoBehaviour:
   - soundClip: {fileID: 8300000, guid: 0c44642f7388c9945a15326e15424404, type: 3}
     source: {fileID: 0}
     nameOfSound: VillageTheme
-    volume: 0.1
+    volume: 0.07
     pitch: 1
     loop: 1
   - soundClip: {fileID: 8300000, guid: 016ef8c8ad8a4ba429e90d47ce232750, type: 3}
@@ -263,7 +263,7 @@ MonoBehaviour:
   - soundClip: {fileID: 8300000, guid: cfa136bd03ab89b4fabfab918979cb04, type: 3}
     source: {fileID: 0}
     nameOfSound: DungeonFinalBossTheme
-    volume: 0.025
+    volume: 0.04
     pitch: 1
     loop: 1
   - soundClip: {fileID: 8300000, guid: cd1e8465926b5164584f7188e876e94e, type: 3}
@@ -320,7 +320,44 @@ MonoBehaviour:
     volume: 0.3
     pitch: 1
     loop: 0
+  - soundClip: {fileID: 8300000, guid: bdf7a4e475cffe84badaace981dd569f, type: 3}
+    source: {fileID: 0}
+    nameOfSound: AmbientBirdSounds
+    volume: 0.6
+    pitch: 1
+    loop: 1
+  - soundClip: {fileID: 8300000, guid: 6eb6ea0ce1a0ea34fb3c02b75eed75f9, type: 3}
+    source: {fileID: 0}
+    nameOfSound: DungeonLevelOneAmbient
+    volume: 0.6
+    pitch: 1
+    loop: 1
+  - soundClip: {fileID: 8300000, guid: f366ed66fbbe8bf4ca67203f29c4578c, type: 3}
+    source: {fileID: 0}
+    nameOfSound: ChestCollect
+    volume: 1
+    pitch: 1
+    loop: 0
+  - soundClip: {fileID: 8300000, guid: 6c90c2e42f51cf5458f1c5368bc2310b, type: 3}
+    source: {fileID: 0}
+    nameOfSound: MaleMumble
+    volume: 0.3
+    pitch: 1
+    loop: 1
+  - soundClip: {fileID: 8300000, guid: 23f05ec23d0c24e4ca1bc79ccb7a3226, type: 3}
+    source: {fileID: 0}
+    nameOfSound: FemaleMumble
+    volume: 0.3
+    pitch: 1
+    loop: 1
+  - soundClip: {fileID: 8300000, guid: ddb7babe59633c14fb28b6af619fca92, type: 3}
+    source: {fileID: 0}
+    nameOfSound: OldMumble
+    volume: 0.3
+    pitch: 1
+    loop: 1
   currentTheme: 
+  currentAmbientSound: 
 --- !u!1 &193242242
 GameObject:
   m_ObjectHideFlags: 0

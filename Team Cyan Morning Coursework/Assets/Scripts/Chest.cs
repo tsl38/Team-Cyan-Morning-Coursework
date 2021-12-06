@@ -14,6 +14,7 @@ public class Chest : Collectable
             base.OnCollect();
             GameObject.Find("Player").GetComponent<GoldAmount>().AddGold(goldAmount);
             GetComponent<SpriteRenderer>().sprite = emptyChestSprite;
+            FindObjectOfType<SoundManager>().Play("ChestCollect");
         }
     }
 }
