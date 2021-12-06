@@ -17,7 +17,7 @@ public class NPC_Interact : Collidable
             if (PauseMenu.isGamePaused == false)
             {
                 //Debug.Log("NPC is here");     // Testing purposes
-                GameObject.Find("Canvas").GetComponent<DialogueUI>().ShowDialogue(npcDialogue, maleFemaleOld);
+                GameObject.Find("Canvas").GetComponent<DialogueUI>().ShowDialogue(npcDialogue, maleFemaleOld, gameObject.name);
             }
         }
     }
