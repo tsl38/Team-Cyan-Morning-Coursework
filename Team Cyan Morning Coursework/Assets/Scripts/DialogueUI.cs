@@ -12,6 +12,7 @@ public class DialogueUI : MonoBehaviour
     private bool mumblePuased = false; //Bool to check if the sound effect is paused.
     private string soundEffectName; //Name of the soudn effect been played.
     private string characterSpeaking; //Name of the speaking character.
+    private string nameOfNPCGameObject; //Name of the NPC game object that the player is talking to.
 
     private void Start()
     {
@@ -19,7 +20,7 @@ public class DialogueUI : MonoBehaviour
         CloseDialogueUI();
     }
 
-    public void ShowDialogue(DialogueList dialogueList, string maleFemaleOld)
+    public void ShowDialogue(DialogueList dialogueList, string maleFemaleOld, string nameOfGameObject)
     {
         if (maleFemaleOld == "Male")
         {
@@ -34,6 +35,10 @@ public class DialogueUI : MonoBehaviour
         }
 
         dialogueUI.SetActive(true);
+        //Sets the name of the NPC game object.
+        nameOfNPCGameObject = nameOfGameObject;
+        //Disable the NPC_Interact.cs script on that NPC game object, so that the player cannot spam F.
+        GameObject.Find(nameOfNPCGameObject).GetComponent<NPC_Interact>().enabled = false;
         StartCoroutine(StepThroughDialogue(dialogueList));
     }
 
@@ -66,6 +71,7 @@ public class DialogueUI : MonoBehaviour
             yield return new WaitUntil(() => Input.GetKeyDown(KeyCode.Space));
         }
 
+        //Resets these variables.
         mumblePuased = false;
         soundEffectName = null;
         CloseDialogueUI();
@@ -75,6 +81,12 @@ public class DialogueUI : MonoBehaviour
     {
         dialogueUI.SetActive(false);
         textLabel.text = string.Empty;
+        //If the name of the NPC object is not null, re-enable the NPC_Interact.cs script again, so that the player can interact with the NPC after all dialogue is complete.
+        if (nameOfNPCGameObject != null)
+        {
+            GameObject.Find(nameOfNPCGameObject).GetComponent<NPC_Interact>().enabled = true;
+            nameOfNPCGameObject = null;
+        }
     }
 
     //Allows voices to be paused outside of this class.
@@ -92,7 +104,7 @@ public class DialogueUI : MonoBehaviour
         if (soundEffectName != null)
         {
             //Only resume if the character speaking is not Tony.
-            if (characterSpeaking != "Tony")
+            if (characterSpeaking != "Tony" && mumblePuased == false)
             {
                 FindObjectOfType<SoundManager>().Resume(soundEffectName);
             }
