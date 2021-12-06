@@ -10,7 +10,8 @@ public class DialogueUI : MonoBehaviour
 
     private TypewriterEffect typewriterEffect;
     private bool mumblePuased = false; //Bool to check if the sound effect is paused.
-    private string soundEffectName;
+    private string soundEffectName; //Name of the soudn effect been played.
+    private string characterSpeaking; //Name of the speaking character.
 
     private void Start()
     {
@@ -42,6 +43,8 @@ public class DialogueUI : MonoBehaviour
 
         foreach (string dialogue in dialogueList.Dialogue)
         {
+            //Stores the name of the speaking character.
+            characterSpeaking = dialogue.Substring(0, 4);
             //Only plays the sound effect if the person speaking is not Tony.
             if (dialogue.Substring(0, 4) != "Tony") {
                 //If the sound effect is not paused, play ir from the beginning.
@@ -64,6 +67,7 @@ public class DialogueUI : MonoBehaviour
         }
 
         mumblePuased = false;
+        soundEffectName = null;
         CloseDialogueUI();
     }
 
@@ -71,5 +75,27 @@ public class DialogueUI : MonoBehaviour
     {
         dialogueUI.SetActive(false);
         textLabel.text = string.Empty;
+    }
+
+    //Allows voices to be paused outside of this class.
+    public void PauseVoice() {
+        //Only pause if the name of the voice is not null.
+        if (soundEffectName != null) {
+            FindObjectOfType<SoundManager>().Pause(soundEffectName);
+        }
+    }
+
+    //Allows the voices to be resumed outside of this class.
+    public void ResumeVoice()
+    {
+        //Only resume if the name of the voice is not null.
+        if (soundEffectName != null)
+        {
+            //Only resume if the character speaking is not Tony.
+            if (characterSpeaking != "Tony")
+            {
+                FindObjectOfType<SoundManager>().Resume(soundEffectName);
+            }
+        }
     }
 }

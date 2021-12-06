@@ -45,6 +45,8 @@ public class PauseMenu : MonoBehaviour
         Time.timeScale = 0f;
         //Puase the current background music and ambient sound of the level when the game is paused.
         FindObjectOfType<SoundManager>().PauseCurrent();
+        //Pauses the voice of the dialogue.
+        GameObject.Find("Canvas").GetComponent<DialogueUI>().PauseVoice();
 
         //Disable the audio source
         GameObject.Find("Player").GetComponent<AudioSource>().enabled = false;
@@ -70,6 +72,8 @@ public class PauseMenu : MonoBehaviour
         Time.timeScale = 1f;
         //Resume the current background music and ambient sound of the level when the game is resumed.
         FindObjectOfType<SoundManager>().ResumeCurrent();
+        //Resumes the dialogue voice, if the speaking character is not the player character.
+        GameObject.Find("Canvas").GetComponent<DialogueUI>().ResumeVoice();
 
         //On resume, if no transition UI screen is active, re-enable all things that was disabled when the game was paused.
         if (GameObject.Find("Canvas").GetComponent<TransitionUI>().GetTransitionUI().activeSelf == false)
