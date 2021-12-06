@@ -43,7 +43,7 @@ public class PauseMenu : MonoBehaviour
         isGamePaused = true;
         //Pause the scene! Time.timeScale = 0f means time is paused.
         Time.timeScale = 0f;
-        //Puase the current background music of the level when the game is paused.
+        //Puase the current background music and ambient sound of the level when the game is paused.
         FindObjectOfType<SoundManager>().PauseCurrent();
 
         //Disable the audio source
@@ -68,7 +68,7 @@ public class PauseMenu : MonoBehaviour
         isGamePaused = false;
         //Resume the scene at normal speed! Time.timeScale = 1f means time is passing at a regular pace.
         Time.timeScale = 1f;
-        //Resume the current background music of the level when the game is resumed.
+        //Resume the current background music and ambient sound of the level when the game is resumed.
         FindObjectOfType<SoundManager>().ResumeCurrent();
 
         //On resume, if no transition UI screen is active, re-enable all things that was disabled when the game was paused.

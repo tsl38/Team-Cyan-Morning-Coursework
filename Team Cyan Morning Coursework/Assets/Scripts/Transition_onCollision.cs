@@ -30,13 +30,17 @@ public class Transition_onCollision : Collidable
             {
                 FindObjectOfType<SoundManager>().StopCurrent();
                 FindObjectOfType<SoundManager>().Play("VillageTheme");
+                FindObjectOfType<SoundManager>().Play("AmbientBirdSounds");
                 FindObjectOfType<SoundManager>().currentTheme = "VillageTheme";
+                FindObjectOfType<SoundManager>().currentAmbientSound = "AmbientBirdSounds";
             }
             else if (currentSceneIndex == 2) 
             {
                 FindObjectOfType<SoundManager>().StopCurrent();
                 FindObjectOfType<SoundManager>().Play("DungeonLevelOneTheme");
+                FindObjectOfType<SoundManager>().Play("DungeonLevelOneAmbient");
                 FindObjectOfType<SoundManager>().currentTheme = "DungeonLevelOneTheme";
+                FindObjectOfType<SoundManager>().currentAmbientSound = "DungeonLevelOneAmbient";
             }
             else if (currentSceneIndex == 3)
             {
