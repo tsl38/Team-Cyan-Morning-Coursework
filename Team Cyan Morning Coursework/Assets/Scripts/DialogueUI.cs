@@ -61,6 +61,7 @@ public class DialogueUI : MonoBehaviour
                 else
                 {
                     FindObjectOfType<SoundManager>().Resume(soundEffectName);
+                    mumblePuased = false;
                 }
             }
             yield return typewriterEffect.Run(dialogue, textLabel);
