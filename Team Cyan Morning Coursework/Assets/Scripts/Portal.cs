@@ -22,8 +22,16 @@ public class Portal : Collidable
 
                 // Load next scene
                 int nextScene = SceneManager.GetActiveScene().buildIndex + 1;
+                //If the nextScene index is larger than 3, return to the main menu.
                 if (nextScene > 3)
+                {
+                    //Main menu scene is index 0.
                     nextScene = 0;
+                    //Stop the current track and ambient sound, and play the main menu theme.
+                    FindObjectOfType<SoundManager>().StopCurrent();
+                    FindObjectOfType<SoundManager>().Play("MainMenuTheme");
+                    FindObjectOfType<SoundManager>().currentTheme = "MainMenuTheme";
+                }
                 SceneManager.LoadScene(nextScene);
             }
 

@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: Not Yet
   m_EditorClassIdentifier: 
   dialogue:
-  - You can't pass through here yet, go explore more.
+  - You can't pass through here yet, a mysterous creature is holding a seal on this
+    door!

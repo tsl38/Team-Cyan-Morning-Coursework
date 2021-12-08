@@ -19,6 +19,7 @@ public class DeployWitch : MonoBehaviour
         if (enemies.transform.childCount == 0)
         {
             witch.SetActive(true);
+            FindObjectOfType<SoundManager>().Play("WitchEvilLaugh");
             Destroy(GameObject.Find("DeployWitchObj"));
         }
     }

@@ -70443,6 +70443,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player_Knife
       objectReference: {fileID: 0}
+    - target: {fileID: 3363786063578072628, guid: 270cea9875a545c45a58ffe729969878, type: 3}
+      propertyPath: damagePoint
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3363786063578072630, guid: 270cea9875a545c45a58ffe729969878, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -89283,6 +89287,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea3a0707010c97047acf84e35c0afb06, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  doorSeal: {fileID: 0}
 --- !u!1 &1651981496
 GameObject:
   m_ObjectHideFlags: 0
@@ -92593,7 +92598,7 @@ PrefabInstance:
       objectReference: {fileID: 458511855}
     - target: {fileID: 7315662281536878006, guid: 0f917b4574b4e5240aff800d6197b9be, type: 3}
       propertyPath: speed
-      value: 16
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 7315662281536878006, guid: 0f917b4574b4e5240aff800d6197b9be, type: 3}
       propertyPath: hitpoint
