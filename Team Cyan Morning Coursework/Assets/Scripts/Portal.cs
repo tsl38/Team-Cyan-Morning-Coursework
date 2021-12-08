@@ -9,7 +9,7 @@ public class Portal : Collidable
     {
         if (boxCollider.name == "Player")
         {
-            //if (isBossDead)
+            //if (bossDead)
             //{
             //    // Save Player state
             //    GameObject.Find("Player").GetComponent<Player>().SavePlayer();

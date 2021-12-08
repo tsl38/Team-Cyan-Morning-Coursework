@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fd62d6f46903e44ba68486dfe0a8583, type: 3}
+  m_Name: EndTransition
+  m_EditorClassIdentifier: 
+  dialogue:
+  - "Upon defeating the witch, all of Tony\u2019s lost memories flooded back into
+    his mind. It turned out that Edward\u2019s friend, Tawnia, who was out of the
+    country when the war occured, wrote the letter that Tony found in the village.
+    She hoped that he could find his lost memories and accept what happened in the
+    past.\n\nAfter leaving the castle, Tony decided to face his past. He decided
+    to go back to the village, bury his mother and help the villagers recover from
+    the nightmare they had gone through."
