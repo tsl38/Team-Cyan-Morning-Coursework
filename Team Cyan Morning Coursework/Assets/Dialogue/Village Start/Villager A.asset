@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Villager A
   m_EditorClassIdentifier: 
   dialogue:
-  - 'Ranger:  Who the heck are you?'
+  - 'Ranger: Who are you?'

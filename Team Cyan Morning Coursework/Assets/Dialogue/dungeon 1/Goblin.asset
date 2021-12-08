@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Goblin
   m_EditorClassIdentifier: 
   dialogue:
-  - 'Klex:  Tenderloin, ribs, pork belly, hero what do you want'
+  - 'Klex: Tenderloin? Ribs? Pork belly? What would you like, hero?'

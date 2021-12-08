@@ -13,6 +13,10 @@ MonoBehaviour:
   m_Name: ToDungeonFinalBoss
   m_EditorClassIdentifier: 
   dialogue:
-  - 'Final Boss. Final Boss. Final Boss. Final Boss. Final Boss. Final Boss. Final
-    Boss. Final Boss. Final Boss. Final Boss. Final Boss. Final Boss. Final Boss.
-    Final Boss. Final Boss. '
+  - 'After exploring the floor and defeating the monsters within, Tony began to regain
+    some of his memories. Notably, he remembered that his father Edward had participated
+    in the battle of Chanersbury, where many of the villagers died. '
+  - "Tony\u2019s head suddenly felt tremendously heavy, like it was about to split.
+    An inexplicable pain brought him to his knees, as several monsters appeared in
+    front of him. Despite the pain, he knew that he had to defeat them all in order
+    to discover the truth behind his lost memories."

@@ -13,18 +13,19 @@ MonoBehaviour:
   m_Name: Old Man
   m_EditorClassIdentifier: 
   dialogue:
-  - 'Old Man: Warrior, do you want to enter the castle?'
-  - 'Tony: Yes, I want to retrieve our memories for the whole village. I received
-    a letter that guided me to the dungeon. Do you know some clues about the castle?'
-  - 'Old Man: In the early years, there was a myth that there was a witch inside
-    this castle. No one dared to go inside. It seems that no one has lived in this
-    castle for a long time. I just passed by and'
-  - wanted to have a look. It really looks haunted and scary indeed. Anyway, it sounds
-    like something very unfortunate happened to you. Are you sure you want to go
-    in?
-  - 'Tony: I have to go in, I only have this clue right now.'
-  - 'Old Man: Sometimes losing memory is not a bad thing. Resetting everything to
-    zero can also represent a new chance and hope. But if you insist on doing this,
-    I can only wish you good'
-  - " luck, young man!\r"
-  - 'Tony: Thanks, take care.'
+  - 'Old Man: Warrior, do you wish to venture into the castle?'
+  - 'Tony: Yes, I want to retrieve the villager''s memories about me. I received
+    a letter that pointed me towards the castle. Do you happen to know anything about
+    it?'
+  - 'Old Man: In my early years, there was a myth that there was a witch inside that
+    castle. No one dared to go inside. It seems that no one has lived in this castle
+    for a long time.'
+  - 'Old Man: I just passed by and wanted to have a look. It really looks haunted
+    and scary indeed. Anyway, it sounds like something very unfortunate happened
+    to you.'
+  - 'Old Man: Are you sure you want to venture in there?'
+  - 'Tony: I have to, It''s my only way forward.'
+  - "Old Man: Sometimes losing memory is not a bad thing. Starting from zero can
+    also represent a new chance and hope. But if you insist on doing this, I can
+    only wish you good luck, young man!\r"
+  - 'Tony: Thank you, take care old man.'

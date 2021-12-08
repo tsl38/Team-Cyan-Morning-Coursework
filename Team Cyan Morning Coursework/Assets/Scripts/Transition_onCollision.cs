@@ -19,7 +19,7 @@ public class Transition_onCollision : Collidable
             }
             //Display the transition screen.
             GameObject.Find("Canvas").GetComponent<TransitionUI>().ShowTransition(transDialogue, 0);
-            //Deletes the object that colides with the player, so the transition screen cannot be triggered again.
+            //Deletes the object that collides with the player, so the transition screen cannot be triggered again.
             Destroy(GameObject.Find("Transition 1"));
 
             //Plays the theme music of the level depending on the build index of the level.

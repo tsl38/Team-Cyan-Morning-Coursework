@@ -13,9 +13,10 @@ MonoBehaviour:
   m_Name: Transition
   m_EditorClassIdentifier: 
   dialogue:
-  - "Tony walked through thorns and thistles in the dark forest. He put some armour
-    on himself for protection. He followed the map that led him to the gate of the
-    castle of Shingville. The castle looks haunted and creepy. It is so rusty that
-    it seems like no one has been getting in and out of the castle for quite a while.\r\n\r\nThere
-    is a mysterious old man with a stick standing in the gate. Tony decided to ask
-    him for some news\r."
+  - Tony walked through thorns and thistles in the dark forest. He equipped himself
+    with steel armour for protection. He followed the map that led him to the gate
+    of the castle of Shingville. The castle looks haunted and creepy. It is so rusty
+    that it seems like no one has been getting in and out of the castle for quite
+    a while.
+  - There is a mysterious cloaked man with a stick standing at the gate. Tony decided
+    to ask him for some information regarding the castle.
