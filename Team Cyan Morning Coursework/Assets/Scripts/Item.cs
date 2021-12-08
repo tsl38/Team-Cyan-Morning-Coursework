@@ -35,6 +35,10 @@ public class Item : Collectable
             {
                 //Displays what was grabbed.
                 Debug.Log("Grabbed a " + itemType);
+
+                //Plays the item picked up sound
+                FindObjectOfType<SoundManager>().Play("ItemPickedUp");
+
                 Destroy(this.gameObject);
             }
             else 

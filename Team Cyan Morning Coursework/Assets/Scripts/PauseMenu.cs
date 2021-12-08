@@ -43,8 +43,10 @@ public class PauseMenu : MonoBehaviour
         isGamePaused = true;
         //Pause the scene! Time.timeScale = 0f means time is paused.
         Time.timeScale = 0f;
-        //Puase the current background music of the level when the game is paused.
+        //Puase the current background music and ambient sound of the level when the game is paused.
         FindObjectOfType<SoundManager>().PauseCurrent();
+        //Pauses the voice of the dialogue.
+        GameObject.Find("Canvas").GetComponent<DialogueUI>().PauseVoice();
 
         //Disable the audio source
         GameObject.Find("Player").GetComponent<AudioSource>().enabled = false;
@@ -58,6 +60,9 @@ public class PauseMenu : MonoBehaviour
     //Function that resumes the game.
     public void ResumeGame()
     {
+        //plays the button sound effect.
+        FindObjectOfType<SoundManager>().Play("MenuButtonPress");
+
         //Sets all the buttons and the panel of the pause menu to be in-active, so the user can't see them.
         pauseMenuButtons.SetActive(false);
         pauseMenuBackground.SetActive(false);
@@ -65,8 +70,10 @@ public class PauseMenu : MonoBehaviour
         isGamePaused = false;
         //Resume the scene at normal speed! Time.timeScale = 1f means time is passing at a regular pace.
         Time.timeScale = 1f;
-        //Resume the current background music of the level when the game is resumed.
+        //Resume the current background music and ambient sound of the level when the game is resumed.
         FindObjectOfType<SoundManager>().ResumeCurrent();
+        //Resumes the dialogue voice, if the speaking character is not the player character.
+        GameObject.Find("Canvas").GetComponent<DialogueUI>().ResumeVoice();
 
         //On resume, if no transition UI screen is active, re-enable all things that was disabled when the game was paused.
         if (GameObject.Find("Canvas").GetComponent<TransitionUI>().GetTransitionUI().activeSelf == false)
@@ -84,6 +91,9 @@ public class PauseMenu : MonoBehaviour
     //Function that quits the game application.
     public void PauseMenuQuitGame()
     {
+        //Plays the button sound effect.
+        FindObjectOfType<SoundManager>().Play("MenuButtonPress");
+
         Application.Quit();
     }
 }

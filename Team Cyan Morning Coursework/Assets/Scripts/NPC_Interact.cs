@@ -6,6 +6,7 @@ public class NPC_Interact : Collidable
 {
 
     [SerializeField] private DialogueList npcDialogue;
+    [SerializeField] private string maleFemaleOld;
 
     protected override void OnCollide(Collider2D boxCollider)
     {
@@ -16,7 +17,7 @@ public class NPC_Interact : Collidable
             if (PauseMenu.isGamePaused == false)
             {
                 //Debug.Log("NPC is here");     // Testing purposes
-                GameObject.Find("Canvas").GetComponent<DialogueUI>().ShowDialogue(npcDialogue);
+                GameObject.Find("Canvas").GetComponent<DialogueUI>().ShowDialogue(npcDialogue, maleFemaleOld, gameObject.name);
             }
         }
     }
