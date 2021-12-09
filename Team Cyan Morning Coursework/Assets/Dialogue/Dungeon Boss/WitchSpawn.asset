@@ -13,4 +13,8 @@ MonoBehaviour:
   m_Name: WitchSpawn
   m_EditorClassIdentifier: 
   dialogue:
-  - I'm the witch hihi.
+  - 'Witch: Hi Hi Hiii!'
+  - 'Witch: Well Done!'
+  - 'Witch: You''ve managed to defeat my servants!'
+  - 'Witch: Don''t get cocky though, you will never defeat me for as long as you
+    live!'
