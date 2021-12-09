@@ -1,4 +1,5 @@
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
@@ -38,7 +39,10 @@ public class DialogueUI : MonoBehaviour
         //Sets the name of the NPC game object.
         nameOfNPCGameObject = nameOfGameObject;
         //Disable the NPC_Interact.cs script on that NPC game object, so that the player cannot spam F.
-        GameObject.Find(nameOfNPCGameObject).GetComponent<NPC_Interact>().enabled = false;
+        if (GameObject.Find(nameOfNPCGameObject).GetComponent<NPC_Interact>() != null)
+        {
+            GameObject.Find(nameOfNPCGameObject).GetComponent<NPC_Interact>().enabled = false;
+        }
         StartCoroutine(StepThroughDialogue(dialogueList));
     }
 
@@ -85,7 +89,8 @@ public class DialogueUI : MonoBehaviour
         //If the name of the NPC object is not null, re-enable the NPC_Interact.cs script again, so that the player can interact with the NPC after all dialogue is complete.
         if (nameOfNPCGameObject != null)
         {
-            GameObject.Find(nameOfNPCGameObject).GetComponent<NPC_Interact>().enabled = true;
+            if (GameObject.Find(nameOfNPCGameObject).GetComponent<NPC_Interact>() != null)
+                GameObject.Find(nameOfNPCGameObject).GetComponent<NPC_Interact>().enabled = true;
             nameOfNPCGameObject = null;
         }
     }
