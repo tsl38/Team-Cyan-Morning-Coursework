@@ -356,6 +356,12 @@ MonoBehaviour:
     volume: 0.3
     pitch: 1
     loop: 1
+  - soundClip: {fileID: 8300000, guid: 4909eaa11d4643d40a8798e8cefcf072, type: 3}
+    source: {fileID: 0}
+    nameOfSound: WitchEvilLaugh
+    volume: 0.5
+    pitch: 1
+    loop: 0
   currentTheme: 
   currentAmbientSound: 
 --- !u!1 &193242242
