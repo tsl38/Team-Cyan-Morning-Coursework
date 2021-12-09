@@ -66777,6 +66777,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   witch: {fileID: 1643600970}
+  dialogueUI: {fileID: 1659992131}
+  witchDialogue: {fileID: 11400000, guid: 36a5d3f545a89cc4f8d56be31f8d6eb2, type: 2}
 --- !u!4 &663300253
 Transform:
   m_ObjectHideFlags: 0
@@ -89478,6 +89480,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1659992131 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8869367105274646336, guid: dce8d4b5b83e63349949c4c64f86902a, type: 3}
+  m_PrefabInstance: {fileID: 1659992129}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1661670914 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8608062377209543135, guid: 0b4d1eb18dd0b5c43b1000bcbda40240, type: 3}
