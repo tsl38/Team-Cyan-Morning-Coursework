@@ -31,7 +31,8 @@ public class DialogueUI : MonoBehaviour
         {
             soundEffectName = "FemaleMumble";
         }
-        else if (maleFemaleOld == "Old") {
+        else if (maleFemaleOld == "Old")
+        {
             soundEffectName = "OldMumble";
         }
 
@@ -89,9 +90,14 @@ public class DialogueUI : MonoBehaviour
         //If the name of the NPC object is not null, re-enable the NPC_Interact.cs script again, so that the player can interact with the NPC after all dialogue is complete.
         if (nameOfNPCGameObject != null)
         {
-            if (GameObject.Find(nameOfNPCGameObject).GetComponent<NPC_Interact>() != null)
-                GameObject.Find(nameOfNPCGameObject).GetComponent<NPC_Interact>().enabled = true;
-            nameOfNPCGameObject = null;
+            if (GameObject.Find(nameOfNPCGameObject) != null)
+            {
+                if (GameObject.Find(nameOfNPCGameObject).GetComponent<NPC_Interact>() != null)
+                {
+                    GameObject.Find(nameOfNPCGameObject).GetComponent<NPC_Interact>().enabled = true;
+                }
+                nameOfNPCGameObject = null;
+            }
         }
     }
 
