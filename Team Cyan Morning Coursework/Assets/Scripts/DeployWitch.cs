@@ -2,9 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+// This script deploys the witch dialogue and sound effect when the condition of all current enemies on the map have been defeated
 public class DeployWitch : MonoBehaviour
 {
-    public GameObject witch;
+    public GameObject witch; 
     private GameObject enemies;
     [SerializeField] private GameObject dialogueUI;
     [SerializeField] private DialogueList witchDialogue;

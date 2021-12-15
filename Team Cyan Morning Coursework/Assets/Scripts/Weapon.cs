@@ -8,7 +8,7 @@ public class Weapon : Collidable
 	public int damagePoint = 1;
 	public float pushForce = 2.0f;
 
-	//Upgrate
+	//Upgrade
 	public int weaponLevel = 0;
 	private SpriteRenderer spriteRenderer;
 

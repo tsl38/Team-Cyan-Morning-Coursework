@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class EnemyWeapon : Collidable
 {
-    public int damage;
-    public float pushForce;
-	public Animator animator;
+    public int damage; // damage the weapon can apply to player
+    public float pushForce; // force th eplayer gets pusged back by 
+	public Animator animator; // animator which controls its swing
 
     private Vector3 travelDirection = new Vector3(0, 0, 0);
 	private Transform target;
