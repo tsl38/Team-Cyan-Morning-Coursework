@@ -4,9 +4,9 @@ using UnityEngine;
 
 public abstract class Mover : Fighter
 {
-    public int speed;
+    public int speed; // speed of the game object movement
     protected BoxCollider2D boxCollider;
-    protected Vector3 moveDelta;
+    protected Vector3 moveDelta; //current movement vector
     protected RaycastHit2D hit;
 
     protected virtual void Start()

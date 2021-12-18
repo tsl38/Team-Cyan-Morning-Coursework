@@ -8,9 +8,9 @@ public class Enemy : Mover
     public int xpValue = 1;
 
     //Logic
-    public Transform[] waypoints;
-    public bool random;
-    public float checkRadius;
+    public Transform[] waypoints; // list of waypoints in which the enemy patrols between
+    public bool random; // boolean value deciding if the patrol is random between waypoints or in order of the list
+    public float checkRadius; // the chase radius of the enemy
 
     private bool collidingWithPlayer;
     private Transform target;
@@ -37,8 +37,10 @@ public class Enemy : Mover
 
     private void FixedUpdate()
     {  
+        // checks if the player is within the chase radius 
         if (Vector3.Distance(target.position, transform.position) < checkRadius)
         {
+            // checks if the player is within the enemy attack range
           if(Vector3.Distance(target.position, transform.position) < 0.3 && gameObject.name =="Witch")
             {
                 animator.SetBool("Attack", true);
@@ -56,6 +58,7 @@ public class Enemy : Mover
         }
         else
         {
+            // if not within chase radius the enemy patrols between the waypoints
             if (waypoints.Length != 0)
             {
                 dist = Vector3.Distance(transform.position, waypoints[waypointIndex].position);
@@ -86,11 +89,14 @@ public class Enemy : Mover
             }
         }
 
+    // calculates the next move towards the current waypoint and moves the character a unit distance
     void Patrol()
     {
         moveDelta = Vector3.Normalize(waypoints[waypointIndex].position - transform.position);
         UpdateMotor(moveDelta * speed * Time.deltaTime);
     }
+
+    //iterates between the waypoints randomly/ in order depending on 'random' value
     void IncreaseIndex()
     {
         if (random)
